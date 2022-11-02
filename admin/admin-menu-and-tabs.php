@@ -37,7 +37,7 @@ class Ramadan_2023_Menu {
 
         add_action( 'admin_menu', array( $this, 'register_menu' ) );
 
-        $this->page_title = __( 'Ramadan 2023', 'ramadan-2023' );
+        $this->page_title = 'ramadan-2023';
     } // End __construct()
 
 
@@ -46,7 +46,7 @@ class Ramadan_2023_Menu {
      * @since 0.1
      */
     public function register_menu() {
-        $this->page_title = __( 'Ramadan 2023', 'ramadan-2023' );
+        $this->page_title = 'Ramadan 2023';
 
         add_submenu_page( 'dt_extensions', $this->page_title, $this->page_title, 'manage_dt', $this->token, [ $this, 'content' ] );
     }
