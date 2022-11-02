@@ -151,7 +151,7 @@ install_db() {
 }
 
 install_theme() {
-    DOWNLOAD_URL=$(curl -sL https://api.github.com/repos/DiscipleTools/disciple-tools-theme/releases/latest | jq -r '.assets[].browser_download_url')
+    DOWNLOAD_URL=$(curl -sL https://api.github.com/repos/Pray4Movement/disciple-tools-theme/releases/latest | jq -r '.assets[].browser_download_url')
     curl -s -L --create-dirs "$DOWNLOAD_URL"  -o disciple-tools-theme.zip
     rm -rf $WP_THEME_DIR/disciple-tools-theme
     unzip disciple-tools-theme -d $WP_THEME_DIR

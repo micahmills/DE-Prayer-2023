@@ -50,7 +50,7 @@ add_action( 'tgmpa_register', function() {
         $plugins[] = [
             'name' => 'Disciple.Tools Multisite Helper',
             'slug' => 'disciple-tools-multisite',
-            'source' => 'https://github.com/DiscipleTools/disciple-tools-multisite/releases/latest/download/disciple-tools-multisite.zip',
+            'source' => 'https://github.com/Pray4Movement/disciple-tools-multisite/releases/latest/download/disciple-tools-multisite.zip',
             'required' => false
         ];
     }

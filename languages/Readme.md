@@ -2,4 +2,4 @@
 {translation-domain}-{localisation}.po
 
 ex:
-disciple-tools-plugin-starter-template-fr_FR.po
+ramadan-2023-fr_FR.po

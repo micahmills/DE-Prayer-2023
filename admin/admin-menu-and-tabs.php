@@ -2,23 +2,23 @@
 if ( ! defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly
 
 /**
- * Class Disciple_Tools_Plugin_Starter_Template_Menu
+ * Class Ramadan_2023_Menu
  */
-class Disciple_Tools_Plugin_Starter_Template_Menu {
+class Ramadan_2023_Menu {
 
-    public $token = 'disciple_tools_plugin_starter_template';
-    public $page_title = 'Plugin Starter Template';
+    public $token = 'ramadan_2023';
+    public $page_title = 'Ramadan 2023';
 
     private static $_instance = null;
 
     /**
-     * Disciple_Tools_Plugin_Starter_Template_Menu Instance
+     * Ramadan_2023_Menu Instance
      *
-     * Ensures only one instance of Disciple_Tools_Plugin_Starter_Template_Menu is loaded or can be loaded.
+     * Ensures only one instance of Ramadan_2023_Menu is loaded or can be loaded.
      *
      * @since 0.1.0
      * @static
-     * @return Disciple_Tools_Plugin_Starter_Template_Menu instance
+     * @return Ramadan_2023_Menu instance
      */
     public static function instance() {
         if ( is_null( self::$_instance ) ) {
@@ -37,7 +37,7 @@ class Disciple_Tools_Plugin_Starter_Template_Menu {
 
         add_action( 'admin_menu', array( $this, 'register_menu' ) );
 
-        $this->page_title = __( 'Plugin Starter Template', 'disciple-tools-plugin-starter-template' );
+        $this->page_title = __( 'Ramadan 2023', 'ramadan-2023' );
     } // End __construct()
 
 
@@ -46,7 +46,7 @@ class Disciple_Tools_Plugin_Starter_Template_Menu {
      * @since 0.1
      */
     public function register_menu() {
-        $this->page_title = __( 'Plugin Starter Template', 'disciple-tools-plugin-starter-template' );
+        $this->page_title = __( 'Ramadan 2023', 'ramadan-2023' );
 
         add_submenu_page( 'dt_extensions', $this->page_title, $this->page_title, 'manage_dt', $this->token, [ $this, 'content' ] );
     }
@@ -86,11 +86,11 @@ class Disciple_Tools_Plugin_Starter_Template_Menu {
             <?php
             switch ( $tab ) {
                 case 'general':
-                    $object = new Disciple_Tools_Plugin_Starter_Template_Tab_General();
+                    $object = new Ramadan_2023_Tab_General();
                     $object->content();
                     break;
                 case 'second':
-                    $object = new Disciple_Tools_Plugin_Starter_Template_Tab_Second();
+                    $object = new Ramadan_2023_Tab_Second();
                     $object->content();
                     break;
                 default:
@@ -103,12 +103,12 @@ class Disciple_Tools_Plugin_Starter_Template_Menu {
         <?php
     }
 }
-Disciple_Tools_Plugin_Starter_Template_Menu::instance();
+Ramadan_2023_Menu::instance();
 
 /**
- * Class Disciple_Tools_Plugin_Starter_Template_Tab_General
+ * Class Ramadan_2023_Tab_General
  */
-class Disciple_Tools_Plugin_Starter_Template_Tab_General {
+class Ramadan_2023_Tab_General {
     public function content() {
         ?>
         <div class="wrap">
@@ -183,9 +183,9 @@ class Disciple_Tools_Plugin_Starter_Template_Tab_General {
 
 
 /**
- * Class Disciple_Tools_Plugin_Starter_Template_Tab_Second
+ * Class Ramadan_2023_Tab_Second
  */
-class Disciple_Tools_Plugin_Starter_Template_Tab_Second {
+class Ramadan_2023_Tab_Second {
     public function content() {
         ?>
         <div class="wrap">
