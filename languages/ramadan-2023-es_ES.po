@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: Disciple.Tools - Ramadan 2023 0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ramadan-2023\n"
 "POT-Creation-Date: 2022-11-03T15:42:57+00:00\n"
-"PO-Revision-Date: 2022-11-03 15:39+0000\n"
-"Last-Translator: Corsacca <corsacca@gmail.com>\n"
+"PO-Revision-Date: 2022-11-03 15:58+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Spanish <https://translate.disciple.tools/projects/"
 "pray4movement/ramadan-2023/es_ES/>\n"
 "Language: es_ES\n"
@@ -23,13 +23,13 @@ msgid ""
 "Jesus, give the church [in location] grace to cherish your name above all "
 "else"
 msgstr ""
-"Jesús, dale a la iglesia [in location] gracia para apreciar tu nombre por "
+"Jesús, dale a la iglesia [en el lugar] gracia para apreciar tu nombre por "
 "encima de todo"
 
 #: admin/admin-menu-and-tabs.php:193
 #, fuzzy
 msgid "let the people [of location] grasp the Good News"
-msgstr "que la gente [of location] capte las Buenas Nuevas"
+msgstr "que la gente [del lugar] capte las Buenas Nuevas"
 
 #: admin/prayer-field-content.php:69
 #, fuzzy
@@ -39,8 +39,8 @@ msgid ""
 "imprint of your nature! (Hebrews 1:3)"
 msgstr ""
 "¡Dios, te amamos! ¡Como tu Iglesia, ayúdanos a hacer lo que sea necesario "
-"para que la gente [of location] te vea a través de Jesús, el resplandor de "
-"tu gloria, la huella exacta de tu naturaleza! (Hebreos 1:3)"
+"para que la gente [del lugar] te vea a través de Jesús, el resplandor de tu "
+"gloria, la huella exacta de tu naturaleza! (Hebreos 1:3)"
 
 #: admin/prayer-field-content.php:70
 #, fuzzy
@@ -68,7 +68,7 @@ msgstr ""
 "compartimos unos con otros. Oren por nosotros para que descubramos la verdad "
 "juntos\".\n"
 "\n"
-"Ore por los buscadores espirituales [in location] y en todo el mundo "
+"Ore por los buscadores espirituales [en el lugar] y en todo el mundo "
 "musulmán para buscar y discutir la Biblia con amigos."
 
 #: admin/prayer-field-content.php:73
@@ -87,7 +87,7 @@ msgstr ""
 "maltratarlos y apedrearlos, se enteraron y huyeron a Listra y Derbe, "
 "ciudades de Licaonia, y a la región circundante, y allí continuaron predicar "
 "el Evangelio.\" (Hechos 14:5-7).\n"
-"Cuando se trate de maltratar a los creyentes [in location], e incluso cuando "
+"Cuando se trate de maltratar a los creyentes [en el lugar], e incluso cuando "
 "algunos deban huir, que sean bendecidos con la audacia y la perseverancia "
 "para continuar predicando el evangelio. (Hechos 14:5-7) Señor, dales una fe "
 "que la persecución no puede hacer temblar."
@@ -117,7 +117,7 @@ msgid ""
 "hand of Majesty! (Hebrews 1:3-4)"
 msgstr ""
 "¡Dios, te amamos! Como tu Iglesia, ayúdanos a hacer lo que sea necesario "
-"para alegrar los corazones de tu pueblo [in location] a medida que entienden "
+"para alegrar los corazones de tu pueblo [en el lugar] a medida que entienden "
 "que Jesús hizo completa y perfectamente la purificación del pecado, ¡y luego "
 "te sentaste a la diestra de la Majestad! (Hebreos 1:3-4)"
 
@@ -151,7 +151,7 @@ msgstr ""
 "del cuidado del alma. Fue dificil. Hubo lágrimas, pero Jesús trajo una "
 "hermosa libertad a su vida.\n"
 "\n"
-"Ore por los buscadores espirituales [in location] y en todo el mundo "
+"Ore por los buscadores espirituales [en el lugar] y en todo el mundo "
 "musulmán para buscar y discutir la Biblia con amigos."
 
 #: admin/prayer-field-content.php:86
@@ -166,10 +166,10 @@ msgid ""
 msgstr ""
 "“Así que Pedro se mantuvo en prisión, pero la iglesia oró fervientemente por "
 "él a Dios”. (Hechos 12:5 NVI).\n"
-"Cuando la iglesia [in location] sea perseguida, e incluso cuando los "
+"Cuando la iglesia [en el lugar] sea perseguida, e incluso cuando los "
 "seguidores de Jesús sean encarcelados, que la iglesia sea atraída a la "
 "oración ferviente y perseverante. (Hechos 12:5) Señor Jesús, profundiza la "
-"fe y sustenta las oraciones dependientes de la iglesia [in location]."
+"fe y sustenta las oraciones dependientes de la iglesia [en el lugar]."
 
 #: admin/prayer-field-content.php:89
 #, fuzzy
