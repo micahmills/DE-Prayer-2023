@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Disciple Tools - Ramadan 2023\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ramadan-2023\n"
-"POT-Creation-Date: 2022-11-03T11:02:07+00:00\n"
+"POT-Creation-Date: 2022-11-03T15:19:39+00:00\n"
 "PO-Revision-Date: 2022-11-03 14:36+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: French <https://translate.disciple.tools/projects/"
@@ -17,14 +17,14 @@ msgstr ""
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: ramadan-2023.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;es"
-"c_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_n"
-"x_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: */libraries/*\n"
 
-#: admin/admin-menu-and-tabs.php:176
+#: admin/admin-menu-and-tabs.php:183
 msgid ""
 "Jesus, give the church [in location] grace to cherish your name above all "
 "else"
@@ -32,11 +32,11 @@ msgstr ""
 "Jesus, done à l'Eglise [in location] la grâce de chérir ton nom par-dessus "
 "tout"
 
-#: admin/admin-menu-and-tabs.php:186
+#: admin/admin-menu-and-tabs.php:193
 msgid "let the people [of location] grasp the Good News"
 msgstr "Laisse les personnes [of location] saissir la Bonne Nouvelle"
 
-#: admin/prayer-field-content.php:31
+#: admin/prayer-field-content.php:69
 msgid ""
 "God, we love you! As your Church help us do what it takes to let the people "
 "[of location] see you through Jesus, the radiance of your glory, the exact "
@@ -47,7 +47,7 @@ msgstr ""
 "rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
 "1:3)"
 
-#: admin/prayer-field-content.php:32
+#: admin/prayer-field-content.php:70
 #, fuzzy
 msgid ""
 "\"I am twenty-four and from Tunisia. I had a lot of debt and owed a lot of "
@@ -77,7 +77,7 @@ msgstr ""
 "Priez pour les chercheurs spirituels [localisés] et partout dans le monde "
 "musulman pour rechercher et discuter de la Bible avec des amis."
 
-#: admin/prayer-field-content.php:35
+#: admin/prayer-field-content.php:73
 #, fuzzy
 msgid ""
 "“When an attempt was made by both Gentiles and Jews, with their rulers, to "
@@ -93,17 +93,17 @@ msgstr ""
 "avec leurs dirigeants, de les maltraiter et de les lapider, ils l'ont appris "
 "et se sont enfuis à Lystre et Derbe, villes de Lycaonie, et dans le pays "
 "environnant, et là ils ont continué à prêcher l'Évangile.\" (Actes 14:5-7).\n"
-"Lorsque des tentatives sont faites pour maltraiter les croyants [sur place] -"
-" et même lorsque certains doivent fuir - puissent-ils être bénis avec "
+"Lorsque des tentatives sont faites pour maltraiter les croyants [sur place] "
+"- et même lorsque certains doivent fuir - puissent-ils être bénis avec "
 "l'audace et la persévérance pour continuer à prêcher l'évangile. (Actes "
 "14:5-7) Seigneur, donne-leur la foi que la persécution ne peut ébranler."
 
-#: admin/prayer-field-content.php:37 admin/prayer-field-content.php:50
+#: admin/prayer-field-content.php:75 admin/prayer-field-content.php:88
 #, fuzzy
 msgid "How does this video lead you to pray"
 msgstr "Comment cette vidéo vous amène-t-elle à prier"
 
-#: admin/prayer-field-content.php:38
+#: admin/prayer-field-content.php:76
 #, fuzzy
 msgid ""
 "\"This is the grand purpose for which we were created: to enjoy the grace of "
@@ -114,20 +114,20 @@ msgstr ""
 "Christ alors que nous répandons l'évangile du Christ partout où nous vivons, "
 "jusqu'aux extrémités de la terre.\" -David Platt"
 
-#: admin/prayer-field-content.php:41
+#: admin/prayer-field-content.php:79
 #, fuzzy
 msgid ""
 "God, we love you! As your Church help us do what it takes to gladden the "
-"hearts of [people_name] as they understand that Jesus completely and "
-"perfectly made purification for sin, and then you sat down at the right hand "
-"of Majesty! (Hebrews 1:3-4)"
+"hearts of your people [in location] as they understand that Jesus completely "
+"and perfectly made purification for sin, and then you sat down at the right "
+"hand of Majesty! (Hebrews 1:3-4)"
 msgstr ""
 "Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
 "faut pour réjouir le cœur de [people_name] alors qu'ils comprennent que "
 "Jésus a complètement et parfaitement purifié le péché, puis vous vous êtes "
 "assis à la droite de la Majesté ! (Hébreux 1:3-4)"
 
-#: admin/prayer-field-content.php:42
+#: admin/prayer-field-content.php:80
 #, fuzzy
 msgid ""
 "Testimony from Senegal.\n"
@@ -161,7 +161,7 @@ msgstr ""
 "Priez pour les chercheurs spirituels [localisés] et partout dans le monde "
 "musulman pour rechercher et discuter de la Bible avec des amis."
 
-#: admin/prayer-field-content.php:48
+#: admin/prayer-field-content.php:86
 #, fuzzy
 msgid ""
 "“So Peter was kept in prison, but earnest prayer for him was made to God by "
@@ -178,7 +178,7 @@ msgstr ""
 "et persévérante. (Actes 12:5) Seigneur Jésus, approfondis la foi et soutiens "
 "les prières dépendantes de l'église [en place]."
 
-#: admin/prayer-field-content.php:51
+#: admin/prayer-field-content.php:89
 #, fuzzy
 msgid ""
 "“There is not a square inch in the whole domain of our human existence over "
@@ -186,30 +186,45 @@ msgid ""
 "Kuyper"
 msgstr ""
 "\"Il n'y a pas un centimètre carré dans tout le domaine de notre existence "
-"humaine sur lequel le Christ, qui est Souverain sur tout, ne crie, Mien !\" -"
-" Abraham Kuyer"
+"humaine sur lequel le Christ, qui est Souverain sur tout, ne crie, Mien !\" "
+"- Abraham Kuyer"
 
-#: admin/prayer-field-content.php:74
-#, fuzzy
-msgid "PRAISE"
-msgstr "LOUER"
+#: admin/prayer-field-content.php:108
+msgid "Our Treasure in Jesus"
+msgstr ""
 
-#: admin/prayer-field-content.php:82
-#, fuzzy
-msgid "KINGDOM COME"
-msgstr "RÈGNE VIENNE"
+#: admin/prayer-field-content.php:116
+msgid "Testimonies from around the world"
+msgstr ""
 
-#: admin/prayer-field-content.php:90
-#, fuzzy
-msgid "PRAY THE BOOK OF ACTS"
-msgstr "PRIEZ LE LIVRE DES ACTES"
+#: admin/prayer-field-content.php:124
+msgid "Biblical Prayers"
+msgstr ""
 
-#: admin/prayer-field-content.php:98
-#, fuzzy
-msgid "PRAY THE HALL OF FAITH"
-msgstr "PRIEZ LA SALLE DE LA FOI"
+#: admin/prayer-field-content.php:132
+msgid "Prayer walk"
+msgstr ""
 
-#: admin/prayer-field-content.php:106
+#: admin/prayer-field-content.php:140
+msgid "Missional Quotes"
+msgstr ""
+
 #, fuzzy
-msgid "PRAYER"
-msgstr "PRIÈRE"
+#~ msgid "PRAISE"
+#~ msgstr "LOUER"
+
+#, fuzzy
+#~ msgid "KINGDOM COME"
+#~ msgstr "RÈGNE VIENNE"
+
+#, fuzzy
+#~ msgid "PRAY THE BOOK OF ACTS"
+#~ msgstr "PRIEZ LE LIVRE DES ACTES"
+
+#, fuzzy
+#~ msgid "PRAY THE HALL OF FAITH"
+#~ msgstr "PRIEZ LA SALLE DE LA FOI"
+
+#, fuzzy
+#~ msgid "PRAYER"
+#~ msgstr "PRIÈRE"

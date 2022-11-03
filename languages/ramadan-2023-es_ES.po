@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Disciple.Tools - Ramadan 2023 0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ramadan-2023\n"
-"POT-Creation-Date: 2022-11-03T11:02:07+00:00\n"
+"POT-Creation-Date: 2022-11-03T15:19:39+00:00\n"
 "PO-Revision-Date: 2022-11-03 14:36+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Spanish <https://translate.disciple.tools/projects/"
@@ -17,32 +17,46 @@ msgstr ""
 "X-Generator: Weblate 4.14.1\n"
 "X-Domain: ramadan-2023\n"
 
-#: admin/admin-menu-and-tabs.php:176
+#: admin/admin-menu-and-tabs.php:183
 #, fuzzy
-msgid "Jesus, give the church [in location] grace to cherish your name above all else"
+msgid ""
+"Jesus, give the church [in location] grace to cherish your name above all "
+"else"
 msgstr ""
 "Jesús, dale a la iglesia [en el lugar] gracia para apreciar tu nombre por "
 "encima de todo"
 
-#: admin/admin-menu-and-tabs.php:186
+#: admin/admin-menu-and-tabs.php:193
 #, fuzzy
 msgid "let the people [of location] grasp the Good News"
 msgstr "que la gente [del lugar] capte las Buenas Nuevas"
 
-#: admin/prayer-field-content.php:31
+#: admin/prayer-field-content.php:69
 #, fuzzy
-msgid "God, we love you! As your Church help us do what it takes to let the people [of location] see you through Jesus, the radiance of your glory, the exact imprint of your nature! (Hebrews 1:3)"
+msgid ""
+"God, we love you! As your Church help us do what it takes to let the people "
+"[of location] see you through Jesus, the radiance of your glory, the exact "
+"imprint of your nature! (Hebrews 1:3)"
 msgstr ""
 "¡Dios, te amamos! ¡Como tu Iglesia, ayúdanos a hacer lo que sea necesario "
 "para que la gente [del lugar] te vea a través de Jesús, el resplandor de tu "
 "gloria, la huella exacta de tu naturaleza! (Hebreos 1:3)"
 
-#: admin/prayer-field-content.php:32
+#: admin/prayer-field-content.php:70
 #, fuzzy
 msgid ""
-"\"I am twenty-four and from Tunisia. I had a lot of debt and owed a lot of people and the government money. I asked myself, \"Why don't I ask God to help me?\" The truth is, I didn't ask because I didn't believe God would help me. I left Islam and called myself an atheist. But, there was always something inside me that said, \"There is a God.\" I began to search and discuss with my friends. At that time, all of us were disillusioned, searching for truth, and some had even become Christians. We all brought information and shared with one another. Pray for us that we will discover truth together.\"\n"
+"\"I am twenty-four and from Tunisia. I had a lot of debt and owed a lot of "
+"people and the government money. I asked myself, \"Why don't I ask God to "
+"help me?\" The truth is, I didn't ask because I didn't believe God would "
+"help me. I left Islam and called myself an atheist. But, there was always "
+"something inside me that said, \"There is a God.\" I began to search and "
+"discuss with my friends. At that time, all of us were disillusioned, "
+"searching for truth, and some had even become Christians. We all brought "
+"information and shared with one another. Pray for us that we will discover "
+"truth together.\"\n"
 "\n"
-"Pray for spiritual seekers [in location] and all over the Muslim world to search and discuss the Bible with friends."
+"Pray for spiritual seekers [in location] and all over the Muslim world to "
+"search and discuss the Bible with friends."
 msgstr ""
 "\"Tengo veinticuatro años y soy de Túnez. Tenía muchas deudas y le debía "
 "dinero a mucha gente y al gobierno. Me pregunté: \"¿Por qué no le pido a "
@@ -57,11 +71,17 @@ msgstr ""
 "Ore por los buscadores espirituales [en el lugar] y en todo el mundo "
 "musulmán para buscar y discutir la Biblia con amigos."
 
-#: admin/prayer-field-content.php:35
+#: admin/prayer-field-content.php:73
 #, fuzzy
 msgid ""
-"“When an attempt was made by both Gentiles and Jews, with their rulers, to mistreat them and to stone them, they learned of it and fled to Lystra and Derbe, cities of Lycaonia, and to the surrounding country, and there they continued to preach the gospel.” (Acts 14:5-7).\n"
-"When attempts are made to mistreat believers [in location] - and even when some must flee - may they be blessed with the boldness and perseverance to continue to preach the gospel. (Acts 14:5-7) Lord, give them faith that persecution cannot shake."
+"“When an attempt was made by both Gentiles and Jews, with their rulers, to "
+"mistreat them and to stone them, they learned of it and fled to Lystra and "
+"Derbe, cities of Lycaonia, and to the surrounding country, and there they "
+"continued to preach the gospel.” (Acts 14:5-7).\n"
+"When attempts are made to mistreat believers [in location] - and even when "
+"some must flee - may they be blessed with the boldness and perseverance to "
+"continue to preach the gospel. (Acts 14:5-7) Lord, give them faith that "
+"persecution cannot shake."
 msgstr ""
 "“Cuando tanto los gentiles como los judíos, con sus gobernantes, intentaron "
 "maltratarlos y apedrearlos, se enteraron y huyeron a Listra y Derbe, "
@@ -72,38 +92,52 @@ msgstr ""
 "para continuar predicando el evangelio. (Hechos 14:5-7) Señor, dales una fe "
 "que la persecución no puede hacer temblar."
 
-#: admin/prayer-field-content.php:37
-#: admin/prayer-field-content.php:50
+#: admin/prayer-field-content.php:75 admin/prayer-field-content.php:88
 #, fuzzy
 msgid "How does this video lead you to pray"
 msgstr "¿Cómo te lleva este video a orar?"
 
-#: admin/prayer-field-content.php:38
+#: admin/prayer-field-content.php:76
 #, fuzzy
-msgid "\"This is the grand purpose for which we were created: to enjoy the grace of Christ as we spread the gospel of Christ from wherever we live, to the ends of the earth.\" - David Platt"
+msgid ""
+"\"This is the grand purpose for which we were created: to enjoy the grace of "
+"Christ as we spread the gospel of Christ from wherever we live, to the ends "
+"of the earth.\" - David Platt"
 msgstr ""
 "\"Este es el gran propósito por el cual fuimos creados: disfrutar de la "
 "gracia de Cristo mientras predicamos el evangelio de Cristo desde "
 "dondequiera que vivamos, hasta los confines de la tierra\". -David Platt"
 
-#: admin/prayer-field-content.php:41
+#: admin/prayer-field-content.php:79
 #, fuzzy
-msgid "God, we love you! As your Church help us do what it takes to gladden the hearts of [people_name] as they understand that Jesus completely and perfectly made purification for sin, and then you sat down at the right hand of Majesty! (Hebrews 1:3-4)"
+msgid ""
+"God, we love you! As your Church help us do what it takes to gladden the "
+"hearts of your people [in location] as they understand that Jesus completely "
+"and perfectly made purification for sin, and then you sat down at the right "
+"hand of Majesty! (Hebrews 1:3-4)"
 msgstr ""
 "¡Dios, te amamos! ¡Como tu Iglesia, ayúdanos a hacer lo que sea necesario "
 "para alegrar los corazones de [nombre de la gente] a medida que entienden "
 "que Jesús hizo completa y perfectamente la purificación del pecado, y luego "
 "te sentaste a la diestra de la Majestad! (Hebreos 1:3-4)"
 
-#: admin/prayer-field-content.php:42
+#: admin/prayer-field-content.php:80
 #, fuzzy
 msgid ""
 "Testimony from Senegal.\n"
-"\"Jane\" found herself pregnant as a teenager and so somehow gave her self an abortion.  A few years later, she was pregnant again.  This time she decided to keep the baby, but in order to avoid shaming the family, her parents forced her to abort.  She was 5 months along, and the baby was born alive.  Her mother showed her the baby, and then buried it alive.  And Jane lived in the grief and anger and bitterness that followed this event.\n"
+"\"Jane\" found herself pregnant as a teenager and so somehow gave her self "
+"an abortion.  A few years later, she was pregnant again.  This time she "
+"decided to keep the baby, but in order to avoid shaming the family, her "
+"parents forced her to abort.  She was 5 months along, and the baby was born "
+"alive.  Her mother showed her the baby, and then buried it alive.  And Jane "
+"lived in the grief and anger and bitterness that followed this event.\n"
 "\n"
-"On Thursday night she walked through forgiveness with the team teaching soul care. It was HARD. There were tears, but Jesus brought beautiful freedom to her life.\n"
+"On Thursday night she walked through forgiveness with the team teaching soul "
+"care. It was HARD. There were tears, but Jesus brought beautiful freedom to "
+"her life.\n"
 "\n"
-"Pray for spiritual seekers [in location] and all over the Muslim world to search and discuss the Bible with friends."
+"Pray for spiritual seekers [in location] and all over the Muslim world to "
+"search and discuss the Bible with friends."
 msgstr ""
 "Testimonio de Senegal.\n"
 "\"Jane\" se encontró embarazada cuando era adolescente y, de alguna manera, "
@@ -120,11 +154,15 @@ msgstr ""
 "Ore por los buscadores espirituales [en el lugar] y en todo el mundo "
 "musulmán para buscar y discutir la Biblia con amigos."
 
-#: admin/prayer-field-content.php:48
+#: admin/prayer-field-content.php:86
 #, fuzzy
 msgid ""
-"“So Peter was kept in prison, but earnest prayer for him was made to God by the church.” (Acts 12:5 ESV).\n"
-"When the church [in location] is persecuted, and even when followers of Jesus are imprisoned, may the church be drawn into earnest, persevering prayer. (Acts 12:5) Lord Jesus, deepen the faith and sustain the dependent prayers of the church [in location]."
+"“So Peter was kept in prison, but earnest prayer for him was made to God by "
+"the church.” (Acts 12:5 ESV).\n"
+"When the church [in location] is persecuted, and even when followers of "
+"Jesus are imprisoned, may the church be drawn into earnest, persevering "
+"prayer. (Acts 12:5) Lord Jesus, deepen the faith and sustain the dependent "
+"prayers of the church [in location]."
 msgstr ""
 "“Así que Pedro se mantuvo en prisión, pero la iglesia oró fervientemente por "
 "él a Dios”. (Hechos 12:5 NVI).\n"
@@ -133,35 +171,53 @@ msgstr ""
 "oración ferviente y perseverante. (Hechos 12:5) Señor Jesús, profundiza la "
 "fe y sustenta las oraciones dependientes de la iglesia [en el lugar]."
 
-#: admin/prayer-field-content.php:51
+#: admin/prayer-field-content.php:89
 #, fuzzy
-msgid "“There is not a square inch in the whole domain of our human existence over which Christ, who is Sovereign over all, does not cry, Mine!” - Abraham Kuyper"
+msgid ""
+"“There is not a square inch in the whole domain of our human existence over "
+"which Christ, who is Sovereign over all, does not cry, Mine!” - Abraham "
+"Kuyper"
 msgstr ""
 "“¡No hay una pulgada cuadrada en todo el dominio de nuestra existencia "
 "humana sobre la cual Cristo, que es Soberano sobre todo, no clame, Mío!” -"
 "Abraham Kuyper"
 
-#: admin/prayer-field-content.php:74
-#, fuzzy
-msgid "PRAISE"
-msgstr "ELOGIO"
+#: admin/prayer-field-content.php:108
+msgid "Our Treasure in Jesus"
+msgstr ""
 
-#: admin/prayer-field-content.php:82
-#, fuzzy
-msgid "KINGDOM COME"
-msgstr "VENGA EL REINO"
+#: admin/prayer-field-content.php:116
+msgid "Testimonies from around the world"
+msgstr ""
 
-#: admin/prayer-field-content.php:90
-#, fuzzy
-msgid "PRAY THE BOOK OF ACTS"
-msgstr "ORA EL LIBRO DE LOS HECHOS"
+#: admin/prayer-field-content.php:124
+msgid "Biblical Prayers"
+msgstr ""
 
-#: admin/prayer-field-content.php:98
-#, fuzzy
-msgid "PRAY THE HALL OF FAITH"
-msgstr "ORA EL SALÓN DE LA FE"
+#: admin/prayer-field-content.php:132
+msgid "Prayer walk"
+msgstr ""
 
-#: admin/prayer-field-content.php:106
+#: admin/prayer-field-content.php:140
+msgid "Missional Quotes"
+msgstr ""
+
 #, fuzzy
-msgid "PRAYER"
-msgstr "ORACIÓN"
+#~ msgid "PRAISE"
+#~ msgstr "ELOGIO"
+
+#, fuzzy
+#~ msgid "KINGDOM COME"
+#~ msgstr "VENGA EL REINO"
+
+#, fuzzy
+#~ msgid "PRAY THE BOOK OF ACTS"
+#~ msgstr "ORA EL LIBRO DE LOS HECHOS"
+
+#, fuzzy
+#~ msgid "PRAY THE HALL OF FAITH"
+#~ msgstr "ORA EL SALÓN DE LA FE"
+
+#, fuzzy
+#~ msgid "PRAYER"
+#~ msgstr "ORACIÓN"
