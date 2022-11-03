@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Disciple Tools - Ramadan 2023\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ramadan-2023\n"
 "POT-Creation-Date: 2022-11-03T15:19:39+00:00\n"
-"PO-Revision-Date: 2022-11-03 14:36+0000\n"
+"PO-Revision-Date: 2022-11-03 15:31+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: French <https://translate.disciple.tools/projects/"
 "pray4movement/ramadan-2023/fr_FR/>\n"
@@ -17,9 +17,9 @@ msgstr ""
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: ramadan-2023.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;es"
+"c_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_n"
+"x_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: */libraries/*\n"
@@ -123,9 +123,9 @@ msgid ""
 "hand of Majesty! (Hebrews 1:3-4)"
 msgstr ""
 "Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour réjouir le cœur de [people_name] alors qu'ils comprennent que "
-"Jésus a complètement et parfaitement purifié le péché, puis vous vous êtes "
-"assis à la droite de la Majesté ! (Hébreux 1:3-4)"
+"faut pour réjouir les cœurs de votre peuple [en place] alors qu'ils "
+"comprennent que Jésus a complètement et parfaitement purifié le péché, puis "
+"vous vous êtes assis à la droite de la Majesté ! (Hébreux 1:3-4)"
 
 #: admin/prayer-field-content.php:80
 #, fuzzy
@@ -190,24 +190,29 @@ msgstr ""
 "- Abraham Kuyer"
 
 #: admin/prayer-field-content.php:108
+#, fuzzy
 msgid "Our Treasure in Jesus"
-msgstr ""
+msgstr "Notre trésor en Jésus"
 
 #: admin/prayer-field-content.php:116
+#, fuzzy
 msgid "Testimonies from around the world"
-msgstr ""
+msgstr "Témoignages du monde entier"
 
 #: admin/prayer-field-content.php:124
+#, fuzzy
 msgid "Biblical Prayers"
-msgstr ""
+msgstr "Prières bibliques"
 
 #: admin/prayer-field-content.php:132
+#, fuzzy
 msgid "Prayer walk"
-msgstr ""
+msgstr "Marche de prière"
 
 #: admin/prayer-field-content.php:140
+#, fuzzy
 msgid "Missional Quotes"
-msgstr ""
+msgstr "Citations missionnaires"
 
 #, fuzzy
 #~ msgid "PRAISE"
