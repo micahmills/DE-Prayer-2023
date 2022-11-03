@@ -35,73 +35,10 @@ class Ramadan_2023_Menu {
      */
     public function __construct() {
 
-        add_action( 'admin_menu', array( $this, 'register_menu' ) );
-
         $this->page_title = 'ramadan-2023';
+
+        add_action( 'dt_prayer_campaigns_admin_install_fuel', [ 'Ramadan_2023_Tab_General', 'content' ] );
     } // End __construct()
-
-
-    /**
-     * Loads the subnav page
-     * @since 0.1
-     */
-    public function register_menu() {
-        $this->page_title = 'Ramadan 2023';
-
-        add_submenu_page( 'dt_extensions', $this->page_title, $this->page_title, 'manage_dt', $this->token, [ $this, 'content' ] );
-    }
-
-    /**
-     * Menu stub. Replaced when Disciple.Tools Theme fully loads.
-     */
-    public function extensions_menu() {}
-
-    /**
-     * Builds page contents
-     * @since 0.1
-     */
-    public function content() {
-
-        if ( !current_user_can( 'manage_dt' ) ) { // manage dt is a permission that is specific to Disciple.Tools and allows admins, strategists and dispatchers into the wp-admin
-            wp_die( 'You do not have sufficient permissions to access this page.' );
-        }
-
-        if ( isset( $_GET['tab'] ) ) {
-            $tab = sanitize_key( wp_unslash( $_GET['tab'] ) );
-        } else {
-            $tab = 'general';
-        }
-
-        $link = 'admin.php?page='.$this->token.'&tab=';
-
-        ?>
-        <div class="wrap">
-            <h2><?php echo esc_html( $this->page_title ) ?></h2>
-            <h2 class="nav-tab-wrapper">
-                <a href="<?php echo esc_attr( $link ) . 'general' ?>"
-                   class="nav-tab <?php echo esc_html( ( $tab == 'general' || !isset( $tab ) ) ? 'nav-tab-active' : '' ); ?>">General</a>
-                <a href="<?php echo esc_attr( $link ) . 'second' ?>" class="nav-tab <?php echo esc_html( ( $tab == 'second' ) ? 'nav-tab-active' : '' ); ?>">Second</a>
-            </h2>
-
-            <?php
-            switch ( $tab ) {
-                case 'general':
-                    $object = new Ramadan_2023_Tab_General();
-                    $object->content();
-                    break;
-                case 'second':
-                    $object = new Ramadan_2023_Tab_Second();
-                    $object->content();
-                    break;
-                default:
-                    break;
-            }
-            ?>
-
-        </div><!-- End wrap -->
-
-        <?php
-    }
 }
 Ramadan_2023_Menu::instance();
 
@@ -109,7 +46,9 @@ Ramadan_2023_Menu::instance();
  * Class Ramadan_2023_Tab_General
  */
 class Ramadan_2023_Tab_General {
-    public function content() {
+    public static function content() {
+
+
         ?>
         <div class="wrap">
             <div id="poststuff">
@@ -117,14 +56,14 @@ class Ramadan_2023_Tab_General {
                     <div id="post-body-content">
                         <!-- Main Column -->
 
-                        <?php $this->main_column() ?>
+                        <?php self::main_column() ?>
 
                         <!-- End Main Column -->
                     </div><!-- end post-body-content -->
                     <div id="postbox-container-1" class="postbox-container">
                         <!-- Right Column -->
 
-                        <?php $this->right_column() ?>
+                        <?php self::right_column() ?>
 
                         <!-- End Right Column -->
                     </div><!-- postbox-container 1 -->
@@ -136,106 +75,138 @@ class Ramadan_2023_Tab_General {
         <?php
     }
 
-    public function main_column() {
+    public static function main_column() {
+        $languages_manager = new DT_Campaign_Languages();
+        $languages = $languages_manager->get_enabled_languages();
+
+        $fields = DT_Porch_Settings::fields();
+        $translations = [];
+        $dir = Ramadan_2023::$plugin_dir;
+        $installed_languages = get_available_languages( Ramadan_2023::$plugin_dir .'languages/' );
+        foreach ( $installed_languages as $language ) {
+            $mo = new MO();
+            if ( $mo->import_from_file( Ramadan_2023::$plugin_dir . 'languages/' . $language . '.mo' ) ){
+                $translations[$language] = $mo->entries;
+            }
+        }
+
+        global $wpdb;
+        $installed_langs_query = $wpdb->get_results( "
+            SELECT pm.meta_value, count(*) as count
+            FROM $wpdb->posts p
+            LEFT JOIN $wpdb->postmeta pm ON ( p.ID = pm.post_id AND meta_key = 'post_language' )
+            WHERE post_type = 'landing' and ( post_status = 'publish' or post_status = 'future')
+            GROUP BY meta_value
+        ", ARRAY_A);
+        $installed_langs = [];
+        foreach ( $installed_langs_query as $result ){
+            if ( $result['meta_value'] === null ){
+                $result['meta_value'] = 'en_US';
+            }
+            if ( !isset( $installed_langs[$result['meta_value']] ) ){
+                $installed_langs[$result['meta_value']] = 0;
+            }
+            $installed_langs[$result['meta_value']] += $result['count'];
+        }
+
         ?>
         <!-- Box -->
         <table class="widefat striped">
             <thead>
                 <tr>
-                    <th>Header</th>
+                    <th>Ramadan 2023 Prayer Fuel</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>
-                        Content
+                        <table class="">
+                            <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Actions</th>
+                                <th>Installed Posts</th>
+                                <th>Delete All</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+
+                            <style>
+                                .disabled-language {
+                                    background-color: darkgrey;
+                                }
+                                .widefat .disabled-language td {
+                                    color: white;
+                                }
+                            </style>
+
+                            <?php foreach ( $languages as $code => $language ): ?>
+
+                                <tr class="<?php echo $language['enabled'] === false ? 'disabled-language' : '' ?>">
+                                    <td><?php echo esc_html( $language['flag'] ) ?> <?php echo esc_html( $language['english_name'] ) ?></td>
+                                    <td>
+                                        <button class="button" name="language_settings_disable" value="<?php echo esc_html( $code ) ?>">
+                                            Install
+                                        </button>
+                                    </td>
+                                    <td><?php echo esc_html( $installed_langs[$code] ?? 0 ); ?></td>
+                                    <td>
+                                        <button class="button">
+                                            Delete
+                                        </button>
+                                    </td>
+
+                                </tr>
+
+                            <?php endforeach; ?>
+                            </tbody>
+                        </table>
+
                     </td>
                 </tr>
-            </tbody>
-        </table>
-        <br>
-        <!-- End Box -->
-        <?php
-    }
-
-    public function right_column() {
-        ?>
-        <!-- Box -->
-        <table class="widefat striped">
-            <thead>
-                <tr>
-                    <th>Information</th>
-                </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>
-                    Content
-                </td>
-            </tr>
-            </tbody>
-        </table>
-        <br>
-        <!-- End Box -->
-        <?php
-    }
-}
-
-
-/**
- * Class Ramadan_2023_Tab_Second
- */
-class Ramadan_2023_Tab_Second {
-    public function content() {
-        ?>
-        <div class="wrap">
-            <div id="poststuff">
-                <div id="post-body" class="metabox-holder columns-2">
-                    <div id="post-body-content">
-                        <!-- Main Column -->
-
-                        <?php $this->main_column() ?>
-
-                        <!-- End Main Column -->
-                    </div><!-- end post-body-content -->
-                    <div id="postbox-container-1" class="postbox-container">
-                        <!-- Right Column -->
-
-                        <?php $this->right_column() ?>
-
-                        <!-- End Right Column -->
-                    </div><!-- postbox-container 1 -->
-                    <div id="postbox-container-2" class="postbox-container">
-                    </div><!-- postbox-container 2 -->
-                </div><!-- post-body meta box container -->
-            </div><!--poststuff end -->
-        </div><!-- wrap end -->
-        <?php
-    }
-
-    public function main_column() {
-        ?>
-        <!-- Box -->
-        <table class="widefat striped">
-            <thead>
-                <tr>
-                    <th>Header</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
+                <tr id="ramadan-install-row" style="">
                     <td>
-                        Content
+                        <h3>Install Ramadan Prayer Fuel for <span id="ramadan-new-language">French</span></h3>
+
+                        <p>The Ramadan has some placeholder text that needs to be replaced.</p>
+
+                        <h4>1. Replacing: [in location]</h4>
+                        <div style="margin-inline-start: 50px">
+                            <p id="ramadan-replace">
+                                <strong>Example Sentence:</strong> <?php esc_html_e( 'Jesus, give the church [in location] grace to cherish your name above all else', 'ramadan-2023' ); ?>
+                            </p>
+                            <p>
+                                [in location] should be replaced with: <input type="text" placeholder="en France">
+                            </p>
+                        </div>
+
+                        <h4>2. Replacing: [of location]</h4>
+                        <div style="margin-inline-start: 50px">
+                            <p id="ramadan-replace">
+                                <strong>Example Sentence:</strong> <?php esc_html_e( 'let the people [of location] grasp the Good News', 'ramadan-2023' ); ?>
+                            </p>
+                            <p>
+                                [of location] should be replaced with: <input type="text" placeholder="de la France">
+                            </p>
+                        </div>
+
+                        <button class="button">Install Prayer Fuel in <span id="ramadan-new-language">French</span></button>
+
                     </td>
                 </tr>
             </tbody>
         </table>
+
+        <script>
+
+        </script>
+
         <br>
         <!-- End Box -->
         <?php
     }
 
-    public function right_column() {
+    public static function right_column() {
         ?>
         <!-- Box -->
         <table class="widefat striped">

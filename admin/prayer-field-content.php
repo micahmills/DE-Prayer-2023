@@ -31,9 +31,9 @@ class P4_Ramadan_2023_Content {
                 __( 'God, we love you! As your Church help us do what it takes to let the people [of location] see you through Jesus, the radiance of your glory, the exact imprint of your nature! (Hebrews 1:3)', 'ramadan-2023' ),
                 __( '"I am twenty-four and from Tunisia. I had a lot of debt and owed a lot of people and the government money. I asked myself, "Why don\'t I ask God to help me?" The truth is, I didn\'t ask because I didn\'t believe God would help me. I left Islam and called myself an atheist. But, there was always something inside me that said, "There is a God." I began to search and discuss with my friends. At that time, all of us were disillusioned, searching for truth, and some had even become Christians. We all brought information and shared with one another. Pray for us that we will discover truth together."
 
-Pray for spiritual seekers [in X] and all over the Muslim world to search and discuss the Bible with friends.', 'ramadan-2023' ),
-                __( '“When an attempt was made by both Gentiles and Jews, with their rulers, to mistreat them and to stone them, they learned of it and fled to Lystra and Derbe, cities of Lycaonia, and to the surrounding country, and there they continued to preach the gospel.” (Acts 14:5-7).                                                                                                                                                      When attempts are made to mistreat believers [in location] - and even when some must flee - may they be blessed with the boldness and perseverance to continue to preach the gospel. (Acts 14:5-7) Lord, give them faith that persecution cannot shake.” (Acts 14:5-7). 
-When attempts are made to mistreat believers in Tunisia - and even when some must flee - may they be blessed with the boldness and perseverance to continue to preach the gospel. (Acts 14:5-7) Lord, give them faith that persecution cannot shake.', 'ramadan-2023' ),
+Pray for spiritual seekers [in location] and all over the Muslim world to search and discuss the Bible with friends.', 'ramadan-2023' ),
+                __( '“When an attempt was made by both Gentiles and Jews, with their rulers, to mistreat them and to stone them, they learned of it and fled to Lystra and Derbe, cities of Lycaonia, and to the surrounding country, and there they continued to preach the gospel.” (Acts 14:5-7).
+When attempts are made to mistreat believers [in location] - and even when some must flee - may they be blessed with the boldness and perseverance to continue to preach the gospel. (Acts 14:5-7) Lord, give them faith that persecution cannot shake.', 'ramadan-2023' ),
                 __( 'How does this video lead you to pray', 'ramadan-2023' ),
                 __( '"This is the grand purpose for which we were created: to enjoy the grace of Christ as we spread the gospel of Christ from wherever we live, to the ends of the earth." - David Platt', 'ramadan-2023' ),
             ],
@@ -44,13 +44,12 @@ When attempts are made to mistreat believers in Tunisia - and even when some mus
 
 On Thursday night she walked through forgiveness with the team teaching soul care. It was HARD. There were tears, but Jesus brought beautiful freedom to her life.
 
-Pray for spiritual seekers in _________ and all over the Muslim world to search and discuss the Bible with friends.', 'ramadan-2023' ),
+Pray for spiritual seekers [in location] and all over the Muslim world to search and discuss the Bible with friends.', 'ramadan-2023' ),
                 __( '“So Peter was kept in prison, but earnest prayer for him was made to God by the church.” (Acts 12:5 ESV).
 When the church [in location] is persecuted, and even when followers of Jesus are imprisoned, may the church be drawn into earnest, persevering prayer. (Acts 12:5) Lord Jesus, deepen the faith and sustain the dependent prayers of the church [in location].', 'ramadan-2023' ),
                 __( 'How does this video lead you to pray', 'ramadan-2023' ),
                 __( '“There is not a square inch in the whole domain of our human existence over which Christ, who is Sovereign over all, does not cry, Mine!” - Abraham Kuyper', 'ramadan-2023' ),
             ],
-
         ];
 
 
@@ -114,5 +113,9 @@ When the church [in location] is persecuted, and even when followers of Jesus ar
             ];
         }
         return $content;
+    }
+
+    public function install_fuel(){
+
     }
 }

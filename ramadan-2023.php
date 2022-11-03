@@ -78,6 +78,8 @@ add_filter( 'dt_plugins', function ( $plugins ){
  */
 class Ramadan_2023 {
 
+    public static $plugin_dir = null;
+
     private static $_instance = null;
     public static function instance() {
         if ( is_null( self::$_instance ) ) {
@@ -88,6 +90,8 @@ class Ramadan_2023 {
 
     private function __construct() {
         $is_rest = dt_is_rest();
+
+        self::$plugin_dir = trailingslashit( plugin_dir_path( __FILE__ ) );
 
         if ( is_admin() ) {
             require_once( 'admin/admin-menu-and-tabs.php' ); // adds starter admin page and section for plugin
