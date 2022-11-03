@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Disciple.Tools - Ramadan 2023
  * Plugin URI: https://github.com/Pray4Movement/ramadan-2023
- * Description: Disciple.Tools - Ramadan 2023 is intended to help developers and integrator jumpstart their extension of the Disciple.Tools system.
+ * Description: Disciple.Tools - Ramadan 2023 prayer fuel content.
  * Text Domain: ramadan-2023
  * Domain Path: /languages
  * Version:  0.1

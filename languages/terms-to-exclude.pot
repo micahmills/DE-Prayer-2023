@@ -7,7 +7,7 @@ msgid "https://github.com/Pray4Movement/ramadan-2023"
 msgstr ""
 
 #. Description of the plugin
-msgid "Disciple.Tools - Ramadan 2023 is intended to help developers and integrator jumpstart their extension of the Disciple.Tools system."
+msgid "Disciple.Tools - Ramadan 2023 prayer fuel content."
 msgstr ""
 
 #. Author URI of the plugin
