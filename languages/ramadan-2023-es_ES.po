@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Disciple.Tools - Ramadan 2023 0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ramadan-2023\n"
 "POT-Creation-Date: 2022-11-03T15:19:39+00:00\n"
-"PO-Revision-Date: 2022-11-03 14:36+0000\n"
+"PO-Revision-Date: 2022-11-03 15:31+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Spanish <https://translate.disciple.tools/projects/"
 "pray4movement/ramadan-2023/es_ES/>\n"
@@ -116,9 +116,9 @@ msgid ""
 "and perfectly made purification for sin, and then you sat down at the right "
 "hand of Majesty! (Hebrews 1:3-4)"
 msgstr ""
-"¡Dios, te amamos! ¡Como tu Iglesia, ayúdanos a hacer lo que sea necesario "
-"para alegrar los corazones de [nombre de la gente] a medida que entienden "
-"que Jesús hizo completa y perfectamente la purificación del pecado, y luego "
+"¡Dios, te amamos! Como tu Iglesia, ayúdanos a hacer lo que sea necesario "
+"para alegrar los corazones de tu pueblo [en el lugar] a medida que entienden "
+"que Jesús hizo completa y perfectamente la purificación del pecado, ¡y luego "
 "te sentaste a la diestra de la Majestad! (Hebreos 1:3-4)"
 
 #: admin/prayer-field-content.php:80
@@ -183,24 +183,29 @@ msgstr ""
 "Abraham Kuyper"
 
 #: admin/prayer-field-content.php:108
+#, fuzzy
 msgid "Our Treasure in Jesus"
-msgstr ""
+msgstr "Nuestro Tesoro en Jesús"
 
 #: admin/prayer-field-content.php:116
+#, fuzzy
 msgid "Testimonies from around the world"
-msgstr ""
+msgstr "Testimonios de todo el mundo"
 
 #: admin/prayer-field-content.php:124
+#, fuzzy
 msgid "Biblical Prayers"
-msgstr ""
+msgstr "Oraciones bíblicas"
 
 #: admin/prayer-field-content.php:132
+#, fuzzy
 msgid "Prayer walk"
-msgstr ""
+msgstr "caminata de oración"
 
 #: admin/prayer-field-content.php:140
+#, fuzzy
 msgid "Missional Quotes"
-msgstr ""
+msgstr "Citas misionales"
 
 #, fuzzy
 #~ msgid "PRAISE"
