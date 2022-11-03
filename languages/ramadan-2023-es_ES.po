@@ -1,51 +1,46 @@
+# Copyright (C) 2022 
+# This file is distributed under the same license as the Disciple.Tools - Ramadan 2023 plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Disciple Tools - Ramadan 2023\n"
+"Project-Id-Version: Disciple.Tools - Ramadan 2023 0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ramadan-2023\n"
 "POT-Creation-Date: 2022-11-03T15:19:39+00:00\n"
 "PO-Revision-Date: 2022-11-03 15:31+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: French <https://translate.disciple.tools/projects/"
-"pray4movement/ramadan-2023/fr_FR/>\n"
-"Language: fr_FR\n"
+"Language-Team: Spanish <https://translate.disciple.tools/projects/"
+"pray4movement/ramadan-2023/es_ES/>\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.14.1\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
-"X-Poedit-WPHeader: ramadan-2023.php\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;es"
-"c_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_n"
-"x_noop:3c,1,2;__ngettext_noop:1,2\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: *.js\n"
-"X-Poedit-SearchPathExcluded-1: */libraries/*\n"
+"X-Domain: ramadan-2023\n"
 
 #: admin/admin-menu-and-tabs.php:183
+#, fuzzy
 msgid ""
 "Jesus, give the church [in location] grace to cherish your name above all "
 "else"
 msgstr ""
-"Jesus, done à l'Eglise [in location] la grâce de chérir ton nom par-dessus "
-"tout"
+"Jesús, dale a la iglesia [en el lugar] gracia para apreciar tu nombre por "
+"encima de todo"
 
 #: admin/admin-menu-and-tabs.php:193
+#, fuzzy
 msgid "let the people [of location] grasp the Good News"
-msgstr "Laisse les personnes [of location] saissir la Bonne Nouvelle"
+msgstr "que la gente [del lugar] capte las Buenas Nuevas"
 
 #: admin/prayer-field-content.php:69
+#, fuzzy
 msgid ""
 "God, we love you! As your Church help us do what it takes to let the people "
 "[of location] see you through Jesus, the radiance of your glory, the exact "
 "imprint of your nature! (Hebrews 1:3)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
+"¡Dios, te amamos! ¡Como tu Iglesia, ayúdanos a hacer lo que sea necesario "
+"para que la gente [del lugar] te vea a través de Jesús, el resplandor de tu "
+"gloria, la huella exacta de tu naturaleza! (Hebreos 1:3)"
 
 #: admin/prayer-field-content.php:70
 #, fuzzy
@@ -63,19 +58,18 @@ msgid ""
 "Pray for spiritual seekers [in location] and all over the Muslim world to "
 "search and discuss the Bible with friends."
 msgstr ""
-"\"J'ai vingt-quatre ans et je viens de Tunisie. J'avais beaucoup de dettes "
-"et je devais de l'argent à beaucoup de gens et au gouvernement. Je me suis "
-"demandé : \"Pourquoi ne demanderais-je pas à Dieu de m'aider ?\" Je ne "
-"demandais pas parce que je ne croyais pas que Dieu m'aiderait. J'ai quitté "
-"l'islam et je me suis dit athée. Mais, il y avait toujours quelque chose en "
-"moi qui disait : \" Il y a un Dieu. \" J'ai commencé à chercher et à "
-"discuter avec mes amis. . A cette époque, nous étions tous désabusés, à la "
-"recherche de la vérité, et certains étaient même devenus chrétiens. Nous "
-"avons tous apporté des informations et partagé les uns avec les autres. "
-"Priez pour nous afin que nous découvrions la vérité ensemble.\n"
+"\"Tengo veinticuatro años y soy de Túnez. Tenía muchas deudas y le debía "
+"dinero a mucha gente y al gobierno. Me pregunté: \"¿Por qué no le pido a "
+"Dios que me ayude?\". No pregunto porque no creía que Dios me ayudaría. Dejé "
+"el Islam y me llamé ateo. Pero, siempre había algo dentro de mí que decía: "
+"\"Hay un Dios\". Empecé a buscar y discutir con mis amigos. ... En ese "
+"momento, todos estábamos desilusionados, buscando la verdad, y algunos "
+"incluso se habían convertido en cristianos. Todos trajimos información y "
+"compartimos unos con otros. Oren por nosotros para que descubramos la verdad "
+"juntos\".\n"
 "\n"
-"Priez pour les chercheurs spirituels [localisés] et partout dans le monde "
-"musulman pour rechercher et discuter de la Bible avec des amis."
+"Ore por los buscadores espirituales [en el lugar] y en todo el mundo "
+"musulmán para buscar y discutir la Biblia con amigos."
 
 #: admin/prayer-field-content.php:73
 #, fuzzy
@@ -89,19 +83,19 @@ msgid ""
 "continue to preach the gospel. (Acts 14:5-7) Lord, give them faith that "
 "persecution cannot shake."
 msgstr ""
-"\"Lorsqu'une tentative a été faite à la fois par les Gentils et les Juifs, "
-"avec leurs dirigeants, de les maltraiter et de les lapider, ils l'ont appris "
-"et se sont enfuis à Lystre et Derbe, villes de Lycaonie, et dans le pays "
-"environnant, et là ils ont continué à prêcher l'Évangile.\" (Actes 14:5-7).\n"
-"Lorsque des tentatives sont faites pour maltraiter les croyants [sur place] "
-"- et même lorsque certains doivent fuir - puissent-ils être bénis avec "
-"l'audace et la persévérance pour continuer à prêcher l'évangile. (Actes "
-"14:5-7) Seigneur, donne-leur la foi que la persécution ne peut ébranler."
+"“Cuando tanto los gentiles como los judíos, con sus gobernantes, intentaron "
+"maltratarlos y apedrearlos, se enteraron y huyeron a Listra y Derbe, "
+"ciudades de Licaonia, y a la región circundante, y allí continuaron predicar "
+"el Evangelio.\" (Hechos 14:5-7).\n"
+"Cuando se trate de maltratar a los creyentes [en el lugar], e incluso cuando "
+"algunos deban huir, que sean bendecidos con la audacia y la perseverancia "
+"para continuar predicando el evangelio. (Hechos 14:5-7) Señor, dales una fe "
+"que la persecución no puede hacer temblar."
 
 #: admin/prayer-field-content.php:75 admin/prayer-field-content.php:88
 #, fuzzy
 msgid "How does this video lead you to pray"
-msgstr "Comment cette vidéo vous amène-t-elle à prier"
+msgstr "¿Cómo te lleva este video a orar?"
 
 #: admin/prayer-field-content.php:76
 #, fuzzy
@@ -110,9 +104,9 @@ msgid ""
 "Christ as we spread the gospel of Christ from wherever we live, to the ends "
 "of the earth.\" - David Platt"
 msgstr ""
-"\"C'est le grand but pour lequel nous avons été créés : jouir de la grâce du "
-"Christ alors que nous répandons l'évangile du Christ partout où nous vivons, "
-"jusqu'aux extrémités de la terre.\" -David Platt"
+"\"Este es el gran propósito por el cual fuimos creados: disfrutar de la "
+"gracia de Cristo mientras predicamos el evangelio de Cristo desde "
+"dondequiera que vivamos, hasta los confines de la tierra\". -David Platt"
 
 #: admin/prayer-field-content.php:79
 #, fuzzy
@@ -122,10 +116,10 @@ msgid ""
 "and perfectly made purification for sin, and then you sat down at the right "
 "hand of Majesty! (Hebrews 1:3-4)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour réjouir les cœurs de votre peuple [en place] alors qu'ils "
-"comprennent que Jésus a complètement et parfaitement purifié le péché, puis "
-"vous vous êtes assis à la droite de la Majesté ! (Hébreux 1:3-4)"
+"¡Dios, te amamos! Como tu Iglesia, ayúdanos a hacer lo que sea necesario "
+"para alegrar los corazones de tu pueblo [en el lugar] a medida que entienden "
+"que Jesús hizo completa y perfectamente la purificación del pecado, ¡y luego "
+"te sentaste a la diestra de la Majestad! (Hebreos 1:3-4)"
 
 #: admin/prayer-field-content.php:80
 #, fuzzy
@@ -145,21 +139,20 @@ msgid ""
 "Pray for spiritual seekers [in location] and all over the Muslim world to "
 "search and discuss the Bible with friends."
 msgstr ""
-"Témoignage du Sénégal.\n"
-"\"Jane\" s'est retrouvée enceinte à l'adolescence et s'est donc en quelque "
-"sorte avortée. Quelques années plus tard, elle était de nouveau enceinte. "
-"Cette fois, elle a décidé de garder le bébé, mais pour éviter de faire honte "
-"à la famille, ses parents l'ont forcée à avorter. Elle avait 5 mois et le "
-"bébé est né vivant. Sa mère lui a montré le bébé, puis l'a enterré vivant. "
-"Et Jane a vécu dans le chagrin, la colère et l'amertume qui ont suivi cet "
-"événement.\n"
+"Testimonio de Senegal.\n"
+"\"Jane\" se encontró embarazada cuando era adolescente y, de alguna manera, "
+"se practicó un aborto. Unos años más tarde, estaba embarazada de nuevo. Esta "
+"vez decidió quedarse con el bebé, pero para evitar avergonzar a la familia, "
+"sus padres la obligaron a abortar. Tenía 5 meses y el bebé nació vivo. Su "
+"madre le mostró el bebé y luego lo enterró vivo. Y Jane vivió en el dolor, "
+"la ira y la amargura que siguieron a este evento.\n"
 "\n"
-"Jeudi soir, elle a traversé le pardon avec l'équipe enseignant les soins de "
-"l'âme. C'était difficile. Il y avait des larmes, mais Jésus a apporté une "
-"belle liberté dans sa vie.\n"
+"El jueves por la noche caminó a través del perdón con el equipo de enseñanza "
+"del cuidado del alma. Fue dificil. Hubo lágrimas, pero Jesús trajo una "
+"hermosa libertad a su vida.\n"
 "\n"
-"Priez pour les chercheurs spirituels [localisés] et partout dans le monde "
-"musulman pour rechercher et discuter de la Bible avec des amis."
+"Ore por los buscadores espirituales [en el lugar] y en todo el mundo "
+"musulmán para buscar y discutir la Biblia con amigos."
 
 #: admin/prayer-field-content.php:86
 #, fuzzy
@@ -171,12 +164,12 @@ msgid ""
 "prayer. (Acts 12:5) Lord Jesus, deepen the faith and sustain the dependent "
 "prayers of the church [in location]."
 msgstr ""
-"\"Alors Pierre a été gardé en prison, mais une prière fervente pour lui a "
-"été adressée à Dieu par l'église.\" (Actes 12:5 ESV).\n"
-"Lorsque l'église [en place] est persécutée, et même lorsque les disciples de "
-"Jésus sont emprisonnés, que l'église soit entraînée dans une prière sincère "
-"et persévérante. (Actes 12:5) Seigneur Jésus, approfondis la foi et soutiens "
-"les prières dépendantes de l'église [en place]."
+"“Así que Pedro se mantuvo en prisión, pero la iglesia oró fervientemente por "
+"él a Dios”. (Hechos 12:5 NVI).\n"
+"Cuando la iglesia [en el lugar] sea perseguida, e incluso cuando los "
+"seguidores de Jesús sean encarcelados, que la iglesia sea atraída a la "
+"oración ferviente y perseverante. (Hechos 12:5) Señor Jesús, profundiza la "
+"fe y sustenta las oraciones dependientes de la iglesia [en el lugar]."
 
 #: admin/prayer-field-content.php:89
 #, fuzzy
@@ -185,51 +178,51 @@ msgid ""
 "which Christ, who is Sovereign over all, does not cry, Mine!” - Abraham "
 "Kuyper"
 msgstr ""
-"\"Il n'y a pas un centimètre carré dans tout le domaine de notre existence "
-"humaine sur lequel le Christ, qui est Souverain sur tout, ne crie, Mien !\" "
-"- Abraham Kuyer"
+"“¡No hay una pulgada cuadrada en todo el dominio de nuestra existencia "
+"humana sobre la cual Cristo, que es Soberano sobre todo, no clame, Mío!” -"
+"Abraham Kuyper"
 
 #: admin/prayer-field-content.php:108
 #, fuzzy
 msgid "Our Treasure in Jesus"
-msgstr "Notre trésor en Jésus"
+msgstr "Nuestro Tesoro en Jesús"
 
 #: admin/prayer-field-content.php:116
 #, fuzzy
 msgid "Testimonies from around the world"
-msgstr "Témoignages du monde entier"
+msgstr "Testimonios de todo el mundo"
 
 #: admin/prayer-field-content.php:124
 #, fuzzy
 msgid "Biblical Prayers"
-msgstr "Prières bibliques"
+msgstr "Oraciones bíblicas"
 
 #: admin/prayer-field-content.php:132
 #, fuzzy
 msgid "Prayer walk"
-msgstr "Marche de prière"
+msgstr "caminata de oración"
 
 #: admin/prayer-field-content.php:140
 #, fuzzy
 msgid "Missional Quotes"
-msgstr "Citations missionnaires"
+msgstr "Citas misionales"
 
 #, fuzzy
 #~ msgid "PRAISE"
-#~ msgstr "LOUER"
+#~ msgstr "ELOGIO"
 
 #, fuzzy
 #~ msgid "KINGDOM COME"
-#~ msgstr "RÈGNE VIENNE"
+#~ msgstr "VENGA EL REINO"
 
 #, fuzzy
 #~ msgid "PRAY THE BOOK OF ACTS"
-#~ msgstr "PRIEZ LE LIVRE DES ACTES"
+#~ msgstr "ORA EL LIBRO DE LOS HECHOS"
 
 #, fuzzy
 #~ msgid "PRAY THE HALL OF FAITH"
-#~ msgstr "PRIEZ LA SALLE DE LA FOI"
+#~ msgstr "ORA EL SALÓN DE LA FE"
 
 #, fuzzy
 #~ msgid "PRAYER"
-#~ msgstr "PRIÈRE"
+#~ msgstr "ORACIÓN"
