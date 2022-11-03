@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Disciple Tools - Ramadan 2023\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ramadan-2023\n"
-"POT-Creation-Date: 2022-11-02T13:22:37+00:00\n"
+"POT-Creation-Date: 2022-11-03T10:38:42+00:00\n"
 "PO-Revision-Date: 2021-08-03 12:04-0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -41,6 +41,16 @@ msgstr ""
 msgid "https://github.com/Pray4Movement"
 msgstr ""
 
+#: admin/admin-menu-and-tabs.php:176
+msgid ""
+"Jesus, give the church [in location] grace to cherish your name above all "
+"else"
+msgstr ""
+
+#: admin/admin-menu-and-tabs.php:186
+msgid "let the people [of location] grasp the Good News"
+msgstr ""
+
 #: admin/prayer-field-content.php:31
 msgid ""
 "God, we love you! As your Church help us do what it takes to let the people "
@@ -60,8 +70,8 @@ msgid ""
 "information and shared with one another. Pray for us that we will discover "
 "truth together.\"\n"
 "\n"
-"Pray for spiritual seekers [in X] and all over the Muslim world to search "
-"and discuss the Bible with friends."
+"Pray for spiritual seekers [in location] and all over the Muslim world to "
+"search and discuss the Bible with friends."
 msgstr ""
 
 #: admin/prayer-field-content.php:35
@@ -69,14 +79,9 @@ msgid ""
 "“When an attempt was made by both Gentiles and Jews, with their rulers, to "
 "mistreat them and to stone them, they learned of it and fled to Lystra and "
 "Derbe, cities of Lycaonia, and to the surrounding country, and there they "
-"continued to preach the gospel.” (Acts "
-"14:5-7).                                                                                                                                                      "
+"continued to preach the gospel.” (Acts 14:5-7).\n"
 "When attempts are made to mistreat believers [in location] - and even when "
 "some must flee - may they be blessed with the boldness and perseverance to "
-"continue to preach the gospel. (Acts 14:5-7) Lord, give them faith that "
-"persecution cannot shake.” (Acts 14:5-7). \n"
-"When attempts are made to mistreat believers in Tunisia - and even when some "
-"must flee - may they be blessed with the boldness and perseverance to "
 "continue to preach the gospel. (Acts 14:5-7) Lord, give them faith that "
 "persecution cannot shake."
 msgstr ""
@@ -114,7 +119,7 @@ msgid ""
 "care. It was HARD. There were tears, but Jesus brought beautiful freedom to "
 "her life.\n"
 "\n"
-"Pray for spiritual seekers in _________ and all over the Muslim world to "
+"Pray for spiritual seekers [in location] and all over the Muslim world to "
 "search and discuss the Bible with friends."
 msgstr ""
 
@@ -135,22 +140,22 @@ msgid ""
 "Kuyper"
 msgstr ""
 
-#: admin/prayer-field-content.php:75
+#: admin/prayer-field-content.php:74
 msgid "PRAISE"
 msgstr ""
 
-#: admin/prayer-field-content.php:83
+#: admin/prayer-field-content.php:82
 msgid "KINGDOM COME"
 msgstr ""
 
-#: admin/prayer-field-content.php:91
+#: admin/prayer-field-content.php:90
 msgid "PRAY THE BOOK OF ACTS"
 msgstr ""
 
-#: admin/prayer-field-content.php:99
+#: admin/prayer-field-content.php:98
 msgid "PRAY THE HALL OF FAITH"
 msgstr ""
 
-#: admin/prayer-field-content.php:107
+#: admin/prayer-field-content.php:106
 msgid "PRAYER"
 msgstr ""
