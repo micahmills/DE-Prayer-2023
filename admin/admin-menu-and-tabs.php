@@ -145,7 +145,7 @@ class Ramadan_2023_Tab_General {
                                 <tr class="<?php echo $language['enabled'] === false ? 'disabled-language' : '' ?>">
                                     <td><?php echo esc_html( $language['flag'] ) ?> <?php echo esc_html( $language['english_name'] ) ?></td>
                                     <td>
-                                        <button class="button" name="language_settings_disable" value="<?php echo esc_html( $code ) ?>">
+                                        <button class="button install-ramadan-content" value="<?php echo esc_html( $code ) ?>">
                                             Install
                                         </button>
                                     </td>
@@ -164,40 +164,100 @@ class Ramadan_2023_Tab_General {
 
                     </td>
                 </tr>
-                <tr id="ramadan-install-row" style="">
+                <tr id="ramadan-install-row" style="display: none">
                     <td>
-                        <h3>Install Ramadan Prayer Fuel for <span id="ramadan-new-language">French</span></h3>
-
-                        <p>The Ramadan has some placeholder text that needs to be replaced.</p>
-
-                        <h4>1. Replacing: [in location]</h4>
-                        <div style="margin-inline-start: 50px">
-                            <p id="ramadan-replace">
-                                <strong>Example Sentence:</strong> <?php esc_html_e( 'Jesus, give the church [in location] grace to cherish your name above all else', 'ramadan-2023' ); ?>
-                            </p>
-                            <p>
-                                [in location] should be replaced with: <input type="text" placeholder="en France">
-                            </p>
-                        </div>
-
-                        <h4>2. Replacing: [of location]</h4>
-                        <div style="margin-inline-start: 50px">
-                            <p id="ramadan-replace">
-                                <strong>Example Sentence:</strong> <?php esc_html_e( 'let the people [of location] grasp the Good News', 'ramadan-2023' ); ?>
-                            </p>
-                            <p>
-                                [of location] should be replaced with: <input type="text" placeholder="de la France">
-                            </p>
-                        </div>
-
-                        <button class="button">Install Prayer Fuel in <span id="ramadan-new-language">French</span></button>
 
                     </td>
                 </tr>
             </tbody>
         </table>
+        <div id="ramadan-dialog" title="Install Prayer Fuel">
+            <form id="ramadan-install-form">
+            <h3>Install Ramadan Prayer Fuel for <span class="ramadan-new-language">French</span></h3>
 
-        <script>
+            <p>The Ramadan has some placeholder text that needs to be replaced.</p>
+
+            <h4>1. Replacing: [in location]</h4>
+            <div style="margin-inline-start: 50px">
+                <p>
+                    <strong>Example Sentence:</strong> <span id="ramadan-in-location"><?php esc_html_e( 'Jesus, give the church [in location] grace to cherish your name above all else', 'ramadan-2023' ); ?></span>
+                </p>
+                <p>
+                    [in location] should be replaced with: <input id="ramadan-in-location-input" type="text" placeholder="en France" required>
+                </p>
+            </div>
+
+            <h4>2. Replacing: [of location]</h4>
+            <div style="margin-inline-start: 50px">
+                <p>
+                    <strong>Example Sentence:</strong> <span id="ramadan-of-location"><?php esc_html_e( 'let the people [of location] grasp the Good News', 'ramadan-2023' ); ?></span>
+                </p>
+                <p>
+                    [of location] should be replaced with: <input id="ramadan-of-location-input" type="text" placeholder="de la France" required>
+                </p>
+            </div>
+
+            <p>
+                This will create a post for each of the 30 days of Ramadan.
+            </p>
+            <button class="button" type="submit" id="ramadan-install-language">
+                Install Prayer Fuel in <span class="ramadan-new-language">French</span> <img id="ramadan-install-spinner" style="height:15px; vertical-align: middle; display: none" src="<?php echo esc_html( get_template_directory_uri() . '/spinner.svg' ) ?>"/>
+            </button>
+            <p>
+<!--                Please review the posts here: link @todo-->
+            </p>
+            </form>
+        </div>
+
+        <script type="application/javascript">
+            let translations = <?php echo json_encode( $translations ) ?>;
+            let languages = <?php echo json_encode( $languages ) ?>;
+
+            jQuery(document).ready(function ($){
+                let code = null;
+                $( "#ramadan-dialog" ).dialog({ autoOpen: false, minWidth: 600 });
+                $('.install-ramadan-content').on('click', function (){
+                    $( "#ramadan-dialog" ).dialog( "open" );
+                    code = $(this).val();
+
+                    $('.ramadan-new-language').html(languages[code]?.label || value)
+
+                    if ( translations[`ramadan-2023-${code}`] && translations[`ramadan-2023-${code}`]['Jesus, give the church [in location] grace to cherish your name above all else']){
+                        $('#ramadan-in-location').html( translations[`ramadan-2023-${code}`]['Jesus, give the church [in location] grace to cherish your name above all else']['translations'][0] )
+                    }
+
+                    if ( translations[`ramadan-2023-${code}`] && translations[`ramadan-2023-${code}`]['let the people [of location] grasp the Good News']){
+                        $('#ramadan-of-location').html( translations[`ramadan-2023-${code}`]['let the people [of location] grasp the Good News']['translations'][0] )
+                    }
+                })
+
+                $('#ramadan-install-form').on('submit', function (e){
+                    e.preventDefault()
+                    let in_location = $('#ramadan-in-location-input').val();
+                    let of_location = $('#ramadan-of-location-input').val();
+
+                    $('#ramadan-install-spinner').show()
+                    $.ajax({
+                        type: 'POST',
+                        contentType: 'application/json; charset=utf-8',
+                        dataType: 'json',
+                        url: "<?php echo esc_url( rest_url() ) ?>ramadan-2023/install",
+                        beforeSend: (xhr) => {
+                            xhr.setRequestHeader("X-WP-Nonce",'<?php echo esc_attr( wp_create_nonce( 'wp_rest' ) ) ?>');
+                        },
+                        data: JSON.stringify({
+                            in_location,
+                            of_location,
+                            lang: code,
+                        })
+                    }).then(()=>{
+                        $('#ramadan-install-spinner').hide()
+                        window.location.reload()
+                    })
+
+                })
+            })
+
 
         </script>
 

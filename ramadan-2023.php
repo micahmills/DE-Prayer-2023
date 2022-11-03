@@ -97,6 +97,9 @@ class Ramadan_2023 {
             require_once( 'admin/admin-menu-and-tabs.php' ); // adds starter admin page and section for plugin
         }
 
+        require_once( 'admin/endpoints.php' );
+
+        require_once( 'admin/prayer-field-content.php' );
         $this->i18n();
 
         if ( is_admin() ) { // adds links to the plugin description area in the plugin admin list.

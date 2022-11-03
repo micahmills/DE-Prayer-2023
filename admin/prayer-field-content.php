@@ -4,18 +4,56 @@ if ( ! defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly
 //wp i18n make-pot . languages/default.pot --skip-audit --subtract="languages/terms-to-exclude.pot"
 
 class P4_Ramadan_2023_Content {
-    public static function content( $language, $names, $from_translation = 'en_US' ) {
-//        $values = p4r_porch_fields();
-//        $fields = [
-//            'location_name' => $names['location_name'],
-//            'people_name' => $names['people_plural_masculine'],
-//            'people_singular_masculine' => $names['people_singular_masculine'],
-//            'people_singular_feminine' => $names['people_singular_feminine'],
-//            'people_plural_masculine' => $names['people_plural_masculine'],
-//            'people_plural_feminine' => $names['people_plural_feminine'],
-//        ];
 
-        $fields = [];
+    public static function install_content( $language = 'en_US', $names = [], $from_translation = null ) {
+        $campaign = DT_Campaign_Settings::get_campaign();
+        if ( empty( $campaign ) ) {
+            dt_write_log( 'Campaign not set' );
+            return false;
+        }
+        $start = $campaign['start_date']['formatted'] ?? '';
+        if ( empty( $start ) ) {
+            dt_write_log( 'Start date not set' );
+            return false;
+        }
+
+        $installed = [];
+        $content = self::content( $language, $names, $from_translation ?? $language );
+        foreach ( $content as $i => $day ) {
+
+            $title = gmdate( 'F j Y', strtotime( $start . ' + ' . $i . ' day' ) );
+            $date = gmdate( 'Y-m-d', strtotime( $start . ' + ' . $i . ' day' ) );
+            $slug = str_replace( ' ', '-', strtolower( gmdate( 'F j Y', strtotime( $start . ' + ' . $i . ' day' ) ) ) );
+            $post_content = implode( '', wp_unslash( $day['content'] ) );
+
+//            $day = DT_Campaign_Settings::what_day_in_campaign( $post_date );
+
+            $args = [
+                'post_title'    => $title,
+
+                'post_content'  => $post_content,
+                'post_excerpt'  => $day['excerpt'],
+                'post_type'  => PORCH_LANDING_POST_TYPE,
+                'post_status'   => 'publish',
+                'post_author'   => get_current_user_id(),
+                'meta_input' => [
+                    PORCH_LANDING_META_KEY => $slug,
+                    'starter_1' => true,
+                    'post_language' => $language,
+                    'day' => $i + 1,
+                ]
+            ];
+
+            $installed[] = wp_insert_post( $args );
+
+        }
+
+        return $installed;
+    }
+
+    public static function content( $language, $names, $from_translation = 'en_US' ) {
+
+        $fields = $names;
         add_filter( 'determine_locale', function ( $locale ) use ( $from_translation ) {
             if ( ! empty( $from_translation ) ) {
                 return $from_translation;
@@ -38,7 +76,7 @@ When attempts are made to mistreat believers [in location] - and even when some 
                 __( '"This is the grand purpose for which we were created: to enjoy the grace of Christ as we spread the gospel of Christ from wherever we live, to the ends of the earth." - David Platt', 'ramadan-2023' ),
             ],
             [
-                __( 'God, we love you! As your Church help us do what it takes to gladden the hearts of [people_name] as they understand that Jesus completely and perfectly made purification for sin, and then you sat down at the right hand of Majesty! (Hebrews 1:3-4)', 'ramadan-2023' ),
+                __( 'God, we love you! As your Church help us do what it takes to gladden the hearts of your people [in location] as they understand that Jesus completely and perfectly made purification for sin, and then you sat down at the right hand of Majesty! (Hebrews 1:3-4)', 'ramadan-2023' ),
                 __( 'Testimony from Senegal.
 "Jane" found herself pregnant as a teenager and so somehow gave her self an abortion.  A few years later, she was pregnant again.  This time she decided to keep the baby, but in order to avoid shaming the family, her parents forced her to abort.  She was 5 months along, and the baby was born alive.  Her mother showed her the baby, and then buried it alive.  And Jane lived in the grief and anger and bitterness that followed this event.
 
@@ -55,12 +93,8 @@ When the church [in location] is persecuted, and even when followers of Jesus ar
 
         function ramadan_format_message( $message, $fields ) {
             $message = make_clickable( $message );
-            $message = str_replace( '[people_singular_masculine]', !empty( $fields['people_singular_masculine'] ) ? $fields['people_singular_masculine'] : '[people_singular_masculine]', $message );
-            $message = str_replace( '[people_singular_feminine]', !empty( $fields['people_singular_feminine'] ) ? $fields['people_singular_feminine'] : '[people_singular_feminine]', $message );
-            $message = str_replace( '[people_plural_masculine]', !empty( $fields['people_plural_masculine'] ) ? $fields['people_plural_masculine'] : '[people_plural_masculine]', $message );
-            $message = str_replace( '[people_plural_feminine]', !empty( $fields['people_plural_feminine'] ) ? $fields['people_plural_feminine'] : '[people_plural_feminine]', $message );
-            $message = str_replace( '[people_name]', !empty( $fields['people_name'] ) ? $fields['people_name'] : '[people_name]', $message );
-            $message = str_replace( '[location_name]', !empty( $fields['location_name'] ) ? $fields['location_name'] : '[location_name]', $message );
+            $message = str_replace( '[in location]', !empty( $fields['in_location'] ) ? $fields['in_location'] : '[in location]', $message );
+            $message = str_replace( '[of location]', !empty( $fields['of_location'] ) ? $fields['of_location'] : '[of location]', $message );
             return $message;
         }
 
@@ -71,7 +105,7 @@ When the church [in location] is persecuted, and even when followers of Jesus ar
                 'excerpt' => wp_kses_post( ramadan_format_message( $d[0], $fields ) ),
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
-                    '<h3><strong>' . __( 'PRAISE', 'ramadan-2023' ) . '</strong></h3>',
+                    '<h3><strong>' . __( 'Our Treasure in Jesus', 'ramadan-2023' ) . '</strong></h3>',
                     '<!-- /wp:heading -->',
 
                     '<!-- wp:paragraph -->',
@@ -79,7 +113,7 @@ When the church [in location] is persecuted, and even when followers of Jesus ar
                     '<!-- /wp:paragraph -->',
 
                     '<!-- wp:heading {"level":3} -->',
-                    '<h3><strong>' . __( 'KINGDOM COME', 'ramadan-2023' ) . '</strong></h3>',
+                    '<h3><strong>' . __( 'Testimonies from around the world', 'ramadan-2023' ) . '</strong></h3>',
                     '<!-- /wp:heading -->',
 
                     '<!-- wp:paragraph -->',
@@ -87,7 +121,7 @@ When the church [in location] is persecuted, and even when followers of Jesus ar
                     '<!-- /wp:paragraph -->',
 
                     '<!-- wp:heading {"level":3} -->',
-                    '<h3><strong>' . __( 'PRAY THE BOOK OF ACTS', 'ramadan-2023' ) . '</strong></h3>',
+                    '<h3><strong>' . __( 'Biblical Prayers', 'ramadan-2023' ) . '</strong></h3>',
                     '<!-- /wp:heading -->',
 
                     '<!-- wp:paragraph -->',
@@ -95,7 +129,7 @@ When the church [in location] is persecuted, and even when followers of Jesus ar
                     '<!-- /wp:paragraph -->',
 
                     '<!-- wp:heading {"level":3} -->',
-                    '<h3><strong>' . __( 'PRAY THE HALL OF FAITH', 'ramadan-2023' ) . '</strong></h3>',
+                    '<h3><strong>' . __( 'Prayer walk', 'ramadan-2023' ) . '</strong></h3>',
                     '<!-- /wp:heading -->',
 
                     '<!-- wp:paragraph -->',
@@ -103,7 +137,7 @@ When the church [in location] is persecuted, and even when followers of Jesus ar
                     '<!-- /wp:paragraph -->',
 
                     '<!-- wp:heading {"level":3} -->',
-                    '<h3><strong>' . __( 'PRAYER', 'ramadan-2023' ) . '</strong></h3>',
+                    '<h3><strong>' . __( 'Missional Quotes', 'ramadan-2023' ) . '</strong></h3>',
                     '<!-- /wp:heading -->',
 
                     '<!-- wp:paragraph -->',
