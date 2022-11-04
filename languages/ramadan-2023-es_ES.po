@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Disciple.Tools - Ramadan 2023 0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ramadan-2023\n"
-"POT-Creation-Date: 2022-11-03T15:42:57+00:00\n"
+"POT-Creation-Date: 2022-11-04T12:54:23+00:00\n"
 "PO-Revision-Date: 2022-11-03 16:03+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Spanish <https://translate.disciple.tools/projects/"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Generator: Weblate 4.14.1\n"
 "X-Domain: ramadan-2023\n"
 
-#: admin/admin-menu-and-tabs.php:183
+#: admin/admin-menu-and-tabs.php:188
 #, fuzzy
 msgid ""
 "Jesus, give the church [in location] grace to cherish your name above all "
@@ -26,7 +26,7 @@ msgstr ""
 "Jesús, dale a la iglesia [en el lugar] gracia para apreciar tu nombre por "
 "encima de todo"
 
-#: admin/admin-menu-and-tabs.php:193
+#: admin/admin-menu-and-tabs.php:198
 #, fuzzy
 msgid "let the people [of location] grasp the Good News"
 msgstr "que la gente [del lugar] capte las Buenas Nuevas"
