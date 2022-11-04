@@ -61,7 +61,7 @@ class P4_Ramadan_2023_Content {
             return $locale;
         }, 1001, 1 );
         if ( $from_translation !== 'en_US' ){
-            load_plugin_textdomain( 'ramadan-2023', false, trailingslashit( dirname( plugin_basename( __FILE__ ), 2 ) ). 'support/languages' );
+            load_plugin_textdomain( 'ramadan-2023', false, trailingslashit( dirname( plugin_basename( __FILE__ ), 2 ) ) . 'languages' );
         }
 
         $data = [
@@ -147,9 +147,5 @@ When the church [in location] is persecuted, and even when followers of Jesus ar
             ];
         }
         return $content;
-    }
-
-    public function install_fuel(){
-
     }
 }

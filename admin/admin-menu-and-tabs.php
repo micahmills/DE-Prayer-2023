@@ -79,9 +79,7 @@ class Ramadan_2023_Tab_General {
         $languages_manager = new DT_Campaign_Languages();
         $languages = $languages_manager->get_enabled_languages();
 
-        $fields = DT_Porch_Settings::fields();
         $translations = [];
-        $dir = Ramadan_2023::$plugin_dir;
         $installed_languages = get_available_languages( Ramadan_2023::$plugin_dir .'languages/' );
         foreach ( $installed_languages as $language ) {
             $mo = new MO();
@@ -110,7 +108,9 @@ class Ramadan_2023_Tab_General {
         }
 
         ?>
-        <!-- Box -->
+
+
+
         <table class="widefat striped">
             <thead>
                 <tr>
@@ -120,39 +120,49 @@ class Ramadan_2023_Tab_General {
             <tbody>
                 <tr>
                     <td>
+                        <p>
+                            This is the prayer fuel created for the Ramadan 2023 campaign.
+                        </p>
+                        <p>
+                            Installing prayer fuel will create a post for each day. They will be visible here:
+                            <a href="<?php echo esc_html( home_url( 'prayer/list' ) ); ?>" target="_blank">Prayer Fuel List</a>
+                        </p>
+                        <p>
+                            The prayer fuel is available in multiple languages. Want to help with the translation join us here:
+                            <a href="https://translate.disciple.tools/projects/pray4movement/ramadan-2023/" target="_blank">Ramadan 2023 Prayer Fuel</a>
+                        </p>
                         <table class="">
                             <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Actions</th>
-                                <th>Installed Posts</th>
-                                <th>Delete All</th>
-                            </tr>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Install</th>
+                                    <th>Install in English</th>
+                                    <th>Installed Posts</th>
+                                    <th>Delete All</th>
+                                </tr>
                             </thead>
                             <tbody>
 
-                            <style>
-                                .disabled-language {
-                                    background-color: darkgrey;
-                                }
-                                .widefat .disabled-language td {
-                                    color: white;
-                                }
-                            </style>
-
-                            <?php foreach ( $languages as $code => $language ): ?>
+                            <?php foreach ( $languages as $code => $language ):
+                                $fuel_available = $code === 'en_US' || isset( $translations['ramadan-2023-' . $code] );
+                                ?>
 
                                 <tr class="<?php echo $language['enabled'] === false ? 'disabled-language' : '' ?>">
                                     <td><?php echo esc_html( $language['flag'] ) ?> <?php echo esc_html( $language['english_name'] ) ?></td>
                                     <td>
-                                        <button class="button install-ramadan-content" value="<?php echo esc_html( $code ) ?>">
-                                            Install
+                                        <button class="button install-ramadan-content" value="<?php echo esc_html( $code ) ?>" <?php disabled( !$fuel_available ) ?>>
+                                            Install prayer fuel in <?php echo esc_html( $language['flag'] ) ?>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button class="button install-ramadan-content" value="en_US" <?php disabled( ( $installed_langs[$code] ?? 0 ) > 0 ) ?> >
+                                            Install prayer fuel in English
                                         </button>
                                     </td>
                                     <td><?php echo esc_html( $installed_langs[$code] ?? 0 ); ?></td>
                                     <td>
-                                        <button class="button">
-                                            Delete
+                                        <button class="button delete-ramadan-content" value="<?php echo esc_html( $code ) ?>" <?php disabled( ( $installed_langs[$code] ?? 0 ) === 0 ) ?>>
+                                            Delete all prayer fuel in <?php echo esc_html( $language['flag'] ) ?>
                                         </button>
                                     </td>
 
@@ -164,49 +174,52 @@ class Ramadan_2023_Tab_General {
 
                     </td>
                 </tr>
-                <tr id="ramadan-install-row" style="display: none">
-                    <td>
-
-                    </td>
-                </tr>
             </tbody>
         </table>
         <div id="ramadan-dialog" title="Install Prayer Fuel">
             <form id="ramadan-install-form">
-            <h3>Install Ramadan Prayer Fuel for <span class="ramadan-new-language">French</span></h3>
+                <h3>Install Ramadan Prayer Fuel in <span class="ramadan-new-language">French</span></h3>
 
-            <p>The Ramadan has some placeholder text that needs to be replaced.</p>
+                <p>The Ramadan has some placeholder text that needs to be replaced.</p>
 
-            <h4>1. Replacing: [in location]</h4>
-            <div style="margin-inline-start: 50px">
-                <p>
-                    <strong>Example Sentence:</strong> <span id="ramadan-in-location"><?php esc_html_e( 'Jesus, give the church [in location] grace to cherish your name above all else', 'ramadan-2023' ); ?></span>
-                </p>
-                <p>
-                    [in location] should be replaced with: <input id="ramadan-in-location-input" type="text" placeholder="en France" required>
-                </p>
-            </div>
+                <h4>1. Replacing: [in location]</h4>
+                <div style="margin-inline-start: 50px">
+                    <p>
+                        <strong>Example Sentence:</strong> <span id="ramadan-in-location"><?php esc_html_e( 'Jesus, give the church [in location] grace to cherish your name above all else', 'ramadan-2023' ); ?></span>
+                    </p>
+                    <p>
+                        [in location] should be replaced with: <input id="ramadan-in-location-input" type="text" placeholder="en France" required>
+                    </p>
+                </div>
 
-            <h4>2. Replacing: [of location]</h4>
-            <div style="margin-inline-start: 50px">
-                <p>
-                    <strong>Example Sentence:</strong> <span id="ramadan-of-location"><?php esc_html_e( 'let the people [of location] grasp the Good News', 'ramadan-2023' ); ?></span>
-                </p>
-                <p>
-                    [of location] should be replaced with: <input id="ramadan-of-location-input" type="text" placeholder="de la France" required>
-                </p>
-            </div>
+                <h4>2. Replacing: [of location]</h4>
+                <div style="margin-inline-start: 50px">
+                    <p>
+                        <strong>Example Sentence:</strong> <span id="ramadan-of-location"><?php esc_html_e( 'let the people [of location] grasp the Good News', 'ramadan-2023' ); ?></span>
+                    </p>
+                    <p>
+                        [of location] should be replaced with: <input id="ramadan-of-location-input" type="text" placeholder="de la France" required>
+                    </p>
+                </div>
 
-            <p>
-                This will create a post for each of the 30 days of Ramadan.
-            </p>
-            <button class="button" type="submit" id="ramadan-install-language">
-                Install Prayer Fuel in <span class="ramadan-new-language">French</span> <img id="ramadan-install-spinner" style="height:15px; vertical-align: middle; display: none" src="<?php echo esc_html( get_template_directory_uri() . '/spinner.svg' ) ?>"/>
-            </button>
-            <p>
-<!--                Please review the posts here: link @todo-->
-            </p>
+                <p>
+                    This will create a post for each of the 30 days of Ramadan.
+                </p>
+                <button class="button" type="submit" id="ramadan-install-language">
+                    Install Prayer Fuel in <span class="ramadan-new-language">French</span> <img id="ramadan-install-spinner" style="height:15px; vertical-align: middle; display: none" src="<?php echo esc_html( get_template_directory_uri() . '/spinner.svg' ) ?>"/>
+                </button>
+                <p>
+    <!--                Please review the posts here: link @todo-->
+                </p>
             </form>
+        </div>
+
+        <div id="ramadan-delete-fuel" title="Delete Fuel">
+            <p>Are you sure you want to delete Prayer Fuel in <span class="ramadan-new-language">French</span></p>
+            <button class="button button-primary" id="confirm-ramadan-delete">Delete
+                <img id="ramadan-delete-spinner" style="height:15px; vertical-align: middle; display: none" src="<?php echo esc_html( get_template_directory_uri() . '/spinner.svg' ) ?>"/>
+            </button>
+            <button class="button" id="ramadan-close-delete">Cancel</button>
         </div>
 
         <script type="application/javascript">
@@ -216,6 +229,8 @@ class Ramadan_2023_Tab_General {
             jQuery(document).ready(function ($){
                 let code = null;
                 $( "#ramadan-dialog" ).dialog({ autoOpen: false, minWidth: 600 });
+                $( "#ramadan-delete-fuel" ).dialog({ autoOpen: false });
+
                 $('.install-ramadan-content').on('click', function (){
                     $( "#ramadan-dialog" ).dialog( "open" );
                     code = $(this).val();
@@ -251,10 +266,36 @@ class Ramadan_2023_Tab_General {
                             lang: code,
                         })
                     }).then(()=>{
-                        $('#ramadan-install-spinner').hide()
+                        // $('#ramadan-install-spinner').hide()
                         window.location.reload()
                     })
+                })
 
+                let delete_code = null
+                $('.delete-ramadan-content').on('click', function (){
+                    $( "#ramadan-delete-fuel" ).dialog( "open" );
+                    delete_code = $(this).val();
+                })
+                $('#ramadan-close-delete').on('click', function (){
+                    $( "#ramadan-delete-fuel" ).dialog( "close" );
+                })
+                $('#confirm-ramadan-delete').on('click', function (){
+                    $('#ramadan-delete-spinner').show()
+                    $.ajax({
+                        type: 'POST',
+                        contentType: 'application/json; charset=utf-8',
+                        dataType: 'json',
+                        url: "<?php echo esc_url( rest_url() ) ?>ramadan-2023/delete",
+                        beforeSend: (xhr) => {
+                            xhr.setRequestHeader("X-WP-Nonce",'<?php echo esc_attr( wp_create_nonce( 'wp_rest' ) ) ?>');
+                        },
+                        data: JSON.stringify({
+                            lang: delete_code,
+                        })
+                    }).then(()=>{
+                        // $('#ramadan-delete-spinner').hide()
+                        window.location.reload()
+                    })
                 })
             })
 
