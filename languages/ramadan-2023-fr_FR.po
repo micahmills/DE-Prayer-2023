@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Disciple Tools - Ramadan 2023\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ramadan-2023\n"
-"POT-Creation-Date: 2022-11-03T15:35:15+00:00\n"
-"PO-Revision-Date: 2022-11-03 15:39+0000\n"
+"POT-Creation-Date: 2022-11-04T12:54:23+00:00\n"
+"PO-Revision-Date: 2022-11-07 15:27+0000\n"
 "Last-Translator: Corsacca <corsacca@gmail.com>\n"
 "Language-Team: French <https://translate.disciple.tools/projects/"
 "pray4movement/ramadan-2023/fr_FR/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SearchPathExcluded-1: */libraries/*\n"
 
-#: admin/admin-menu-and-tabs.php:183
+#: admin/admin-menu-and-tabs.php:188
 msgid ""
 "Jesus, give the church [in location] grace to cherish your name above all "
 "else"
@@ -32,7 +32,7 @@ msgstr ""
 "Jesus, done à l'Eglise [in location] la grâce de chérir ton nom par-dessus "
 "tout"
 
-#: admin/admin-menu-and-tabs.php:193
+#: admin/admin-menu-and-tabs.php:198
 msgid "let the people [of location] grasp the Good News"
 msgstr "Laisse les personnes [of location] saissir la Bonne Nouvelle"
 
@@ -48,7 +48,6 @@ msgstr ""
 "1:3)"
 
 #: admin/prayer-field-content.php:70
-#, fuzzy
 msgid ""
 "\"I am twenty-four and from Tunisia. I had a lot of debt and owed a lot of "
 "people and the government money. I asked myself, \"Why don't I ask God to "
@@ -63,22 +62,22 @@ msgid ""
 "Pray for spiritual seekers [in location] and all over the Muslim world to "
 "search and discuss the Bible with friends."
 msgstr ""
-"\"J'ai vingt-quatre ans et je viens de Tunisie. J'avais beaucoup de dettes "
-"et je devais de l'argent à beaucoup de gens et au gouvernement. Je me suis "
-"demandé : \"Pourquoi ne demanderais-je pas à Dieu de m'aider ?\" Je ne "
-"demandais pas parce que je ne croyais pas que Dieu m'aiderait. J'ai quitté "
-"l'islam et je me suis dit athée. Mais, il y avait toujours quelque chose en "
-"moi qui disait : \" Il y a un Dieu. \" J'ai commencé à chercher et à "
-"discuter avec mes amis. . A cette époque, nous étions tous désabusés, à la "
-"recherche de la vérité, et certains étaient même devenus chrétiens. Nous "
-"avons tous apporté des informations et partagé les uns avec les autres. "
-"Priez pour nous afin que nous découvrions la vérité ensemble.\n"
+"\"J'ai vingt-quatre ans et je viens de la Tunisie. J'avais beaucoup de "
+"dettes et je devais de l'argent à beaucoup de gens et au gouvernement. Je me "
+"suis demandé : \"Pourquoi ne demanderais-je pas à Dieu de m'aider ?\" La "
+"vérité est que je ne demandais pas parce que je ne croyais pas que Dieu "
+"m'aiderait. J'ai quitté l'islam et je me suis dit athée. Mais, il y avait "
+"toujours quelque chose en moi qui disait : \" Il y a un Dieu. \" J'ai "
+"commencé à chercher et à discuter avec mes amis. A cette époque, nous étions "
+"toutes désabusées, à la recherche de la vérité, et certaines étaient même "
+"devenues chrétiennes. Nous avons toutes apportées de l'information et "
+"partagions les unes avec les autres. Priez pour nous afin que nous "
+"découvrions la vérité ensemble.\n"
 "\n"
 "Priez pour les chercheurs spirituels [in location] et partout dans le monde "
 "musulman pour rechercher et discuter de la Bible avec des amis."
 
 #: admin/prayer-field-content.php:73
-#, fuzzy
 msgid ""
 "“When an attempt was made by both Gentiles and Jews, with their rulers, to "
 "mistreat them and to stone them, they learned of it and fled to Lystra and "
@@ -99,12 +98,10 @@ msgstr ""
 "14:5-7) Seigneur, donne-leur la foi que la persécution ne peut ébranler."
 
 #: admin/prayer-field-content.php:75 admin/prayer-field-content.php:88
-#, fuzzy
 msgid "How does this video lead you to pray"
-msgstr "Comment cette vidéo vous amène-t-elle à prier"
+msgstr "Comment est ce que cette vidéo vous amène-t-elle à prier"
 
 #: admin/prayer-field-content.php:76
-#, fuzzy
 msgid ""
 "\"This is the grand purpose for which we were created: to enjoy the grace of "
 "Christ as we spread the gospel of Christ from wherever we live, to the ends "
@@ -115,20 +112,18 @@ msgstr ""
 "jusqu'aux extrémités de la terre.\" -David Platt"
 
 #: admin/prayer-field-content.php:79
-#, fuzzy
 msgid ""
 "God, we love you! As your Church help us do what it takes to gladden the "
 "hearts of your people [in location] as they understand that Jesus completely "
 "and perfectly made purification for sin, and then you sat down at the right "
 "hand of Majesty! (Hebrews 1:3-4)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour réjouir les cœurs de votre peuple [in location] alors qu'ils "
-"comprennent que Jésus a complètement et parfaitement purifié le péché, puis "
-"vous vous êtes assis à la droite de la Majesté ! (Hébreux 1:3-4)"
+"Dieu, nous t'aimons ! En tant que votre Église, aide-nous à faire ce qu'il "
+"faut pour réjouir les cœurs de ton peuple [in location] alors qu'ils "
+"comprennent que Jésus a complètement et parfaitement purifié le péché et "
+"puis s'est assis à la droite de la Majesté ! (Hébreux 1:3-4)"
 
 #: admin/prayer-field-content.php:80
-#, fuzzy
 msgid ""
 "Testimony from Senegal.\n"
 "\"Jane\" found herself pregnant as a teenager and so somehow gave her self "
@@ -146,8 +141,8 @@ msgid ""
 "search and discuss the Bible with friends."
 msgstr ""
 "Témoignage du Sénégal.\n"
-"\"Jane\" s'est retrouvée enceinte à l'adolescence et s'est donc en quelque "
-"sorte avortée. Quelques années plus tard, elle était de nouveau enceinte. "
+"\"Jane\" s'est retrouvée enceinte à l'adolescence et à avorté d'une manière "
+"ou d'une autre. Quelques années plus tard, elle était de nouveau enceinte. "
 "Cette fois, elle a décidé de garder le bébé, mais pour éviter de faire honte "
 "à la famille, ses parents l'ont forcée à avorter. Elle avait 5 mois et le "
 "bébé est né vivant. Sa mère lui a montré le bébé, puis l'a enterré vivant. "
@@ -162,7 +157,6 @@ msgstr ""
 "musulman pour rechercher et discuter de la Bible avec des amis."
 
 #: admin/prayer-field-content.php:86
-#, fuzzy
 msgid ""
 "“So Peter was kept in prison, but earnest prayer for him was made to God by "
 "the church.” (Acts 12:5 ESV).\n"
@@ -171,46 +165,40 @@ msgid ""
 "prayer. (Acts 12:5) Lord Jesus, deepen the faith and sustain the dependent "
 "prayers of the church [in location]."
 msgstr ""
-"\"Alors Pierre a été gardé en prison, mais une prière fervente pour lui a "
-"été adressée à Dieu par l'église.\" (Actes 12:5 ESV).\n"
+"\"Pierre donc était gardé dans la prison ; et l'Église ne cessait d'adresser "
+"pour lui des prières à Dieu.\" (Actes 12 :5).\n"
 "Lorsque l'église [in location] est persécutée, et même lorsque les disciples "
 "de Jésus sont emprisonnés, que l'église soit entraînée dans une prière "
-"sincère et persévérante. (Actes 12:5) Seigneur Jésus, approfondis la foi et "
+"sincère et persévérante. (Actes 12 :5) Seigneur Jésus, approfondis la foi et "
 "soutiens les prières dépendantes de l'église [in location]."
 
 #: admin/prayer-field-content.php:89
-#, fuzzy
 msgid ""
 "“There is not a square inch in the whole domain of our human existence over "
 "which Christ, who is Sovereign over all, does not cry, Mine!” - Abraham "
 "Kuyper"
 msgstr ""
 "\"Il n'y a pas un centimètre carré dans tout le domaine de notre existence "
-"humaine sur lequel le Christ, qui est Souverain sur tout, ne crie, Mien !\" "
+"humaine sur lequel le Christ, qui est Souverain sur tout, ne crie, à moi !\" "
 "- Abraham Kuyer"
 
 #: admin/prayer-field-content.php:108
-#, fuzzy
 msgid "Our Treasure in Jesus"
 msgstr "Notre trésor en Jésus"
 
 #: admin/prayer-field-content.php:116
-#, fuzzy
 msgid "Testimonies from around the world"
 msgstr "Témoignages du monde entier"
 
 #: admin/prayer-field-content.php:124
-#, fuzzy
 msgid "Biblical Prayers"
 msgstr "Prières bibliques"
 
 #: admin/prayer-field-content.php:132
-#, fuzzy
 msgid "Prayer walk"
 msgstr "Marche de prière"
 
 #: admin/prayer-field-content.php:140
-#, fuzzy
 msgid "Missional Quotes"
 msgstr "Citations missionnaires"
 
