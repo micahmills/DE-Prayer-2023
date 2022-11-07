@@ -95,7 +95,7 @@ When the church [in location] is persecuted, and even when followers of Jesus ar
             $message = make_clickable( $message );
             $message = str_replace( '[in location]', !empty( $fields['in_location'] ) ? $fields['in_location'] : '[in location]', $message );
             $message = str_replace( '[of location]', !empty( $fields['of_location'] ) ? $fields['of_location'] : '[of location]', $message );
-            return $message;
+            return nl2br( $message );
         }
 
         $content = [];
