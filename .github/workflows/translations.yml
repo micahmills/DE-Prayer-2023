@@ -36,8 +36,7 @@ jobs:
       #######################
       - name: Generate new pot file
         run: >
-              wp i18n make-pot . languages/default.pot  --skip-audit --subtract="languages/terms-to-exclude.pot"
-              --exclude="ramadan-2023.php"
+              wp i18n make-pot . languages/default.pot  --skip-audit --subtract="languages/terms-to-exclude.pot" --exclude="ramadan-2023.php"
       #######################
 
       - name: Check diff output

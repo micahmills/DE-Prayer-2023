@@ -34,7 +34,8 @@ class Ramadan_2023_Endpoints {
             $params['lang'] ?? 'en_US',
             [
                 'in_location' => $params['in_location'] ?? '[in location]',
-                'of_location' => $params['of_location'] ?? '[of location]'
+                'of_location' => $params['of_location'] ?? '[of location]',
+                'ppl_group'   => $params['ppl_group'] ?? '[people group]',
             ]
         );
 

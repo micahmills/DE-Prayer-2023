@@ -188,7 +188,7 @@ class Ramadan_2023_Tab_General {
                         <strong>Example Sentence:</strong> <span id="ramadan-in-location"><?php esc_html_e( 'Jesus, give the church [in location] grace to cherish your name above all else', 'ramadan-2023' ); ?></span>
                     </p>
                     <p>
-                        [in location] should be replaced with: <input id="ramadan-in-location-input" type="text" placeholder="en France" required>
+                        [in location] should be replaced with: <input id="ramadan-in-location-input" type="text" placeholder="in France, en France, etc" required>
                     </p>
                 </div>
 
@@ -198,10 +198,21 @@ class Ramadan_2023_Tab_General {
                         <strong>Example Sentence:</strong> <span id="ramadan-of-location"><?php esc_html_e( 'let the people [of location] grasp the Good News', 'ramadan-2023' ); ?></span>
                     </p>
                     <p>
-                        [of location] should be replaced with: <input id="ramadan-of-location-input" type="text" placeholder="de la France" required>
+                        [of location] should be replaced with: <input id="ramadan-of-location-input" type="text" placeholder="of France, de la France, etc" required>
                     </p>
                 </div>
 
+                <h4>3. Prayer for People Group</h4>
+                <div style="margin-inline-start: 50px">
+                    <p>
+                        <strong>Example Sentence:</strong> <span id="ramadan-people-group"><?php esc_html_e( 'How could this quote inspire you to pray for [people_group]?', 'ramadan-2023' ); ?></span>
+                    </p>
+                    <p>
+                        People Group: <input id="ramadan-people-group-input" type="text" placeholder="the French, les Français, etc" required>
+                    </p>
+                </div>
+
+                <br>
                 <p>
                     This will create a post for each of the 30 days of Ramadan.
                 </p>
@@ -250,6 +261,7 @@ class Ramadan_2023_Tab_General {
                     e.preventDefault()
                     let in_location = $('#ramadan-in-location-input').val();
                     let of_location = $('#ramadan-of-location-input').val();
+                    let ppl_group = $('#ramadan-people-group-input').val();
 
                     $('#ramadan-install-spinner').show()
                     $.ajax({
@@ -263,6 +275,7 @@ class Ramadan_2023_Tab_General {
                         data: JSON.stringify({
                             in_location,
                             of_location,
+                            ppl_group,
                             lang: code,
                         })
                     }).then(()=>{
