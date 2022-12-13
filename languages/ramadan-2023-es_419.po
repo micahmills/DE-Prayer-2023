@@ -1,60 +1,42 @@
+# Copyright (C) 2022 
+# This file is distributed under the same license as the Disciple.Tools - Prayer Campaigns plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Disciple Tools - Ramadan 2023\n"
+"Project-Id-Version: Disciple.Tools - Prayer Campaigns 2.0.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ramadan-2023\n"
 "POT-Creation-Date: 2022-12-13T15:26:53+00:00\n"
-"PO-Revision-Date: 2022-12-13 16:49+0100\n"
-"Last-Translator: Corsacca <corsacca@gmail.com>\n"
-"Language-Team: French <https://translate.disciple.tools/projects/"
-"pray4movement/ramadan-2023/fr_FR/>\n"
-"Language: fr_FR\n"
+"PO-Revision-Date: 2022-12-13 16:50+0100\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Spanish (Latin America) <https://translate.disciple.tools/"
+"projects/disciple-tools/disciple-tools-prayer-campaigns/es_419/>\n"
+"Language: es_419\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 3.2.2\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
-"X-Poedit-WPHeader: ramadan-2023.php\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: *.js\n"
-"X-Poedit-SearchPathExcluded-1: */libraries/*\n"
+"X-Domain: disciple-tools-prayer-campaigns\n"
 
 #: admin/admin-menu-and-tabs.php:188
 msgid ""
 "Jesus, give the church [in location] grace to cherish your name above all "
 "else"
 msgstr ""
-"Jesus, done à l'Eglise [in location] la grâce de chérir ton nom par-dessus "
-"tout"
 
 #: admin/admin-menu-and-tabs.php:198
 msgid "let the people [of location] grasp the Good News"
-msgstr "Laisse les personnes [of location] saissir la Bonne Nouvelle"
+msgstr ""
 
 #: admin/admin-menu-and-tabs.php:208
 msgid "How could this quote inspire you to pray for [people_group]?"
 msgstr ""
 
 #: admin/prayer-field-content.php:70
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] see you through Jesus, the radiance of your glory, the exact "
 "imprint of your nature! (Hebrews 1:3)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:71
 msgid ""
@@ -71,32 +53,8 @@ msgid ""
 "Pray for spiritual seekers [in location] and all over the Muslim world to "
 "search and discuss the Bible with friends."
 msgstr ""
-"\"J'ai vingt-quatre ans et je viens de la Tunisie. J'avais beaucoup de "
-"dettes et je devais de l'argent à beaucoup de gens et au gouvernement. Je me "
-"suis demandé : \"Pourquoi ne demanderais-je pas à Dieu de m'aider ?\" La "
-"vérité est que je ne demandais pas parce que je ne croyais pas que Dieu "
-"m'aiderait. J'ai quitté l'islam et je me suis dit athée. Mais, il y avait "
-"toujours quelque chose en moi qui disait : \" Il y a un Dieu. \" J'ai "
-"commencé à chercher et à discuter avec mes amis. A cette époque, nous étions "
-"toutes désabusées, à la recherche de la vérité, et certaines étaient même "
-"devenues chrétiennes. Nous avons toutes apportées de l'information et "
-"partagions les unes avec les autres. Priez pour nous afin que nous "
-"découvrions la vérité ensemble.\n"
-"\n"
-"Priez pour les chercheurs spirituels [in location] et partout dans le monde "
-"musulman pour rechercher et discuter de la Bible avec des amis."
 
 #: admin/prayer-field-content.php:74
-#, fuzzy
-#| msgid ""
-#| "“When an attempt was made by both Gentiles and Jews, with their rulers, "
-#| "to mistreat them and to stone them, they learned of it and fled to Lystra "
-#| "and Derbe, cities of Lycaonia, and to the surrounding country, and there "
-#| "they continued to preach the gospel.” (Acts 14:5-7).\n"
-#| "When attempts are made to mistreat believers [in location] - and even "
-#| "when some must flee - may they be blessed with the boldness and "
-#| "perseverance to continue to preach the gospel. (Acts 14:5-7) Lord, give "
-#| "them faith that persecution cannot shake."
 msgid ""
 "“When an attempt was made by both Gentiles and Jews, with their rulers, to "
 "mistreat them and to stone them, they learned of it and fled to Lystra and "
@@ -108,14 +66,6 @@ msgid ""
 "continue to preach the gospel. (Acts 14:5-7) Lord, give them faith that "
 "cannot be shaken by persecution.\""
 msgstr ""
-"\"Lorsqu'une tentative a été faite à la fois par les Gentils et les Juifs, "
-"avec leurs dirigeants, de les maltraiter et de les lapider, ils l'ont appris "
-"et se sont enfuis à Lystre et Derbe, villes de Lycaonie, et dans le pays "
-"environnant, et là ils ont continué à prêcher l'Évangile.\" (Actes 14:5-7).\n"
-"Lorsque des tentatives sont faites pour maltraiter les croyants [in "
-"location] - et même lorsque certains doivent fuir - puissent-ils être bénis "
-"avec l'audace et la persévérance pour continuer à prêcher l'évangile. (Actes "
-"14:5-7) Seigneur, donne-leur la foi que la persécution ne peut ébranler."
 
 #: admin/prayer-field-content.php:77 admin/prayer-field-content.php:87
 #: admin/prayer-field-content.php:98 admin/prayer-field-content.php:108
@@ -138,37 +88,19 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:78
-#, fuzzy
-#| msgid ""
-#| "\"This is the grand purpose for which we were created: to enjoy the grace "
-#| "of Christ as we spread the gospel of Christ from wherever we live, to the "
-#| "ends of the earth.\" - David Platt"
 msgid ""
 "\"This is the grand purpose for which we were created: to enjoy the grace of "
 "Christ as we spread the gospel of Christ from wherever we live, to the ends "
 "of the earth.\" - David Platt "
 msgstr ""
-"\"C'est le grand but pour lequel nous avons été créés : jouir de la grâce du "
-"Christ alors que nous répandons l'évangile du Christ partout où nous vivons, "
-"jusqu'aux extrémités de la terre.\" -David Platt"
 
 #: admin/prayer-field-content.php:82
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to gladden the "
-#| "hearts of your people [in location] as they understand that Jesus "
-#| "completely and perfectly made purification for sin, and then you sat down "
-#| "at the right hand of Majesty! (Hebrews 1:3-4)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to gladden the "
 "hearts of your people [in location] as they understand that Jesus completely "
 "and perfectly made purification for sin and then sat down at the right hand "
 "of Majesty! (Hebrews 1:3-4)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aide-nous à faire ce qu'il "
-"faut pour réjouir les cœurs de ton peuple [in location] alors qu'ils "
-"comprennent que Jésus a complètement et parfaitement purifié le péché et "
-"puis s'est assis à la droite de la Majesté ! (Hébreux 1:3-4)"
 
 #: admin/prayer-field-content.php:83
 msgid ""
@@ -185,14 +117,6 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:84
-#, fuzzy
-#| msgid ""
-#| "“So Peter was kept in prison, but earnest prayer for him was made to God "
-#| "by the church.” (Acts 12:5 ESV).\n"
-#| "When the church [in location] is persecuted, and even when followers of "
-#| "Jesus are imprisoned, may the church be drawn into earnest, persevering "
-#| "prayer. (Acts 12:5) Lord Jesus, deepen the faith and sustain the "
-#| "dependent prayers of the church [in location]."
 msgid ""
 "“So Peter was kept in prison, but earnest prayer for him was made to God by "
 "the church.” (Acts 12:5 ESV).\n"
@@ -202,12 +126,6 @@ msgid ""
 "prayer. (Acts 12:5) Lord Jesus, deepen the faith and sustain the dependent "
 "prayers of the church [in location].\""
 msgstr ""
-"\"Pierre donc était gardé dans la prison ; et l'Église ne cessait d'adresser "
-"pour lui des prières à Dieu.\" (Actes 12 :5).\n"
-"Lorsque l'église [in location] est persécutée, et même lorsque les disciples "
-"de Jésus sont emprisonnés, que l'église soit entraînée dans une prière "
-"sincère et persévérante. (Actes 12 :5) Seigneur Jésus, approfondis la foi et "
-"soutiens les prières dépendantes de l'église [in location]."
 
 #: admin/prayer-field-content.php:88
 msgid ""
@@ -215,25 +133,13 @@ msgid ""
 "which Christ, who is Sovereign over all, does not cry, Mine!” - Abraham "
 "Kuyper"
 msgstr ""
-"\"Il n'y a pas un centimètre carré dans tout le domaine de notre existence "
-"humaine sur lequel le Christ, qui est Souverain sur tout, ne crie, à moi !\" "
-"- Abraham Kuyer"
 
 #: admin/prayer-field-content.php:92
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that when Jesus taught us to pray to you "
 "He told us to call you our Father! (Matthew 6:6-14)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:93
 msgid ""
@@ -310,20 +216,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:113
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that we receive grace IN Christ! (1 "
 "Corinthians 1:4)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:114
 msgid ""
@@ -366,20 +263,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:127
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that our redemption is IN Christ! (Romans "
 "3:24)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:128
 msgid ""
@@ -415,20 +303,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:137
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that we are justified IN Christ! "
 "(Galatians 2:17)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:138
 msgid ""
@@ -472,20 +351,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:147
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that we have complete forgiveness of all "
 "our sins IN Christ! (Ephesians 4:32)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:148
 msgid ""
@@ -520,20 +390,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:157
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that there is no condemnation at all IN "
 "Christ! (Romans 8:1)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:158
 msgid ""
@@ -595,20 +456,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:173
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that we are new creations IN Christ! (2 "
 "Corinthians 5:17)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:174
 msgid ""
@@ -648,20 +500,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:183
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that we have eternal life IN Christ! "
 "(Romans 6:23)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:184
 msgid ""
@@ -713,39 +556,13 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:199
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that you supply all our needs IN Christ! "
 "(Philippians 4:19)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:200
-#, fuzzy
-#| msgid ""
-#| "Testimony from Senegal.\n"
-#| "\"Jane\" found herself pregnant as a teenager and so somehow gave her "
-#| "self an abortion.  A few years later, she was pregnant again.  This time "
-#| "she decided to keep the baby, but in order to avoid shaming the family, "
-#| "her parents forced her to abort.  She was 5 months along, and the baby "
-#| "was born alive.  Her mother showed her the baby, and then buried it "
-#| "alive.  And Jane lived in the grief and anger and bitterness that "
-#| "followed this event.\n"
-#| "\n"
-#| "On Thursday night she walked through forgiveness with the team teaching "
-#| "soul care. It was HARD. There were tears, but Jesus brought beautiful "
-#| "freedom to her life.\n"
-#| "\n"
-#| "Pray for spiritual seekers [in location] and all over the Muslim world to "
-#| "search and discuss the Bible with friends."
 msgid ""
 "Jane from Senegal found herself pregnant as a teenager and so somehow gave "
 "her self an abortion. A few years later, she was pregnant again. This time "
@@ -762,21 +579,6 @@ msgid ""
 "find freedom in Jesus as they follow His example in receiving forgiveness "
 "for their sins and extending forgiveness to those who have wronged them."
 msgstr ""
-"Témoignage du Sénégal.\n"
-"\"Jane\" s'est retrouvée enceinte à l'adolescence et à avorté d'une manière "
-"ou d'une autre. Quelques années plus tard, elle était de nouveau enceinte. "
-"Cette fois, elle a décidé de garder le bébé, mais pour éviter de faire honte "
-"à la famille, ses parents l'ont forcée à avorter. Elle avait 5 mois et le "
-"bébé est né vivant. Sa mère lui a montré le bébé, puis l'a enterré vivant. "
-"Et Jane a vécu dans le chagrin, la colère et l'amertume qui ont suivi cet "
-"événement.\n"
-"\n"
-"Jeudi soir, elle a traversé le pardon avec l'équipe enseignant les soins de "
-"l'âme. C'était difficile. Il y avait des larmes, mais Jésus a apporté une "
-"belle liberté dans sa vie.\n"
-"\n"
-"Priez pour les chercheurs spirituels [in location] et partout dans le monde "
-"musulman pour rechercher et discuter de la Bible avec des amis."
 
 #: admin/prayer-field-content.php:205
 msgid ""
@@ -798,20 +600,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:214
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that we have every spiritual blessing of "
 "Heaven IN Christ! (Ephesians 1:3)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:215
 msgid ""
@@ -853,20 +646,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:227
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that we will be presented to you perfect "
 "IN Christ! (Colossians 1:28)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:228
 msgid ""
@@ -905,20 +689,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:237
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that we cannot be separated from your love "
 "IN Christ! (Romans 8:32)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:238
 msgid ""
@@ -953,20 +728,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:249
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that we are one body IN Christ! (Romans "
 "12:5)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:250
 msgid ""
@@ -1004,20 +770,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:263
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that Jesus brought the message of the "
 "Kingdom of Heaven being at hand! (Matthew 4:17)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:264
 msgid ""
@@ -1057,20 +814,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:275
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us to do what it takes to let the "
 "people [of location] grasp the Good News that Jesus has authority even over "
 "all of nature! (Matthew 8:27)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:276
 msgid ""
@@ -1108,20 +856,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:287
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that Jesus was so overwhelmingly superior "
 "to demons that they literally begged Him for mercy! (Matthew 8:31)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:288
 msgid ""
@@ -1174,20 +913,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:301
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that Jesus' message was that He wanted us "
 "to follow Him, the greatest man in the history of the universe! (Matthew 9:9)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:302
 msgid ""
@@ -1223,19 +953,10 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:315
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that Jesus offered us life! (Matthew 10:38)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:316
 msgid ""
@@ -1285,20 +1006,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:333
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church help us do what it takes to let the people "
 "[of location] grasp the Good News that Jesus responded with compassion to "
 "persistent faith! (Matthew 15:28)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:334
 msgid ""
@@ -1333,20 +1045,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:345
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that Jesus had authority over all disease "
 "and disability! (Matthew 15:31)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:346
 msgid ""
@@ -1404,20 +1107,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:364
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church help us do what it takes to let the people "
 "[of location] grasp the Good News that Jesus offered a path to greatness in "
 "the Kingdom that anyone could choose to follow! (Matthew 18:4)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:365
 msgid ""
@@ -1455,22 +1149,12 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:376
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to gladden the "
-#| "hearts of your people [in location] as they understand that Jesus "
-#| "completely and perfectly made purification for sin, and then you sat down "
-#| "at the right hand of Majesty! (Hebrews 1:3-4)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that Jesus knowingly took one step after "
 "another toward Jerusalem knowing He would be condemned to death, mocked, "
 "flogged, crucified and then be raised on the third day! (Matthew 20:19)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aide-nous à faire ce qu'il "
-"faut pour réjouir les cœurs de ton peuple [in location] alors qu'ils "
-"comprennent que Jésus a complètement et parfaitement purifié le péché et "
-"puis s'est assis à la droite de la Majesté ! (Hébreux 1:3-4)"
 
 #: admin/prayer-field-content.php:377
 msgid ""
@@ -1510,20 +1194,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:386
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that Jesus taught that for God those who "
 "have died are alive! (Matthew 22:32)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:387
 msgid ""
@@ -1567,20 +1242,11 @@ msgid "“Put legs to your prayers” – Ray Comfort"
 msgstr ""
 
 #: admin/prayer-field-content.php:398
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that Jesus invited us to make you the "
 "center of our love and affection! (Matthew 22:37-40)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:399
 msgid ""
@@ -1625,20 +1291,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:410
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church help us do what it takes to let the people "
 "[of location] grasp the Good News that Jesus is coming back like lightning! "
 "(Matthew 24:27)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:411
 msgid ""
@@ -1680,20 +1337,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:422
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that Jesus will bless those who are "
 "faithful in this life! (Matthew 24:47)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:423
 msgid ""
@@ -1744,20 +1392,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:437
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that Jesus eagerly awaits the Kingdom to "
 "drink wine with us! (Matthew 26:29)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:438
 msgid ""
@@ -1801,20 +1440,11 @@ msgid ""
 msgstr ""
 
 #: admin/prayer-field-content.php:449
-#, fuzzy
-#| msgid ""
-#| "God, we love you! As your Church help us do what it takes to let the "
-#| "people [of location] see you through Jesus, the radiance of your glory, "
-#| "the exact imprint of your nature! (Hebrews 1:3)"
 msgid ""
 "God, we love you! As your Church, help us do what it takes to let the people "
 "[of location] grasp the Good News that Jesus will be seated at the right "
 "hand of Power and come on the clouds of Heaven! (Matthew 26:64)"
 msgstr ""
-"Dieu, nous t'aimons ! En tant que votre Église, aidez-nous à faire ce qu'il "
-"faut pour que les gens [of location] vous voient à travers Jésus, le "
-"rayonnement de votre gloire, l'empreinte exacte de votre nature ! (Hébreux "
-"1:3)"
 
 #: admin/prayer-field-content.php:450
 msgid ""
@@ -1859,54 +1489,780 @@ msgstr ""
 
 #: admin/prayer-field-content.php:487
 msgid "Our Treasure in Jesus"
-msgstr "Notre trésor en Jésus"
+msgstr ""
 
 #: admin/prayer-field-content.php:495
-#, fuzzy
-#| msgid "Testimonies from around the world"
 msgid "Testimonies from Around the World"
-msgstr "Témoignages du monde entier"
+msgstr ""
 
 #: admin/prayer-field-content.php:503
 msgid "Biblical Prayers"
-msgstr "Prières bibliques"
+msgstr ""
 
 #: admin/prayer-field-content.php:511
 #, fuzzy
-#| msgid "Prayer walk"
 msgid "Prayer Walk"
-msgstr "Marche de prière"
+msgstr "Combustible de oración"
 
 #: admin/prayer-field-content.php:520
-#, fuzzy
-#| msgid "Missional Quotes"
 msgid "Inspirational Quotes"
-msgstr "Citations missionnaires"
+msgstr ""
 
 #: admin/prayer-field-content.php:525
 msgid ""
 "How could this quote inspire you to pray for [people_group]? For yourself?"
 msgstr ""
 
-#~ msgid "How does this video lead you to pray"
-#~ msgstr "Comment est ce que cette vidéo vous amène-t-elle à prier"
+#, fuzzy
+#~ msgctxt ""
+#~ "Click here to see the prayer prompts for today: link-html-code-here"
+#~ msgid "Click here to see the prayer prompts for today: %s"
+#~ msgstr "Haga clic aquí para ver las indicaciones de oración para hoy: %s"
 
 #, fuzzy
-#~ msgid "PRAISE"
-#~ msgstr "LOUER"
+#~ msgid "Prayer Time reminder!"
+#~ msgstr "¡Recordatorio del tiempo de oración!"
 
 #, fuzzy
-#~ msgid "KINGDOM COME"
-#~ msgstr "RÈGNE VIENNE"
+#~ msgctxt "August 18, 2021 from 03:15 am to 03:30 am for Tokyo, Japan"
+#~ msgid "%1$s from %2$s to %3$s"
+#~ msgstr "%1$s de %2$s a %3$s"
 
 #, fuzzy
-#~ msgid "PRAY THE BOOK OF ACTS"
-#~ msgstr "PRIEZ LE LIVRE DES ACTES"
+#~ msgctxt "for Paris, France"
+#~ msgid "for %s"
+#~ msgstr "para %s"
 
 #, fuzzy
-#~ msgid "PRAY THE HALL OF FAITH"
-#~ msgstr "PRIEZ LA SALLE DE LA FOI"
+#~ msgid "Hello %s,"
+#~ msgstr "Hola %s,"
 
 #, fuzzy
-#~ msgid "PRAYER"
-#~ msgstr "PRIÈRE"
+#~ msgid "Thank you for praying with us!"
+#~ msgstr "¡Gracias por orar con nosotros!"
+
+#, fuzzy
+#~ msgid "Here are your upcoming prayer times:"
+#~ msgstr "Aquí están sus próximos tiempos de oración:"
+
+#, fuzzy
+#~ msgid "Times are shown according to: %s time"
+#~ msgstr "Los tiempos se muestran según: %s tiempo"
+
+#, fuzzy
+#~ msgid "Click here to manage your account and time commitments"
+#~ msgstr "Haga clic aquí para administrar su cuenta y compromisos de tiempo"
+
+#, fuzzy
+#~ msgid "Registered to pray with us!"
+#~ msgstr "Registrado para orar con nosotros!"
+
+#, fuzzy
+#~ msgid ""
+#~ "Thank you for joining us in strategic prayer for a disciple making "
+#~ "movement! You're one click away from finishing your registration."
+#~ msgstr ""
+#~ "¡Gracias por unirse a nosotros en oración estratégica por un movimiento "
+#~ "de hacer discípulos! Estás a un clic de finalizar tu registro."
+
+#, fuzzy
+#~ msgid ""
+#~ "Click here to verify your email address and confirm your prayer times:"
+#~ msgstr ""
+#~ "Haga clic aquí para verificar su dirección de correo electrónico y "
+#~ "confirmar sus tiempos de oración."
+
+#, fuzzy
+#~ msgid "Verify your account"
+#~ msgstr "Verifica tu cuenta"
+
+#, fuzzy
+#~ msgid "Here are the times you have committed to pray:"
+#~ msgstr "Estos son los tiempos en los que te has comprometido a orar:"
+
+#, fuzzy
+#~ msgid "Registration Confirmation"
+#~ msgstr "confirmación de registro"
+
+#, fuzzy
+#~ msgid "Thank you for signing up to pray!"
+#~ msgstr "¡Gracias por apuntarte a orar!"
+
+#, fuzzy
+#~ msgid ""
+#~ "We have some time before the campaign starts. We will send you another "
+#~ "email a couple months before the first day asking you to choose specific "
+#~ "times to pray. Working together we will cover the region in 24/7 prayer."
+#~ msgstr ""
+#~ "Tenemos algo de tiempo antes de que comience la campaña. Le enviaremos "
+#~ "otro correo electrónico un par de meses antes del primer día para pedirle "
+#~ "que elija momentos específicos para orar. Trabajando juntos cubriremos la "
+#~ "región en oración 24/7."
+
+#, fuzzy
+#~ msgid "If you know your schedule already you can choose your times here:"
+#~ msgstr "Si ya conoce su horario, puede elegir sus horarios aquí:"
+
+#, fuzzy
+#~ msgid ""
+#~ "You are 2 weeks out for your last prayer time. Would you like to keep "
+#~ "praying?"
+#~ msgstr ""
+#~ "Faltan 2 semanas para su último tiempo de oración. ¿Te gustaría seguir "
+#~ "orando?"
+
+#, fuzzy
+#~ msgid "Sign up for more prayer times or extend your recurring time here:"
+#~ msgstr ""
+#~ "Regístrese para más tiempos de oración o extienda su tiempo recurrente "
+#~ "aquí:"
+
+#, fuzzy
+#~ msgid "Thank you"
+#~ msgstr "Gracias"
+
+#, fuzzy
+#~ msgid "5 minutes"
+#~ msgstr "5 minutos"
+
+#, fuzzy
+#~ msgid "10 minutes"
+#~ msgstr "10 minutos"
+
+#, fuzzy
+#~ msgid "15 minutes"
+#~ msgstr "15 minutos"
+
+#, fuzzy
+#~ msgid "30 minutes"
+#~ msgstr "30 minutos"
+
+#, fuzzy
+#~ msgid "1 hour"
+#~ msgstr "1 hora"
+
+#, fuzzy
+#~ msgid "My Prayer Times"
+#~ msgstr "Mis tiempos de oración"
+
+#, fuzzy
+#~ msgid "Select a time"
+#~ msgstr "Selecciona una hora"
+
+#, fuzzy
+#~ msgid "fully covered once"
+#~ msgstr "completamente cubierto una vez"
+
+#, fuzzy
+#~ msgid "fully covered %1$s times"
+#~ msgstr "totalmente cubierto %1$s veces"
+
+#, fuzzy
+#~ msgctxt "Monday 5pm for 15 minutes"
+#~ msgid "%1$s for %2$s minutes."
+#~ msgstr "%1$s por %2$s minutos."
+
+#, fuzzy
+#~ msgid "Extend for 3 months"
+#~ msgstr "Extender por 3 meses"
+
+#, fuzzy
+#~ msgid "Change daily time"
+#~ msgstr "Cambiar la hora diaria"
+
+#, fuzzy
+#~ msgid "Your prayer times have been verified!"
+#~ msgstr "¡Tus tiempos de oración han sido verificados!"
+
+#, fuzzy
+#~ msgid "Change your timezone:"
+#~ msgstr "Cambia tu zona horaria:"
+
+#, fuzzy
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
+
+#~ msgid "Select"
+#~ msgstr "Seleccionar"
+
+#, fuzzy
+#~ msgid "Add a Daily Prayer Time"
+#~ msgstr "Agregar un tiempo de oración diario"
+
+#, fuzzy
+#~ msgid "Add Individual Prayer Times"
+#~ msgstr "Agregar tiempos de oración individuales"
+
+#, fuzzy
+#~ msgid "Download Calendar"
+#~ msgstr "Descargar Calendario"
+
+#, fuzzy
+#~ msgid "My commitments"
+#~ msgstr "mis compromisos"
+
+#, fuzzy
+#~ msgid "Prayer Time"
+#~ msgstr "Hora de rezar"
+
+#, fuzzy
+#~ msgid "Daily Time"
+#~ msgstr "Hora diaria"
+
+#, fuzzy
+#~ msgid "For how long"
+#~ msgstr "Por cuánto tiempo"
+
+#, fuzzy
+#~ msgid "Your new prayer times have been saved."
+#~ msgstr "Tus nuevos tiempos de oración han sido guardados."
+
+#, fuzzy
+#~ msgid "Confirm Times"
+#~ msgstr "Confirmar tiempos"
+
+#, fuzzy
+#~ msgid "ok"
+#~ msgstr "OK"
+
+#~ msgid "Close"
+#~ msgstr "Cerrar"
+
+#, fuzzy
+#~ msgid "Select a day and choose a time"
+#~ msgstr "Seleccione un día y elija una hora"
+
+#, fuzzy
+#~ msgid "Select a prayer time"
+#~ msgstr "Seleccione un tiempo de oración"
+
+#, fuzzy
+#~ msgid "Add prayer time"
+#~ msgstr "Agregar tiempo de oración"
+
+#, fuzzy
+#~ msgid "Time added"
+#~ msgstr "Hora añadida"
+
+#, fuzzy
+#~ msgid "Selected Times"
+#~ msgstr "Horarios seleccionados"
+
+#, fuzzy
+#~ msgid "No selected Time"
+#~ msgstr "Sin hora seleccionada"
+
+#, fuzzy
+#~ msgid "Back"
+#~ msgstr "Volver"
+
+#, fuzzy
+#~ msgid "Choose a different time:"
+#~ msgstr "Elige otro horario:"
+
+#, fuzzy
+#~ msgid "Delete all"
+#~ msgstr "Eliminar todos"
+
+#~ msgid "Confirm"
+#~ msgstr "Confirmar"
+
+#, fuzzy
+#~ msgid "Extend"
+#~ msgstr "Extender"
+
+#, fuzzy
+#~ msgid "Extend my prayer commitments until:"
+#~ msgstr "Extender mis compromisos de oración hasta que:"
+
+#, fuzzy
+#~ msgid "Profile Settings"
+#~ msgstr "Configuración de perfil"
+
+#, fuzzy
+#~ msgid "Receive prayer time notifications"
+#~ msgstr "Recibir notificaciones de tiempo de oración"
+
+#, fuzzy
+#~ msgid "Notifications allowed"
+#~ msgstr "Notificaciones permitidas"
+
+#, fuzzy
+#~ msgid "Notifications not allowed"
+#~ msgstr "Notificaciones no permitidas"
+
+#, fuzzy
+#~ msgid "Advanced Settings"
+#~ msgstr "Ajustes avanzados"
+
+#, fuzzy
+#~ msgid "Delete this profile and all the scheduled prayer times?"
+#~ msgstr "¿Eliminar este perfil y todos los tiempos de oración programados?"
+
+#, fuzzy
+#~ msgid "Delete"
+#~ msgstr "Eliminar"
+
+#, fuzzy
+#~ msgid "Are you sure you want to delete your profile?"
+#~ msgstr "¿Está seguro de que desea eliminar su perfil?"
+
+#, fuzzy
+#~ msgid "This can not be undone."
+#~ msgstr "Esto no se puede deshacer."
+
+#, fuzzy
+#~ msgid "This subscription has ended or is not configured correctly."
+#~ msgstr "Esta suscripción ha finalizado o no está configurada correctamente."
+
+#, fuzzy
+#~ msgid "Name"
+#~ msgstr "Nombre"
+
+#, fuzzy
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#, fuzzy
+#~ msgid "Your email is required."
+#~ msgstr "Su correo electrónico es requerido."
+
+#, fuzzy
+#~ msgid "Receive Prayer Time Notifications (email verification needed)."
+#~ msgstr ""
+#~ "Reciba notificaciones de tiempo de oración (se necesita verificación de "
+#~ "correo electrónico)."
+
+#, fuzzy
+#~ msgid "Receive Pray4Movement Newsletter (email verification needed)."
+#~ msgstr ""
+#~ "Reciba el boletín informativo de Pray4Movement (se necesita verificación "
+#~ "de correo electrónico)."
+
+#, fuzzy
+#~ msgid "Submit Your Prayer Commitment"
+#~ msgstr "Envíe su compromiso de oración"
+
+#, fuzzy
+#~ msgid "Strategic prayer for a Disciple Making Movement"
+#~ msgstr "Oración estratégica por un movimiento de hacer discípulos"
+
+#, fuzzy
+#~ msgid "Our Vision"
+#~ msgstr "Nuestra visión"
+
+#, fuzzy
+#~ msgid "We want to cover this region with continuous 24/7 prayer."
+#~ msgstr "Queremos cubrir esta región con oración continua 24/7."
+
+#, fuzzy
+#~ msgid "Extraordinary Prayer"
+#~ msgstr "Oración Extraordinaria"
+
+#, fuzzy
+#~ msgid ""
+#~ "Every disciple making movement in history has happened in the context of "
+#~ "extraordinary prayer."
+#~ msgstr ""
+#~ "Cada movimiento de hacer discípulos en la historia ha ocurrido en el "
+#~ "contexto de una oración extraordinaria."
+
+#, fuzzy
+#~ msgid "Movement Focused"
+#~ msgstr "Movimiento enfocado"
+
+#, fuzzy
+#~ msgid ""
+#~ "Join us in asking, seeking, and knocking for streams of disciples and "
+#~ "churches to be made."
+#~ msgstr ""
+#~ "Únase a nosotros para pedir, buscar y tocar para que se formen corrientes "
+#~ "de discípulos e iglesias."
+
+#, fuzzy
+#~ msgid "24/7 Every Day"
+#~ msgstr "24/7 todos los días"
+
+#, fuzzy
+#~ msgid ""
+#~ "Choose a 15-minute (or more!) time slot that you can pray during each "
+#~ "day. Invite someone else to sign up too."
+#~ msgstr ""
+#~ "Elija un intervalo de tiempo de 15 minutos (¡o más!) en el que pueda orar "
+#~ "durante cada día. Invita a alguien más a registrarse también."
+
+#, fuzzy
+#~ msgid "Use these resources to help pray specifically each day."
+#~ msgstr "Use estos recursos para ayudar a orar específicamente cada día."
+
+#, fuzzy
+#~ msgid "Today's Prayer Fuel"
+#~ msgstr "Combustible de oración de hoy"
+
+#, fuzzy
+#~ msgid "All Days"
+#~ msgstr "Todos los días"
+
+#, fuzzy
+#~ msgid "Epic 404 - Not Found"
+#~ msgstr "404 - Página no encontrada"
+
+#, fuzzy
+#~ msgid "It looks like you may have strayed from the narrow path."
+#~ msgstr "Parece que te has desviado del camino angosto."
+
+#, fuzzy
+#~ msgid "Wide is the path that leads to the 404."
+#~ msgstr "Ancho es el camino que conduce a la 404."
+
+#, fuzzy
+#~ msgid "Try using some of the links in the menu to get back on track."
+#~ msgstr ""
+#~ "Intente usar algunos de los enlaces en el menú para volver al buen camino."
+
+#, fuzzy
+#~ msgid "Sign Up to Pray"
+#~ msgstr "Regístrese para orar"
+
+#, fuzzy
+#~ msgctxt "Campaign Name is Finished"
+#~ msgid "%s is Finished"
+#~ msgstr "%s está terminado"
+
+#, fuzzy
+#~ msgctxt "Campaign Name End in [4 days]"
+#~ msgid "%s Ends In"
+#~ msgstr "%s termina en"
+
+#, fuzzy
+#~ msgid "days"
+#~ msgstr "días"
+
+#, fuzzy
+#~ msgid "hours"
+#~ msgstr "horas"
+
+#, fuzzy
+#~ msgid "minutes"
+#~ msgstr "minutos"
+
+#, fuzzy
+#~ msgid "seconds"
+#~ msgstr "segundos"
+
+#, fuzzy
+#~ msgctxt "Campaign Name End in [4 days]"
+#~ msgid "%s Begins In"
+#~ msgstr "%s comienza en"
+
+#, fuzzy
+#~ msgid "Days"
+#~ msgstr "Días"
+
+#, fuzzy
+#~ msgid "Next"
+#~ msgstr "próximo"
+
+#, fuzzy
+#~ msgid "Month"
+#~ msgstr "Mes"
+
+#, fuzzy
+#~ msgid "Hours of Prayer"
+#~ msgstr "Horas de oración"
+
+#, fuzzy
+#~ msgid "Hours"
+#~ msgstr "Horas"
+
+#, fuzzy
+#~ msgid "Prayer Commitments Needed"
+#~ msgstr "Se necesitan compromisos de oración"
+
+#, fuzzy
+#~ msgid "Hours Remaining"
+#~ msgstr "Horas faltantes"
+
+#, fuzzy
+#~ msgid "View All"
+#~ msgstr "Ver todo"
+
+#, fuzzy
+#~ msgid "Read"
+#~ msgstr "Leer"
+
+#, fuzzy
+#~ msgid "Check your email"
+#~ msgstr "¡Enviado! Consultar su correo electrónico."
+
+#, fuzzy
+#~ msgid "Your registration was successful."
+#~ msgstr "Su registro fue exitoso."
+
+#, fuzzy
+#~ msgid ""
+#~ "Click on the link included in the email to verify your commitment and "
+#~ "receive prayer time notifications!"
+#~ msgstr ""
+#~ "¡Haga clic en el enlace incluido en el correo electrónico para verificar "
+#~ "su compromiso y recibir notificaciones de tiempo de oración!"
+
+#, fuzzy
+#~ msgid "In the email is a link to manage your prayer times."
+#~ msgstr ""
+#~ "En el correo electrónico hay un enlace para administrar sus tiempos de "
+#~ "oración."
+
+#, fuzzy
+#~ msgid "Return"
+#~ msgstr "Devolver"
+
+#, fuzzy
+#~ msgctxt "Thank you for joining us in prayer for the French in France."
+#~ msgid "Thank you for joining us in prayer for the %1$s in %2$s."
+#~ msgstr "Gracias por unirse a nosotros en oración por los %1$s en %2$s."
+
+#, fuzzy
+#~ msgid "Campaign Stats"
+#~ msgstr "Estadísticas de campaña"
+
+#, fuzzy
+#~ msgid "Percentage Covered"
+#~ msgstr "Porcentaje Cubierto"
+
+#, fuzzy
+#~ msgid "Prayer Commitments"
+#~ msgstr "Compromisos de Oración"
+
+#, fuzzy
+#~ msgid "Time Committed"
+#~ msgstr "Tiempo comprometido"
+
+#, fuzzy
+#~ msgid "Number of People who Prayed"
+#~ msgstr "Número de personas que oraron"
+
+#, fuzzy
+#~ msgid "Share with us your Prayer Stories"
+#~ msgstr "Comparte con nosotros tus Historias de Oración"
+
+#, fuzzy
+#~ msgid ""
+#~ "Share with us about your prayer time (E.g. testimonies, insights, "
+#~ "blessings, etc)"
+#~ msgstr ""
+#~ "Comparta con nosotros acerca de su tiempo de oración (por ejemplo, "
+#~ "testimonios, ideas, bendiciones, etc.)"
+
+#, fuzzy
+#~ msgid "Submit"
+#~ msgstr "Enviar"
+
+#, fuzzy
+#~ msgid "Thank You"
+#~ msgstr "Gracias"
+
+#, fuzzy
+#~ msgid "More Prayer Opportunities"
+#~ msgstr "Más oportunidades de oración"
+
+#, fuzzy
+#~ msgid ""
+#~ "Would you like to hear about other prayer efforts and opportunities with "
+#~ "Pray4Movement.org?"
+#~ msgstr ""
+#~ "¿Le gustaría saber acerca de otros esfuerzos y oportunidades de oración "
+#~ "con Pray4Movement.org?"
+
+#, fuzzy
+#~ msgid "Home"
+#~ msgstr "Casa"
+
+#, fuzzy
+#~ msgid "Sign Up"
+#~ msgstr "Inscribirse"
+
+#, fuzzy
+#~ msgid ""
+#~ "Ramadan is one of the five requirements (or pillars) of Islam. During "
+#~ "each of its 30 days, Muslims are obligated to fast from dawn until "
+#~ "sunset. During this time they are supposed to abstain from food, drinking "
+#~ "liquids, smoking, and sexual relations.\n"
+#~ "\n"
+#~ "Women typically spend the afternoons preparing a big meal. At sunset, "
+#~ "families often gather to break the fast. Traditionally the families break "
+#~ "the fast with a drink of water, then three dried date fruits, and a multi-"
+#~ "course meal. After watching the new Ramadan TV series, men (and some "
+#~ "women) go out to coffee shops where they drink coffee, and smoke with "
+#~ "friends until late into the night.\n"
+#~ "\n"
+#~ "Though many have stopped fasting in recent years, and are turned off by "
+#~ "the hypocrisy, increased crime rates, and rudeness that is pervasive "
+#~ "through the month, others have become more serious about religion during "
+#~ "this time. Many attend the evening prayer services and do the other "
+#~ "ritual prayers. Some even read the entire Quran (about a tenth the length "
+#~ "of the Bible). This sincere seeking makes it a strategic time for us to "
+#~ "pray for them."
+#~ msgstr ""
+#~ "Ramadán es uno de los cinco requisitos (o pilares) del Islam. Durante "
+#~ "cada uno de sus 30 días, los musulmanes están obligados a ayunar desde el "
+#~ "amanecer hasta la puesta del sol. Durante este tiempo se supone que deben "
+#~ "abstenerse de comer, beber líquidos, fumar y tener relaciones sexuales.\n"
+#~ "\n"
+#~ "     Las mujeres suelen pasar las tardes preparando una gran comida. Al "
+#~ "atardecer, las familias suelen reunirse para romper el ayuno. "
+#~ "Tradicionalmente, las familias rompen el ayuno con un trago de agua, "
+#~ "luego tres dátiles secos y una comida de varios platos. Después de ver la "
+#~ "nueva serie de televisión de Ramadán, los hombres (y algunas mujeres) "
+#~ "salen a las cafeterías donde toman café y fuman con amigos hasta altas "
+#~ "horas de la noche.\n"
+#~ "\n"
+#~ "     Aunque muchos han dejado de ayunar en los últimos años y están "
+#~ "desanimados por la hipocresía, el aumento de los índices de criminalidad "
+#~ "y la mala educación que prevalece durante el mes, otros se han vuelto más "
+#~ "serios acerca de la religión durante este tiempo. Muchos asisten a los "
+#~ "servicios de oración vespertinos y hacen otras oraciones rituales. "
+#~ "Algunos incluso leen el Corán completo (alrededor de una décima parte de "
+#~ "la longitud de la Biblia). Esta búsqueda sincera hace que sea un momento "
+#~ "estratégico para que oremos por ellos."
+
+#, fuzzy
+#~ msgid "Ramadan is Finished"
+#~ msgstr "Ramadán ha terminado"
+
+#, fuzzy
+#~ msgid "Ramadan Ends ..."
+#~ msgstr "Ramadán termina..."
+
+#, fuzzy
+#~ msgid "Ramadan Begins ..."
+#~ msgstr "Comienza Ramadán..."
+
+#, fuzzy
+#~ msgid "here"
+#~ msgstr "aquí"
+
+#, fuzzy
+#~ msgid "More Hours to be covered"
+#~ msgstr "Más horas a cubrir"
+
+#, fuzzy
+#~ msgid "covered once"
+#~ msgstr "cubierto una vez"
+
+#, fuzzy
+#~ msgid "covered %1$s times"
+#~ msgstr "cubierto %1$s veces"
+
+#, fuzzy
+#~ msgid "Percentage covered in prayer"
+#~ msgstr "Porcentaje cubierto en oración"
+
+#, fuzzy
+#~ msgid "Loading prayer campaign data..."
+#~ msgstr "Cargando datos de la campaña de oración..."
+
+#, fuzzy
+#~ msgid "Choose Prayer Times"
+#~ msgstr "Elija tiempos de oración"
+
+#, fuzzy
+#~ msgid "Select an option"
+#~ msgstr "Seleccione una opción"
+
+#, fuzzy
+#~ msgid "Pray every day at the same time"
+#~ msgstr "Orar todos los días a la misma hora."
+
+#, fuzzy
+#~ msgid "Example: Everyday at 4pm for 15mins"
+#~ msgstr "Ejemplo: todos los días a las 4 p. m. durante 15 minutos"
+
+#, fuzzy
+#~ msgid "Select days and times to pray"
+#~ msgstr "Seleccione días y horas para orar"
+
+#, fuzzy
+#~ msgid "Example: Monday 12th at 6pm for 15mins"
+#~ msgstr "Ejemplo: Lunes 12 a las 6pm por 15mins"
+
+#, fuzzy
+#~ msgid "Please note that daylight savings time may affect your prayer times."
+#~ msgstr ""
+#~ "En el correo electrónico hay un enlace para administrar sus tiempos de "
+#~ "oración."
+
+#, fuzzy
+#~ msgid "Showing times for:"
+#~ msgstr "Mostrando tiempos para:"
+
+#, fuzzy
+#~ msgid "We are not longer looking for sign ups"
+#~ msgstr "Ya no estamos buscando inscripciones"
+
+#, fuzzy
+#~ msgid "Thanks for praying with us!"
+#~ msgstr "¡Gracias por orar con nosotros!"
+
+#, fuzzy
+#~ msgctxt "everyday at 3pm for 15 minutes until Jan 3 2031"
+#~ msgid "Everyday at %1$s for %2$s until %3$s"
+#~ msgstr "Todos los días a las %1$s durante %2$s hasta %3$s"
+
+#, fuzzy
+#~ msgctxt "Jun, Jul, Aug covered"
+#~ msgid "covered"
+#~ msgstr "cubierto"
+
+#, fuzzy
+#~ msgid ""
+#~ "Chose a time to pray everyday for the next 3 months. Near the end you'll "
+#~ "have the option to sign up for more."
+#~ msgstr ""
+#~ "Elija un momento para orar todos los días durante los próximos 3 meses. "
+#~ "Cerca del final, tendrá la opción de registrarse para obtener más."
+
+#, fuzzy
+#~ msgid "Sent! Check your email."
+#~ msgstr "¡Enviado! Consultar su correo electrónico."
+
+#, fuzzy
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#, fuzzy
+#~ msgid "Start Praying!"
+#~ msgstr "¡Empieza a orar!"
+
+#, fuzzy
+#~ msgctxt "Prayer time: 15 min"
+#~ msgid "Prayer time: %s min"
+#~ msgstr "Tiempo de oración: %s min"
+
+#, fuzzy
+#~ msgid "Now praying..."
+#~ msgstr "Ahora orando..."
+
+#, fuzzy
+#~ msgid "Epic 404"
+#~ msgstr "Épica 404"
+
+#, fuzzy
+#~ msgid "Content to be added to the signup email"
+#~ msgstr "Contenido que se agregará al correo electrónico de registro"
+
+#, fuzzy
+#~ msgid "Content to be added to the reminder email"
+#~ msgstr "Contenido que se agregará al correo electrónico de recordatorio"
+
+#, fuzzy
+#~ msgid "Update"
+#~ msgstr "Actualizar"
+
+#, fuzzy
+#~ msgid "Yes"
+#~ msgstr "Sí"
+
+#, fuzzy
+#~ msgid "No"
+#~ msgstr "No"
