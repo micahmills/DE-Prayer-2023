@@ -107,10 +107,10 @@ class Ramadan_2023_Tab_General {
             $installed_langs[$result['meta_value']] += $result['count'];
         }
 
+
+        $prayer_fuel_ready = [ 'en_US' ];
+
         ?>
-
-
-
         <table class="widefat striped">
             <thead>
                 <tr>
@@ -150,12 +150,12 @@ class Ramadan_2023_Tab_General {
                                 <tr class="<?php echo $language['enabled'] === false ? 'disabled-language' : '' ?>">
                                     <td><?php echo esc_html( $language['flag'] ) ?> <?php echo esc_html( $language['english_name'] ) ?></td>
                                     <td>
-                                        <button class="button install-ramadan-content" value="<?php echo esc_html( $code ) ?>" <?php disabled( !$fuel_available ) ?>>
+                                        <button class="button install-ramadan-content" value="<?php echo esc_html( $code ) ?>" <?php disabled( !$fuel_available || !in_array( $code, $prayer_fuel_ready ) ) ?>>
                                             Install prayer fuel in <?php echo esc_html( $language['flag'] ) ?>
                                         </button>
                                     </td>
                                     <td>
-                                        <button class="button install-ramadan-content" value="en_US" <?php disabled( ( $installed_langs[$code] ?? 0 ) > 0 ) ?> >
+                                        <button class="button install-ramadan-content" value="en_US" >
                                             Install prayer fuel in English
                                         </button>
                                     </td>
