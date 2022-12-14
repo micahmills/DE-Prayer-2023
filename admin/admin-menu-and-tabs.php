@@ -246,7 +246,7 @@ class Ramadan_2023_Tab_General {
                     $( "#ramadan-dialog" ).dialog( "open" );
                     code = $(this).val();
 
-                    $('.ramadan-new-language').html(languages[code]?.label || value)
+                    $('.ramadan-new-language').html(languages[code]?.label || code)
 
                     if ( translations[`ramadan-2023-${code}`] && translations[`ramadan-2023-${code}`]['Jesus, give the church [in location] grace to cherish your name above all else']){
                         $('#ramadan-in-location').html( translations[`ramadan-2023-${code}`]['Jesus, give the church [in location] grace to cherish your name above all else']['translations'][0] )
@@ -286,8 +286,10 @@ class Ramadan_2023_Tab_General {
 
                 let delete_code = null
                 $('.delete-ramadan-content').on('click', function (){
-                    $( "#ramadan-delete-fuel" ).dialog( "open" );
                     delete_code = $(this).val();
+
+                    $('.ramadan-new-language').html(languages[delete_code]?.label || delete_code)
+                    $( "#ramadan-delete-fuel" ).dialog( "open" );
                 })
                 $('#ramadan-close-delete').on('click', function (){
                     $( "#ramadan-delete-fuel" ).dialog( "close" );
