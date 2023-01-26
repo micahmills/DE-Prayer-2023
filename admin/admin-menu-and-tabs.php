@@ -128,8 +128,8 @@ class Ramadan_2023_Tab_General {
                             <a href="<?php echo esc_html( home_url( 'prayer/list' ) ); ?>" target="_blank">Prayer Fuel List</a>
                         </p>
                         <p>
-                            The prayer fuel is available in multiple languages. Want to help with the translation join us here:
-                            <a href="https://translate.disciple.tools/projects/pray4movement/ramadan-2023/" target="_blank">Ramadan 2023 Prayer Fuel</a>
+                            Ramadan prayer fuel is available in multiple languages.
+                            <a href="https://pray4movement.org/docs/translation/#2-toc-title" target="_blank">Help us translate it into your language here.</a>
                         </p>
                         <table class="">
                             <thead>
