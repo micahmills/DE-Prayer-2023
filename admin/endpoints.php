@@ -30,13 +30,16 @@ class Ramadan_2023_Endpoints {
     public function dt_ramadan_install_content( WP_REST_Request $request ){
         $params = $request->get_params();
 
+        $default_content = $params['default_content'] ? 'en_US' : null;
+
         P4_Ramadan_2023_Content::install_content(
             $params['lang'] ?? 'en_US',
             [
                 'in_location' => $params['in_location'] ?? '[in location]',
                 'of_location' => $params['of_location'] ?? '[of location]',
                 'ppl_group'   => $params['ppl_group'] ?? '[people group]',
-            ]
+            ],
+            $default_content
         );
 
         return true;

@@ -477,7 +477,7 @@ Lord God, give your church [in location] the boldness of Elijah who called for m
 
             $image = '';
             if ( file_exists( Ramadan_2023::$plugin_dir . 'images/' . $number . '.jpg' ) ) {
-                $image = '<div class="p4m_prayer_image"><img src="' . plugins_url( 'images/' . $number . '.jpg', __DIR__ ) . '" alt="' . $number . '" /></div>';
+                $image = '<figure class="wp-block-image p4m_prayer_image"><img src="' . plugins_url( 'images/' . $number . '.jpg', __DIR__ ) . '" alt="' . $number . '"  /></figure >';
             }
 
             $content[] = [
@@ -513,8 +513,11 @@ Lord God, give your church [in location] the boldness of Elijah who called for m
 
                     '<!-- wp:paragraph -->',
                     '<p>' . wp_kses_post( ramadan_format_message( $d[3], $fields ) ) . '</p>',
-                    $image,
                     '<!-- /wp:paragraph -->',
+
+                    '<!-- wp:image -->',
+                    $image,
+                    '<!-- /wp:image -->',
 
                     '<!-- wp:heading {"level":3} -->',
                     '<h3><strong>' . __( 'Inspirational Quotes', 'ramadan-2023' ) . '</strong></h3>',

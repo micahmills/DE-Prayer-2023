@@ -155,7 +155,7 @@ class Ramadan_2023_Tab_General {
                                         </button>
                                     </td>
                                     <td>
-                                        <button class="button install-ramadan-content" value="en_US" >
+                                        <button class="button install-ramadan-content" value="<?php echo esc_html( $code ) ?>" data-default="true" >
                                             Install prayer fuel in English
                                         </button>
                                     </td>
@@ -239,12 +239,15 @@ class Ramadan_2023_Tab_General {
 
             jQuery(document).ready(function ($){
                 let code = null;
+                let default_content = false
                 $( "#ramadan-dialog" ).dialog({ autoOpen: false, minWidth: 600 });
                 $( "#ramadan-delete-fuel" ).dialog({ autoOpen: false });
 
                 $('.install-ramadan-content').on('click', function (){
                     $( "#ramadan-dialog" ).dialog( "open" );
                     code = $(this).val();
+                    default_content = $(this).data('default');
+
 
                     $('.ramadan-new-language').html(languages[code]?.label || code)
 
@@ -277,6 +280,7 @@ class Ramadan_2023_Tab_General {
                             of_location,
                             ppl_group,
                             lang: code,
+                            default_content: !!default_content
                         })
                     }).then(()=>{
                         // $('#ramadan-install-spinner').hide()
