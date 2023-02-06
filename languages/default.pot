@@ -9,20 +9,20 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-02-03T15:16:22+00:00\n"
+"POT-Creation-Date: 2023-02-06T13:23:05+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "X-Domain: ramadan-2023\n"
 
-#: admin/admin-menu-and-tabs.php:188
+#: admin/admin-menu-and-tabs.php:189
 msgid "Jesus, give the church [in location] grace to cherish your name above all else"
 msgstr ""
 
-#: admin/admin-menu-and-tabs.php:198
+#: admin/admin-menu-and-tabs.php:199
 msgid "let the people [of location] grasp the Good News"
 msgstr ""
 
-#: admin/admin-menu-and-tabs.php:208
+#: admin/admin-menu-and-tabs.php:209
 msgid "How could this quote inspire you to pray for [people_group]?"
 msgstr ""
 
