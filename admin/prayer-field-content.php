@@ -38,9 +38,9 @@ class P4_Ramadan_2023_Content {
                 'post_author'   => get_current_user_id(),
                 'meta_input' => [
                     PORCH_LANDING_META_KEY => $slug,
-                    'starter_1' => true,
                     'post_language' => $language,
                     'day' => $i + 1,
+                    'fuel_tag' => 'ramadan_2023',
                 ]
             ];
 

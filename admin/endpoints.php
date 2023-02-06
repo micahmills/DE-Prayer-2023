@@ -58,6 +58,7 @@ class Ramadan_2023_Endpoints {
             WHERE t1m.meta_value = %s
             AND ( t1.post_status = 'publish' OR t1.post_status = 'future' )
             AND t1.post_type = 'landing'
+            AND t1.post_date > '2022-10-01'
         ", esc_sql( $params['lang'] ) ) );
         if ( $params['lang'] === 'en_US' ){
             $wpdb->query( "
@@ -66,6 +67,7 @@ class Ramadan_2023_Endpoints {
                 WHERE t1m.meta_value IS NULL
                 AND ( t1.post_status = 'publish' OR t1.post_status = 'future' )
                 AND t1.post_type = 'landing'
+                AND t1.post_date > '2022-10-01'
             " );
         }
         return true;

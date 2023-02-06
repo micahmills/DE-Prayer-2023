@@ -94,6 +94,7 @@ class Ramadan_2023_Tab_General {
             FROM $wpdb->posts p
             LEFT JOIN $wpdb->postmeta pm ON ( p.ID = pm.post_id AND meta_key = 'post_language' )
             WHERE post_type = 'landing' and ( post_status = 'publish' or post_status = 'future')
+            AND post_date > '2022-10-01'
             GROUP BY meta_value
         ", ARRAY_A);
         $installed_langs = [];
