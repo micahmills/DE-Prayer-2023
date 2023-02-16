@@ -78,6 +78,7 @@ class Ramadan_2023_Tab_General {
     public static function main_column() {
         $languages_manager = new DT_Campaign_Languages();
         $languages = $languages_manager->get_enabled_languages();
+        $campaign = DT_Campaign_Settings::get_campaign();
 
         $translations = [];
         $installed_languages = get_available_languages( Ramadan_2023::$plugin_dir .'languages/' );
@@ -89,14 +90,14 @@ class Ramadan_2023_Tab_General {
         }
 
         global $wpdb;
-        $installed_langs_query = $wpdb->get_results( "
+        $installed_langs_query = $wpdb->get_results( $wpdb->prepare("
             SELECT pm.meta_value, count(*) as count
             FROM $wpdb->posts p
             LEFT JOIN $wpdb->postmeta pm ON ( p.ID = pm.post_id AND meta_key = 'post_language' )
-            WHERE post_type = 'landing' and ( post_status = 'publish' or post_status = 'future')
-            AND post_date > '2022-10-01'
-            GROUP BY meta_value
-        ", ARRAY_A);
+            INNER JOIN $wpdb->postmeta pm2 ON ( p.ID = pm2.post_id AND pm2.meta_key = 'linked_campaign' AND pm2.meta_value = %d )
+            WHERE post_type = 'landing' and ( post_status = 'publish' or post_status = 'future')    
+            GROUP BY pm.meta_value
+        ", $campaign['ID'] ), ARRAY_A );
         $installed_langs = [];
         foreach ( $installed_langs_query as $result ){
             if ( $result['meta_value'] === null ){

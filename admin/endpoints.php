@@ -47,28 +47,29 @@ class Ramadan_2023_Endpoints {
 
     public function dt_ramadan_delete_content( WP_REST_Request $request ){
         $params = $request->get_params();
+        $campaign = DT_Campaign_Settings::get_campaign();
 
-        if ( empty( $params['lang'] ) ){
+        if ( empty( $params['lang'] ) || !isset( $campaign['ID'] ) ){
             return new WP_Error( __METHOD__, 'Missing language code', [ 'status' => 400 ] );
         }
         global $wpdb;
         $wpdb->query( $wpdb->prepare( "
             DELETE t1 FROM $wpdb->posts t1
-            LEFT JOIN $wpdb->postmeta t1m ON ( t1m.post_ID = t1.ID and t1m.meta_key = 'post_language')
+            LEFT JOIN $wpdb->postmeta t1m ON ( t1m.post_ID = t1.ID and t1m.meta_key = 'post_language' )
+            INNER JOIN $wpdb->postmeta t2m ON ( t2m.post_ID = t1.ID and t2m.meta_key = 'linked_campaign' AND t2m.meta_value = %d )
             WHERE t1m.meta_value = %s
             AND ( t1.post_status = 'publish' OR t1.post_status = 'future' )
             AND t1.post_type = 'landing'
-            AND t1.post_date > '2022-10-01'
-        ", esc_sql( $params['lang'] ) ) );
+        ", $campaign['ID'], esc_sql( $params['lang'] ) ) );
         if ( $params['lang'] === 'en_US' ){
-            $wpdb->query( "
+            $wpdb->query(  $wpdb->prepare("
                 DELETE t1 FROM $wpdb->posts t1
-                LEFT JOIN $wpdb->postmeta t1m ON ( t1m.post_ID = t1.ID and t1m.meta_key = 'post_language')
+                LEFT JOIN $wpdb->postmeta t1m ON ( t1m.post_ID = t1.ID and t1m.meta_key = 'post_language' )
+                INNER JOIN $wpdb->postmeta t2m ON ( t2m.post_ID = t1.ID and t2m.meta_key = 'linked_campaign' AND t2m.meta_value = %d )
                 WHERE t1m.meta_value IS NULL
                 AND ( t1.post_status = 'publish' OR t1.post_status = 'future' )
                 AND t1.post_type = 'landing'
-                AND t1.post_date > '2022-10-01'
-            " );
+            ", $campaign['ID']) );
         }
         return true;
     }
