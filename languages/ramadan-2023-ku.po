@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Disciple.Tools - Prayer Campaigns 2.0.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ramadan-2023\n"
-"POT-Creation-Date: 2022-12-13T15:26:53+00:00\n"
+"POT-Creation-Date: 2023-02-06T13:23:05+00:00\n"
 "PO-Revision-Date: 2022-12-13 16:54+0100\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Kurdish <https://translate.disciple.tools/projects/disciple-"
@@ -17,17 +17,17 @@ msgstr ""
 "X-Generator: Poedit 3.2.2\n"
 "X-Domain: disciple-tools-prayer-campaigns\n"
 
-#: admin/admin-menu-and-tabs.php:188
+#: admin/admin-menu-and-tabs.php:189
 msgid ""
 "Jesus, give the church [in location] grace to cherish your name above all "
 "else"
 msgstr ""
 
-#: admin/admin-menu-and-tabs.php:198
+#: admin/admin-menu-and-tabs.php:199
 msgid "let the people [of location] grasp the Good News"
 msgstr ""
 
-#: admin/admin-menu-and-tabs.php:208
+#: admin/admin-menu-and-tabs.php:209
 msgid "How could this quote inspire you to pray for [people_group]?"
 msgstr ""
 
@@ -1504,11 +1504,11 @@ msgstr ""
 msgid "Prayer Walk"
 msgstr "Fuel Nimêjê"
 
-#: admin/prayer-field-content.php:520
+#: admin/prayer-field-content.php:523
 msgid "Inspirational Quotes"
 msgstr ""
 
-#: admin/prayer-field-content.php:525
+#: admin/prayer-field-content.php:528
 msgid ""
 "How could this quote inspire you to pray for [people_group]? For yourself?"
 msgstr ""

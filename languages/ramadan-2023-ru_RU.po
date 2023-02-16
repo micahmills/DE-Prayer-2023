@@ -2,32 +2,34 @@ msgid ""
 msgstr ""
 "Project-Id-Version: P4M Prayer Campaigns\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ramadan-2023\n"
-"POT-Creation-Date: 2022-12-13T15:26:53+00:00\n"
-"PO-Revision-Date: 2022-12-13 16:53+0100\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Russian <https://translate.disciple.tools/projects/disciple-"
-"tools/disciple-tools-prayer-campaigns/ru_RU/>\n"
+"POT-Creation-Date: 2023-02-06T13:23:05+00:00\n"
+"PO-Revision-Date: 2023-01-11 03:13+0000\n"
+"Last-Translator: Dmitry <dmitry_cherednikov@wycliffe.ru>\n"
+"Language-Team: Russian <https://translate.disciple.tools/projects/"
+"pray4movement/ramadan-2023/ru_RU/>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Weblate 4.14.1\n"
 
-#: admin/admin-menu-and-tabs.php:188
+#: admin/admin-menu-and-tabs.php:189
 msgid ""
 "Jesus, give the church [in location] grace to cherish your name above all "
 "else"
 msgstr ""
+"Иисус, дай церкви [in location] благодать, чтобы дорожить твоим именем "
+"превыше всего"
 
-#: admin/admin-menu-and-tabs.php:198
+#: admin/admin-menu-and-tabs.php:199
 msgid "let the people [of location] grasp the Good News"
-msgstr ""
+msgstr "пусть люди [of location] поймут Благую Весть"
 
-#: admin/admin-menu-and-tabs.php:208
+#: admin/admin-menu-and-tabs.php:209
 msgid "How could this quote inspire you to pray for [people_group]?"
-msgstr ""
+msgstr "Как эта цитата вдохновляет вас молиться за народы [people_group]?"
 
 #: admin/prayer-field-content.php:70
 msgid ""
@@ -35,6 +37,9 @@ msgid ""
 "[of location] see you through Jesus, the radiance of your glory, the exact "
 "imprint of your nature! (Hebrews 1:3)"
 msgstr ""
+"Боже, мы Тебя любим! Как твоя Церковь, помоги нам сделать все возможное, "
+"чтобы люди [of location] увидели Тебя через Иисуса, сияние Твоей славы, "
+"точное подобие Твоей природы! (Евреям 1:3)"
 
 #: admin/prayer-field-content.php:71
 msgid ""
@@ -51,6 +56,17 @@ msgid ""
 "Pray for spiritual seekers [in location] and all over the Muslim world to "
 "search and discuss the Bible with friends."
 msgstr ""
+"«Мне двадцать четыре года, и я из Туниса. У меня было много долгов, я был "
+"должен многим людям и правительству. Я спросил себя: «Почему бы мне не "
+"попросить Бога помочь мне?» Правда в том, что я не не спрашивал, потому что "
+"не верил, что Бог поможет мне. Я оставил ислам и считал себя атеистом. Но во "
+"мне всегда было что-то, что говорило: «Бог есть». Я начал искать и обсуждать "
+"с друзьями ... В то время все мы были разочарованы, искали истину, а "
+"некоторые даже стали христианами. Мы все собираем информацию и делимся друг "
+"с другом. Молитесь за нас, чтобы мы вместе познали истину».\n"
+"\n"
+"Молитесь о духовных искателях в [in location] и во всем мусульманском мире, "
+"чтобы они искали и обсуждали Библию с друзьями."
 
 #: admin/prayer-field-content.php:74
 msgid ""
@@ -64,6 +80,15 @@ msgid ""
 "continue to preach the gospel. (Acts 14:5-7) Lord, give them faith that "
 "cannot be shaken by persecution.\""
 msgstr ""
+"«Но когда язычники и иудеи вместе со своими начальниками захотели применить "
+"силу и побить их камнями, те, узнав об этом, бежали в города Ликаонии, "
+"Листру и Дервию, и в их окрестности, где продолжали возвещать Радостную "
+"Весть.». (Деяния 14:5-7).\n"
+"\n"
+"Когда предпринимаются попытки плохого обращения с верующими [in location] — "
+"и даже когда некоторым приходится бежать — пусть они будут благословлены "
+"смелостью и настойчивостью, чтобы продолжать проповедовать Евангелие (Деяния "
+"14:5-7). Господи, дай им веру, которую не поколеблют гонения»."
 
 #: admin/prayer-field-content.php:77 admin/prayer-field-content.php:87
 #: admin/prayer-field-content.php:98 admin/prayer-field-content.php:108
@@ -84,6 +109,8 @@ msgstr ""
 msgid ""
 "As you look at this image, how does God lead you to pray for these people?"
 msgstr ""
+"Когда вы смотрите на это изображение, как Бог побуждает вас молиться за этих "
+"людей?"
 
 #: admin/prayer-field-content.php:78
 msgid ""
@@ -91,6 +118,9 @@ msgid ""
 "Christ as we spread the gospel of Christ from wherever we live, to the ends "
 "of the earth.\" - David Platt "
 msgstr ""
+"«Великая цель, ради которой мы были созданы: наслаждаться благодатью Христа, "
+"когда мы распространяем Евангелие Христа, где бы мы ни жили, до края земли». "
+"- Дэвид Платт "
 
 #: admin/prayer-field-content.php:82
 msgid ""
@@ -99,6 +129,10 @@ msgid ""
 "and perfectly made purification for sin and then sat down at the right hand "
 "of Majesty! (Hebrews 1:3-4)"
 msgstr ""
+"Боже, мы любим тебя! Как Твоя Церковь, помоги нам делать все возможное, "
+"чтобы радовать сердца твоих людей в [in location], от осознания того, что "
+"Иисус полностью и совершенно очистил от греха, а затем воссел одесную "
+"Величия! (Евреям 1:3-4)"
 
 #: admin/prayer-field-content.php:83
 msgid ""
@@ -113,6 +147,16 @@ msgid ""
 "gospel.  Pray that God's kingdom comes to [in location] and all over the "
 "Muslim world."
 msgstr ""
+"Меня зовут Авраам, и я вырос в мусульманской семье в Индии. Врач сказал, что "
+"ребенок внутри моей беременной жены умрет. Последователи Иисуса предложили "
+"помолиться за нашего будущего ребенка. Иисус чудесным образом исцелил нашего "
+"ребенка. После этого наша семья начала слушать истории об Иисусе. Сегодня мы "
+"страстно делаем учеников Иисуса среди других мусульман Индии. Когда мы "
+"готовились крестить другие семьи, они рассказывали, как благодаря следованию "
+"за Иисусом их жизнь расцвела. Иисус исцелил их от болезней, дал им надежду и "
+"преобразовал их семьи. Тем не менее, большинство народов Индии остаются "
+"недостигнутыми Евангелием. Молитесь, чтобы Царство Божье пришло в [in "
+"location] и по всему мусульманскому миру."
 
 #: admin/prayer-field-content.php:84
 msgid ""
@@ -124,6 +168,13 @@ msgid ""
 "prayer. (Acts 12:5) Lord Jesus, deepen the faith and sustain the dependent "
 "prayers of the church [in location].\""
 msgstr ""
+"«Петр был под стражей в темнице, а церковь горячо молилась о нем Богу». "
+"(Деяния 12:5).\n"
+"\n"
+"Когда церковь [in location] преследуется и даже когда последователей Иисуса "
+"заключают в тюрьму, пусть церковь будет вовлечена в искреннюю, настойчивую "
+"молитву. (Деяния 12:5) Господь Иисус, углубляй веру и поддерживай "
+"зависимость церкви от молитвы в [in location]»."
 
 #: admin/prayer-field-content.php:88
 msgid ""
@@ -131,6 +182,9 @@ msgid ""
 "which Christ, who is Sovereign over all, does not cry, Mine!” - Abraham "
 "Kuyper"
 msgstr ""
+"«Нет ни одного квадратного метра во всей области нашего человеческого бытия, "
+"над которым Христос, Властелин над всем, не воскликнул бы: Мое!» - Авраам "
+"Кайпер"
 
 #: admin/prayer-field-content.php:92
 msgid ""
@@ -138,6 +192,9 @@ msgid ""
 "[of location] grasp the Good News that when Jesus taught us to pray to you "
 "He told us to call you our Father! (Matthew 6:6-14)"
 msgstr ""
+"Боже, мы любим тебя! Как Твоя Церковь, помоги нам сделать все возможное, "
+"чтобы люди [of location] поняли Благую Весть о том, что, когда Иисус учил "
+"нас молиться, Он сказал нам называть Тебя своим Отцом! (Матфея 6:6-14)"
 
 #: admin/prayer-field-content.php:93
 msgid ""
@@ -1498,16 +1555,14 @@ msgid "Biblical Prayers"
 msgstr ""
 
 #: admin/prayer-field-content.php:511
-#, fuzzy
-#| msgid "Prayer Fuel"
 msgid "Prayer Walk"
-msgstr "Молитвенное Горючее"
+msgstr "Молитвенная прогулка"
 
-#: admin/prayer-field-content.php:520
+#: admin/prayer-field-content.php:523
 msgid "Inspirational Quotes"
 msgstr ""
 
-#: admin/prayer-field-content.php:525
+#: admin/prayer-field-content.php:528
 msgid ""
 "How could this quote inspire you to pray for [people_group]? For yourself?"
 msgstr ""
