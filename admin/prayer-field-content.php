@@ -41,6 +41,7 @@ class P4_Ramadan_2023_Content {
                     'post_language' => $language,
                     'day' => $i + 1,
                     'fuel_tag' => 'ramadan_2023',
+                    'linked_campaign' => $campaign['ID'],
                 ]
             ];
 
