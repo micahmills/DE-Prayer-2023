@@ -53,24 +53,34 @@ class Ramadan_2023_Endpoints {
             return new WP_Error( __METHOD__, 'Missing language code', [ 'status' => 400 ] );
         }
         global $wpdb;
-        $wpdb->query( $wpdb->prepare( "
-            DELETE t1 FROM $wpdb->posts t1
-            LEFT JOIN $wpdb->postmeta t1m ON ( t1m.post_ID = t1.ID and t1m.meta_key = 'post_language' )
+        $posts_query = $wpdb->get_results( $wpdb->prepare("
+            SELECT ID FROM $wpdb->posts t1
+            INNER JOIN $wpdb->postmeta t1m ON ( t1m.post_ID = t1.ID and t1m.meta_key = 'post_language' )
             INNER JOIN $wpdb->postmeta t2m ON ( t2m.post_ID = t1.ID and t2m.meta_key = 'linked_campaign' AND t2m.meta_value = %d )
             WHERE t1m.meta_value = %s
             AND ( t1.post_status = 'publish' OR t1.post_status = 'future' )
             AND t1.post_type = 'landing'
-        ", $campaign['ID'], esc_sql( $params['lang'] ) ) );
-        if ( $params['lang'] === 'en_US' ){
-            $wpdb->query(  $wpdb->prepare("
-                DELETE t1 FROM $wpdb->posts t1
-                LEFT JOIN $wpdb->postmeta t1m ON ( t1m.post_ID = t1.ID and t1m.meta_key = 'post_language' )
-                INNER JOIN $wpdb->postmeta t2m ON ( t2m.post_ID = t1.ID and t2m.meta_key = 'linked_campaign' AND t2m.meta_value = %d )
-                WHERE t1m.meta_value IS NULL
-                AND ( t1.post_status = 'publish' OR t1.post_status = 'future' )
-                AND t1.post_type = 'landing'
-            ", $campaign['ID']) );
-        }
+        ", $campaign['ID'], esc_sql( $params['lang'] ) ), ARRAY_A );
+
+        $post_ids = array_map( function( $post ){
+            return $post['ID'];
+        }, $posts_query );
+        $post_ids = dt_array_to_sql( $post_ids );
+
+
+        //phpcs:disable
+        //$post_ids are escaped
+        $wpdb->query(  "
+            DELETE pm FROM $wpdb->postmeta pm
+            WHERE pm.post_id IN ( $post_ids )
+        ");
+        $wpdb->query(  "
+            DELETE p FROM $wpdb->posts p
+            WHERE p.ID IN ( $post_ids )
+        ");
+        //phpcs:enable
+
+
         return true;
     }
 };
