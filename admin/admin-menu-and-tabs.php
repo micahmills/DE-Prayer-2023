@@ -2,9 +2,9 @@
 if ( ! defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly
 
 /**
- * Class Ramadan_2023_Menu
+ * Class De_Prayer_2023_Menu
  */
-class Ramadan_2023_Menu {
+class De_Prayer_2023_Menu {
 
     public $token = 'de_prayer_2023';
     public $page_title = 'DE Prayer Campaign 2023';
@@ -12,13 +12,13 @@ class Ramadan_2023_Menu {
     private static $_instance = null;
 
     /**
-     * Ramadan_2023_Menu Instance
+     * De_Prayer_2023_Menu Instance
      *
-     * Ensures only one instance of Ramadan_2023_Menu is loaded or can be loaded.
+     * Ensures only one instance of De_Prayer_2023_Menu is loaded or can be loaded.
      *
      * @since 0.1.0
      * @static
-     * @return Ramadan_2023_Menu instance
+     * @return De_Prayer_2023_Menu instance
      */
     public static function instance() {
         if ( is_null( self::$_instance ) ) {
@@ -37,15 +37,15 @@ class Ramadan_2023_Menu {
 
         $this->page_title = 'ramadan-2023';
 
-        add_action( 'dt_prayer_campaigns_admin_install_fuel', [ 'Ramadan_2023_Tab_General', 'content' ] );
+        add_action( 'dt_prayer_campaigns_admin_install_fuel', [ 'De_Prayer_2023_Tab_General', 'content' ] );
     } // End __construct()
 }
-Ramadan_2023_Menu::instance();
+De_Prayer_2023_Menu::instance();
 
 /**
- * Class Ramadan_2023_Tab_General
+ * Class De_Prayer_2023_Tab_General
  */
-class Ramadan_2023_Tab_General {
+class De_Prayer_2023_Tab_General {
     public static function content() {
 
 
@@ -81,10 +81,10 @@ class Ramadan_2023_Tab_General {
         $campaign = DT_Campaign_Settings::get_campaign();
 
         $translations = [];
-        $installed_languages = get_available_languages( Ramadan_2023::$plugin_dir .'languages/' );
+        $installed_languages = get_available_languages( De_Prayer_2023::$plugin_dir .'languages/' );
         foreach ( $installed_languages as $language ) {
             $mo = new MO();
-            if ( $mo->import_from_file( Ramadan_2023::$plugin_dir . 'languages/' . $language . '.mo' ) ){
+            if ( $mo->import_from_file( De_Prayer_2023::$plugin_dir . 'languages/' . $language . '.mo' ) ){
                 $translations[$language] = $mo->entries;
             }
         }

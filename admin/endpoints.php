@@ -1,7 +1,7 @@
 <?php
 if ( ! defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly
 
-class Ramadan_2023_Endpoints {
+class De_Prayer_2023_Endpoints {
     public function __construct() {
         add_action( 'rest_api_init', [ $this, 'add_api_routes' ] );
     }
@@ -32,7 +32,7 @@ class Ramadan_2023_Endpoints {
 
         $default_content = $params['default_content'] ? 'en_US' : null;
 
-        P4_Ramadan_2023_Content::install_content(
+        P4_De_Prayer_2023_Content::install_content(
             $params['lang'] ?? 'en_US',
             [
                 'in_location' => $params['in_location'] ?? '[in location]',
@@ -84,6 +84,6 @@ class Ramadan_2023_Endpoints {
         return true;
     }
 };
-new Ramadan_2023_Endpoints();
+new De_Prayer_2023_Endpoints();
 
 

@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Gets the instance of the `Ramadan_2023` class.
+ * Gets the instance of the `De_Prayer_2023` class.
  *
  * @since  0.1
  * @access public
@@ -54,7 +54,7 @@ function de_prayer_2023() {
         require_once get_template_directory() . '/dt-core/global-functions.php';
     }
 
-    return Ramadan_2023::instance();
+    return De_Prayer_2023::instance();
 
 }
 add_action( 'after_setup_theme', 'de_prayer_2023', 20 );
@@ -76,7 +76,7 @@ add_filter( 'dt_plugins', function ( $plugins ){
  * @since  0.1
  * @access public
  */
-class Ramadan_2023 {
+class De_Prayer_2023 {
 
     public static $plugin_dir = null;
 
@@ -209,8 +209,8 @@ class Ramadan_2023 {
 
 
 // Register activation hook.
-register_activation_hook( __FILE__, [ 'Ramadan_2023', 'activation' ] );
-register_deactivation_hook( __FILE__, [ 'Ramadan_2023', 'deactivation' ] );
+register_activation_hook( __FILE__, [ 'De_Prayer_2023', 'activation' ] );
+register_deactivation_hook( __FILE__, [ 'De_Prayer_2023', 'deactivation' ] );
 
 
 if ( ! function_exists( 'ramadan_2023_hook_admin_notice' ) ) {

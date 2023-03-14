@@ -3,7 +3,7 @@ if ( ! defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly
 
 //wp i18n make-pot . languages/default.pot --skip-audit --subtract="languages/terms-to-exclude.pot"
 
-class P4_Ramadan_2023_Content {
+class P4_De_Prayer_2023_Content {
 
     public static function install_content( $language = 'en_US', $names = [], $from_translation = null ) {
         $campaign = DT_Campaign_Settings::get_campaign();
@@ -477,7 +477,7 @@ Lord God, give your church [in location] the boldness of Elijah who called for m
             }
 
             $image = '';
-            if ( file_exists( Ramadan_2023::$plugin_dir . 'images/' . $number . '.jpg' ) ) {
+            if ( file_exists( De_Prayer_2023::$plugin_dir . 'images/' . $number . '.jpg' ) ) {
                 $image = '<figure class="wp-block-image p4m_prayer_image"><img src="' . plugins_url( 'images/' . $number . '.jpg', __DIR__ ) . '" alt="' . $number . '"  /></figure >';
             }
 
