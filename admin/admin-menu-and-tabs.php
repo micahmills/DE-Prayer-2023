@@ -6,8 +6,8 @@ if ( ! defined( 'ABSPATH' ) ) { exit; } // Exit if accessed directly
  */
 class Ramadan_2023_Menu {
 
-    public $token = 'ramadan_2023';
-    public $page_title = 'Ramadan 2023';
+    public $token = 'de_prayer_2023';
+    public $page_title = 'DE Prayer Campaign 2023';
 
     private static $_instance = null;
 
@@ -184,7 +184,7 @@ class Ramadan_2023_Tab_General {
                 <h4>1. Replacing: [in location]</h4>
                 <div style="margin-inline-start: 50px">
                     <p>
-                        <strong>Example Sentence:</strong> <span id="ramadan-in-location"><?php esc_html_e( 'Jesus, give the church [in location] grace to cherish your name above all else', 'ramadan-2023' ); ?></span>
+                        <strong>Example Sentence:</strong> <span id="ramadan-in-location"><?php esc_html_e( 'Jesus, give the church [in location] grace to cherish your name above all else', 'de-prayer-2023' ); ?></span>
                     </p>
                     <p>
                         [in location] should be replaced with: <input id="ramadan-in-location-input" type="text" placeholder="in France, en France, etc" required>
@@ -194,7 +194,7 @@ class Ramadan_2023_Tab_General {
                 <h4>2. Replacing: [of location]</h4>
                 <div style="margin-inline-start: 50px">
                     <p>
-                        <strong>Example Sentence:</strong> <span id="ramadan-of-location"><?php esc_html_e( 'let the people [of location] grasp the Good News', 'ramadan-2023' ); ?></span>
+                        <strong>Example Sentence:</strong> <span id="ramadan-of-location"><?php esc_html_e( 'let the people [of location] grasp the Good News', 'de-prayer-2023' ); ?></span>
                     </p>
                     <p>
                         [of location] should be replaced with: <input id="ramadan-of-location-input" type="text" placeholder="of France, de la France, etc" required>
@@ -204,7 +204,7 @@ class Ramadan_2023_Tab_General {
                 <h4>3. Prayer for People Group</h4>
                 <div style="margin-inline-start: 50px">
                     <p>
-                        <strong>Example Sentence:</strong> <span id="ramadan-people-group"><?php esc_html_e( 'How could this quote inspire you to pray for [people_group]?', 'ramadan-2023' ); ?></span>
+                        <strong>Example Sentence:</strong> <span id="ramadan-people-group"><?php esc_html_e( 'How could this quote inspire you to pray for [people_group]?', 'de-prayer-2023' ); ?></span>
                     </p>
                     <p>
                         People Group: <input id="ramadan-people-group-input" type="text" placeholder="the French, les Français, etc" required>

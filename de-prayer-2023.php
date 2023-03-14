@@ -30,7 +30,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @access public
  * @return object|bool
  */
-function ramadan_2023() {
+function de_prayer_2023() {
     $ramadan_2023_required_dt_theme_version = '1.30';
     $wp_theme = wp_get_theme();
     $version = $wp_theme->version;
@@ -57,7 +57,7 @@ function ramadan_2023() {
     return Ramadan_2023::instance();
 
 }
-add_action( 'after_setup_theme', 'ramadan_2023', 20 );
+add_action( 'after_setup_theme', 'de_prayer_2023', 20 );
 
 //register the D.T Plugin
 add_filter( 'dt_plugins', function ( $plugins ){
@@ -218,7 +218,7 @@ if ( ! function_exists( 'ramadan_2023_hook_admin_notice' ) ) {
         global $ramadan_2023_required_dt_theme_version;
         $wp_theme = wp_get_theme();
         $current_version = $wp_theme->version;
-        $message = "'Disciple.Tools - Ramadan 2023' plugin requires 'Disciple.Tools' theme to work. Please activate 'Disciple.Tools' theme or make sure it is latest version.";
+        $message = "'DE Prayer Campaign 2023' plugin requires 'Disciple.Tools' theme to work. Please activate 'Disciple.Tools' theme or make sure it is latest version.";
         if ( $wp_theme->get_template() === 'disciple-tools-theme' ){
             $message .= ' ' . sprintf( esc_html( 'Current Disciple.Tools version: %1$s, required version: %2$s' ), esc_html( $current_version ), esc_html( $ramadan_2023_required_dt_theme_version ) );
         }
