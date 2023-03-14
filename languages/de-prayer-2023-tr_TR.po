@@ -1896,7 +1896,7 @@ msgstr ""
 #~ "kullanın."
 
 #, fuzzy
-#~ msgid "Today's Prayer Fuel"
+#~ msgid "Today's prayer requests"
 #~ msgstr "Bugünün Duası Yakıt"
 
 #, fuzzy

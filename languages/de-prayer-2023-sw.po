@@ -1897,7 +1897,7 @@ msgstr ""
 #~ msgstr "Tumia nyenzo hizi kusaidia kuomba mahususi kila siku."
 
 #, fuzzy
-#~ msgid "Today's Prayer Fuel"
+#~ msgid "Today's prayer requests"
 #~ msgstr "Mafuta ya Maombi ya Leo"
 
 #, fuzzy

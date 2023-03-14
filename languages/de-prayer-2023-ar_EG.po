@@ -1499,7 +1499,7 @@ msgstr ""
 
 #: admin/prayer-field-content.php:511
 #, fuzzy
-#| msgid "Prayer Fuel"
+#| msgid "prayer requests"
 msgid "Prayer Walk"
 msgstr "وثود لصلاة لمدة"
 
@@ -1834,7 +1834,7 @@ msgstr ""
 #~ msgid "Use these resources to help pray specifically each day."
 #~ msgstr "استخدم هذه الموارد للمساعدة في الصلاة على وجه التحديد كل يوم."
 
-#~ msgid "Today's Prayer Fuel"
+#~ msgid "Today's prayer requests"
 #~ msgstr "وقود اليوم الصلاة"
 
 #~ msgid "All Days"

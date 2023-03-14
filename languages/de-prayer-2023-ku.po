@@ -1897,7 +1897,7 @@ msgstr ""
 #~ "Van çavkaniyan bikar bînin ku alîkariya dua bikin bi taybetî her roj."
 
 #, fuzzy
-#~ msgid "Today's Prayer Fuel"
+#~ msgid "Today's prayer requests"
 #~ msgstr "Mazotê nimêjê ya îro"
 
 #, fuzzy

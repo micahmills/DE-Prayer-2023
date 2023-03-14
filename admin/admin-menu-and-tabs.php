@@ -123,11 +123,11 @@ class Ramadan_2023_Tab_General {
                 <tr>
                     <td>
                         <p>
-                            This is the prayer fuel created for a DE Prayer campaign.
+                            This is the prayer requests created for a DE Prayer campaign.
                         </p>
                         <p>
-                            Installing prayer fuel will create a post for each day. They will be visible here:
-                            <a href="<?php echo esc_html( home_url( 'prayer/list' ) ); ?>" target="_blank">Prayer Fuel List</a>
+                            Installing prayer requests will create a post for each day. They will be visible here:
+                            <a href="<?php echo esc_html( home_url( 'prayer/list' ) ); ?>" target="_blank">prayer requests List</a>
                         </p>
                         <table class="">
                             <thead>
@@ -149,18 +149,18 @@ class Ramadan_2023_Tab_General {
                                     <td><?php echo esc_html( $language['flag'] ) ?> <?php echo esc_html( $language['english_name'] ) ?></td>
                                     <td>
                                         <button class="button install-ramadan-content" value="<?php echo esc_html( $code ) ?>" <?php disabled( !$fuel_available || !in_array( $code, $prayer_fuel_ready ) ) ?>>
-                                            Install prayer fuel in <?php echo esc_html( $language['flag'] ) ?>
+                                            Install prayer requests in <?php echo esc_html( $language['flag'] ) ?>
                                         </button>
                                     </td>
                                     <td>
                                         <button class="button install-ramadan-content" value="<?php echo esc_html( $code ) ?>" data-default="true" >
-                                            Install prayer fuel in English
+                                            Install prayer requests in English
                                         </button>
                                     </td>
                                     <td><?php echo esc_html( $installed_langs[$code] ?? 0 ); ?></td>
                                     <td>
                                         <button class="button delete-ramadan-content" value="<?php echo esc_html( $code ) ?>" <?php disabled( ( $installed_langs[$code] ?? 0 ) === 0 ) ?>>
-                                            Delete all prayer fuel in <?php echo esc_html( $language['flag'] ) ?>
+                                            Delete all prayer requests in <?php echo esc_html( $language['flag'] ) ?>
                                         </button>
                                     </td>
 
@@ -174,9 +174,9 @@ class Ramadan_2023_Tab_General {
                 </tr>
             </tbody>
         </table>
-        <div id="ramadan-dialog" title="Install Prayer Fuel">
+        <div id="ramadan-dialog" title="Install prayer requests">
             <form id="ramadan-install-form">
-                <h3>Install Ramadan Prayer Fuel in <span class="ramadan-new-language">French</span></h3>
+                <h3>Install Ramadan prayer requests in <span class="ramadan-new-language">French</span></h3>
 
                 <p>The Ramadan has some placeholder text that needs to be replaced.</p>
 
@@ -215,7 +215,7 @@ class Ramadan_2023_Tab_General {
                     This will create a post for each of the 30 days of Ramadan.
                 </p>
                 <button class="button" type="submit" id="ramadan-install-language">
-                    Install Prayer Fuel in <span class="ramadan-new-language">French</span> <img id="ramadan-install-spinner" style="height:15px; vertical-align: middle; display: none" src="<?php echo esc_html( get_template_directory_uri() . '/spinner.svg' ) ?>"/>
+                    Install prayer requests in <span class="ramadan-new-language">French</span> <img id="ramadan-install-spinner" style="height:15px; vertical-align: middle; display: none" src="<?php echo esc_html( get_template_directory_uri() . '/spinner.svg' ) ?>"/>
                 </button>
                 <p>
     <!--                Please review the posts here: link @todo-->
@@ -224,7 +224,7 @@ class Ramadan_2023_Tab_General {
         </div>
 
         <div id="ramadan-delete-fuel" title="Delete Fuel">
-            <p>Are you sure you want to delete Prayer Fuel in <span class="ramadan-new-language">French</span></p>
+            <p>Are you sure you want to delete prayer requests in <span class="ramadan-new-language">French</span></p>
             <button class="button button-primary" id="confirm-ramadan-delete">Delete
                 <img id="ramadan-delete-spinner" style="height:15px; vertical-align: middle; display: none" src="<?php echo esc_html( get_template_directory_uri() . '/spinner.svg' ) ?>"/>
             </button>

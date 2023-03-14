@@ -1501,7 +1501,7 @@ msgstr ""
 
 #: admin/prayer-field-content.php:511
 #, fuzzy
-#| msgid "Prayer Fuel"
+#| msgid "prayer requests"
 msgid "Prayer Walk"
 msgstr "Combustível de oração"
 
@@ -1846,7 +1846,7 @@ msgstr ""
 #~ msgid "Use these resources to help pray specifically each day."
 #~ msgstr "Use esses recursos para ajudar a orar especificamente a cada dia."
 
-#~ msgid "Today's Prayer Fuel"
+#~ msgid "Today's prayer requests"
 #~ msgstr "Combustível de oração de hoje"
 
 #~ msgid "All Days"

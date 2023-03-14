@@ -1892,7 +1892,7 @@ msgstr ""
 #~ msgstr "Použijte tyto zdroje k tomu, abyste se každý den konkrétně modlili."
 
 #, fuzzy
-#~ msgid "Today's Prayer Fuel"
+#~ msgid "Today's prayer requests"
 #~ msgstr "Dnešní modlitební palivo"
 
 #, fuzzy

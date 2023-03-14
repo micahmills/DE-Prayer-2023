@@ -1893,7 +1893,7 @@ msgstr ""
 #~ msgstr "از این منابع برای کمک به دعای خاص هر روز استفاده کنید."
 
 #, fuzzy
-#~ msgid "Today's Prayer Fuel"
+#~ msgid "Today's prayer requests"
 #~ msgstr "سوخت نماز امروز"
 
 #, fuzzy

@@ -1894,7 +1894,7 @@ msgstr ""
 #~ "Користите ове ресурсе да бисте помогли да се молите посебно сваки дан."
 
 #, fuzzy
-#~ msgid "Today's Prayer Fuel"
+#~ msgid "Today's prayer requests"
 #~ msgstr "Данашње молитвено гориво"
 
 #, fuzzy
