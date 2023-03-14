@@ -1882,7 +1882,7 @@ msgstr ""
 #~ msgstr "ใช้แหล่งข้อมูลเหล่านี้เพื่อช่วยอธิษฐานโดยเฉพาะในแต่ละวัน"
 
 #, fuzzy
-#~ msgid "Today's prayer requests"
+#~ msgid "Today's Prayer Requests"
 #~ msgstr "เชื้อเพลิงอธิษฐานวันนี้"
 
 #, fuzzy

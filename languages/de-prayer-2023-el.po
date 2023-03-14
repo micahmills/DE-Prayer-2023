@@ -1907,7 +1907,7 @@ msgstr ""
 #~ "κάθε μέρα."
 
 #, fuzzy
-#~ msgid "Today's prayer requests"
+#~ msgid "Today's Prayer Requests"
 #~ msgstr "Καύσιμο προσευχής σήμερα"
 
 #, fuzzy

@@ -1885,7 +1885,7 @@ msgstr ""
 #~ msgstr "이 자료를 사용하여 매일 구체적으로 기도하십시오."
 
 #, fuzzy
-#~ msgid "Today's prayer requests"
+#~ msgid "Today's Prayer Requests"
 #~ msgstr "오늘의 기도 연료"
 
 #, fuzzy

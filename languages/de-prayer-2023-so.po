@@ -1903,7 +1903,7 @@ msgstr ""
 #~ "Isticmaal agabkan si aad uga caawiso tukashada si gaar ah maalin kasta."
 
 #, fuzzy
-#~ msgid "Today's prayer requests"
+#~ msgid "Today's Prayer Requests"
 #~ msgstr "Shidaalka Salaada Maanta"
 
 #, fuzzy

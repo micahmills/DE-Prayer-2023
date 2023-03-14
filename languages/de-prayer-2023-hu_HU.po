@@ -1897,7 +1897,7 @@ msgstr ""
 #~ "imádkozni."
 
 #, fuzzy
-#~ msgid "Today's prayer requests"
+#~ msgid "Today's Prayer Requests"
 #~ msgstr "A mai ima üzemanyag"
 
 #, fuzzy

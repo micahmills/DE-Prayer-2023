@@ -1503,7 +1503,7 @@ msgstr ""
 #: admin/prayer-field-content.php:511
 #, fuzzy
 msgid "Prayer Walk"
-msgstr "prayer requests"
+msgstr "Prayer Requests"
 
 #: admin/prayer-field-content.php:523
 msgid "Inspirational Quotes"
@@ -1895,7 +1895,7 @@ msgstr ""
 #~ "Iskoristite ove resurse da pomognete da se molite posebno svaki dan."
 
 #, fuzzy
-#~ msgid "Today's prayer requests"
+#~ msgid "Today's Prayer Requests"
 #~ msgstr "Današnje molitveno gorivo"
 
 #, fuzzy

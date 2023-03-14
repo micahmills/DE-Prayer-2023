@@ -1911,7 +1911,7 @@ msgstr ""
 #~ "araw."
 
 #, fuzzy
-#~ msgid "Today's prayer requests"
+#~ msgid "Today's Prayer Requests"
 #~ msgstr "Gatong ng Panalangin Ngayon"
 
 #, fuzzy

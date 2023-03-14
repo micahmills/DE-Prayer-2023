@@ -1899,7 +1899,7 @@ msgstr ""
 #~ "ден."
 
 #, fuzzy
-#~ msgid "Today's prayer requests"
+#~ msgid "Today's Prayer Requests"
 #~ msgstr "Днешното молитвено гориво"
 
 #, fuzzy

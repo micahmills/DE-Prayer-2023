@@ -1900,7 +1900,7 @@ msgstr ""
 #~ msgstr "Використовуйте ці ресурси, щоб допомогти молитися конкретно щодня."
 
 #, fuzzy
-#~ msgid "Today's prayer requests"
+#~ msgid "Today's Prayer Requests"
 #~ msgstr "Сьогоднішня молитва"
 
 #, fuzzy

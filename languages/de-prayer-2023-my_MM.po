@@ -1887,7 +1887,7 @@ msgstr ""
 #~ msgstr "နေ့စဉ်ဆုတောင်းခြင်းကို ကူညီရန် ဤအရင်းအမြစ်များကို အသုံးပြုပါ။"
 
 #, fuzzy
-#~ msgid "Today's prayer requests"
+#~ msgid "Today's Prayer Requests"
 #~ msgstr "ယနေ့ဆုတောင်းခြင်းဆီ"
 
 #, fuzzy

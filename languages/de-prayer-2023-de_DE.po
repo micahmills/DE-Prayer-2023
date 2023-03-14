@@ -1907,7 +1907,7 @@ msgstr ""
 #~ msgstr "Verwenden Sie diese Ressourcen, um jeden Tag gezielt zu beten."
 
 #, fuzzy
-#~ msgid "Today's prayer requests"
+#~ msgid "Today's Prayer Requests"
 #~ msgstr "Der heutige Gebetsstoff"
 
 #, fuzzy

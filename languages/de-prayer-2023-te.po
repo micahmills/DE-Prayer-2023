@@ -1886,7 +1886,7 @@ msgstr ""
 #~ msgstr "ప్రతిరోజూ ప్రత్యేకంగా ప్రార్థన చేయడంలో సహాయపడటానికి ఈ వనరులను ఉపయోగించండి."
 
 #, fuzzy
-#~ msgid "Today's prayer requests"
+#~ msgid "Today's Prayer Requests"
 #~ msgstr "నేటి ప్రార్థన ఇంధనం"
 
 #, fuzzy

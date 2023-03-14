@@ -1498,7 +1498,7 @@ msgstr ""
 
 #: admin/prayer-field-content.php:511
 #, fuzzy
-#| msgid "prayer requests"
+#| msgid "Prayer Requests"
 msgid "Prayer Walk"
 msgstr "Gebedsbrandstof"
 
@@ -1837,7 +1837,7 @@ msgstr ""
 #~ msgid "Use these resources to help pray specifically each day."
 #~ msgstr "Gebruik deze bronnen om elke dag specifiek te bidden."
 
-#~ msgid "Today's prayer requests"
+#~ msgid "Today's Prayer Requests"
 #~ msgstr "Gebedsbrandstof van vandaag"
 
 #~ msgid "All Days"

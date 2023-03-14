@@ -1893,7 +1893,7 @@ msgstr ""
 #~ msgid "Use these resources to help pray specifically each day."
 #~ msgstr "Используйте эти ресурсы, чтобы молиться конкретно каждый день."
 
-#~ msgid "Today's prayer requests"
+#~ msgid "Today's Prayer Requests"
 #~ msgstr "Молитвенное горючее на сегодня"
 
 #~ msgid "All Days"

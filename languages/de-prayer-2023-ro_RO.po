@@ -1905,7 +1905,7 @@ msgstr ""
 #~ "fiecare zi."
 
 #, fuzzy
-#~ msgid "Today's prayer requests"
+#~ msgid "Today's Prayer Requests"
 #~ msgstr "Combustibil pentru rugăciune de astăzi"
 
 #, fuzzy
