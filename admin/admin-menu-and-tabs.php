@@ -116,22 +116,18 @@ class Ramadan_2023_Tab_General {
         <table class="widefat striped">
             <thead>
                 <tr>
-                    <th>Ramadan 2023 Prayer Fuel</th>
+                    <th>DE Prayer Campaign 2023 Prayer Requests</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>
                         <p>
-                            This is the prayer fuel created for the Ramadan 2023 campaign.
+                            This is the prayer fuel created for a DE Prayer campaign.
                         </p>
                         <p>
                             Installing prayer fuel will create a post for each day. They will be visible here:
                             <a href="<?php echo esc_html( home_url( 'prayer/list' ) ); ?>" target="_blank">Prayer Fuel List</a>
-                        </p>
-                        <p>
-                            Ramadan prayer fuel is available in multiple languages.
-                            <a href="https://pray4movement.org/docs/translation/#2-toc-title" target="_blank">Help us translate it into your language here.</a>
                         </p>
                         <table class="">
                             <thead>
