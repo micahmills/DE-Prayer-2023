@@ -67,397 +67,562 @@ class P4_De_Prayer_2023_Content {
 
         $data = [
             [
-                //day 1
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] see you through Jesus, the radiance of your glory, the exact imprint of your nature! (Hebrews 1:3)', 'de-prayer-2023' ),
-                __( '"I am twenty-four and from Tunisia. I had a lot of debt and owed a lot of people and the government money. I asked myself, "Why don\'t I ask God to help me?" The truth is, I didn\'t ask because I didn\'t believe God would help me. I left Islam and called myself an atheist. But, there was always something inside me that said, "There is a God." I began to search and discuss with my friends. At that time, all of us were disillusioned, searching for truth, and some had even become Christians. We all brought information and shared with one another. Pray for us that we will discover truth together."
+            __( 'The internet has revolutionized the way we connect with people, share information, and do business. It has brought people from different parts of the world closer together, and it has provided opportunities for evangelism that were once impossible.', 'de-prayer-2023' ),
 
-Pray for spiritual seekers [in location] and all over the Muslim world to search and discuss the Bible with friends.', 'de-prayer-2023' ),
-                __( '“When an attempt was made by both Gentiles and Jews, with their rulers, to mistreat them and to stone them, they learned of it and fled to Lystra and Derbe, cities of Lycaonia, and to the surrounding country, and there they continued to preach the gospel.” (Acts 14:5-7).
+            __( 'Lord, we praise You for Your sovereignty over all things, including the digital world. You are the one who sustains us and gives us strength to carry out Your work. You are the source of all wisdom, and we thank You for guiding us as we plan and execute this digital evangelism campaign.
 
-When attempts are made to mistreat believers [in location] - and even when some must flee - may they be blessed with the boldness and perseverance to continue to preach the gospel. (Acts 14:5-7) Lord, give them faith that cannot be shaken by persecution."', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '"This is the grand purpose for which we were created: to enjoy the grace of Christ as we spread the gospel of Christ from wherever we live, to the ends of the earth." - David Platt ', 'de-prayer-2023' ),
+            “I will bless the LORD at all times; his praise will always be on my lips.
+            I will boast in the LORD; the humble will hear and be glad.
+            Proclaim the LORD\'s greatness with me; let us exalt his name together.”
+            (Psalm 34:1-3)', 'de-prayer-2023' ),
+
+            __( 'Lord, we pray for the people who will come across this digital engagement campaign. We ask that You open hearts to receive the message of salvation. We pray that Your Spirit would draw these people to Yourself and that they would experience Your love and grace in a powerful way.', 'de-prayer-2023' ),
             ],
             [
-                //day 2
-                __( 'God, we love you! As your Church, help us do what it takes to gladden the hearts of your people [in location] as they understand that Jesus completely and perfectly made purification for sin and then sat down at the right hand of Majesty! (Hebrews 1:3-4)', 'de-prayer-2023' ),
-                __( 'I am Abraham and I grew up in a Muslim family in India. The doctor said the baby inside my pregnant wife would die. Followers of Jesus offered to pray for our unborn child. Jesus miraculously healed our baby. After this our family began listening to stories about Jesus. Today we passionately make disciples of Jesus among other Muslims in India. As we prepared to baptize other families they shared how because of following Jesus their lives are in springtime. Jesus has healed them of sickness, given them hope and improved their families. Yet most people groups in India remain unreached by the gospel.  Pray that God\'s kingdom comes to [in location] and all over the Muslim world.', 'de-prayer-2023' ),
-                __( '“So Peter was kept in prison, but earnest prayer for him was made to God by the church.” (Acts 12:5 ESV).
 
-When the church [in location] is persecuted, and even when followers of Jesus are imprisoned, may the church be drawn into earnest, persevering prayer. (Acts 12:5) Lord Jesus, deepen the faith and sustain the dependent prayers of the church [in location]."', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '“There is not a square inch in the whole domain of our human existence over which Christ, who is Sovereign over all, does not cry, Mine!” - Abraham Kuyper', 'de-prayer-2023' ),
+            __( 'Social media platforms like Facebook, Twitter, Instagram, and YouTube have millions of users who spend hours each day scrolling through their feeds. These platforms provide a unique opportunity to reach people with the gospel message. ', 'de-prayer-2023' ),
+
+            __( 'Father, we thank You for the power of Your Word, which is living and active, and able to penetrate even the hardest hearts. We thank You for the opportunity to share it with others through this digital engagement campaign, and we pray that it would transform lives and bring many to faith in Jesus.
+
+            “For the word of God is living and effective and sharper than any double-edged sword, penetrating as far as the separation of soul and spirit, joints and marrow.
+            It is able to judge the thoughts and intentions of the heart.”
+            (Hebrews 4:12)', 'de-prayer-2023' ),
+
+            __( 'Lord, we lift up to You those who are searching for answers and spiritual guidance on social media. We pray that these digital engagement efforts will reach people and provide them with the hope and truth that they are seeking. May they encounter the love of Christ through this campaign and be transformed by His grace.', 'de-prayer-2023' ),
             ],
             [
-                //day 3
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that when Jesus taught us to pray to you He told us to call you our Father! (Matthew 6:6-14)', 'de-prayer-2023' ),
-                __( 'Fawad saw a Facebook ad one day about the prophet Abraham ready to sacrifice his son. He had questions and he reached out to a Christian social media page. He engaged in many conversations. After talking for three months he decided to put his faith in Jesus. Fawad did something bold after he became a believer, he invited his family members to listen to his conversation on the phone with a Christian. His wife and kids sat with him when he would talk about Jesus and after a couple of months they all made a decision to follow in Fawad’s footsteps and be followers of Jesus. Please pray for Fawad, his wife and three kids to grow stronger in their faith and continue to be bold to share their faith with many others. Pray for more families like Fawad\'s [in location].', 'de-prayer-2023' ),
-                __( '“but you shall cling to the Lord your God just as you have done to this day.” (Joshua 23:8 ESV).
-Strengthen the spiritual hands of believers [in location] that they might cling to the Lord their God. (Joshua 23:8) 
 
-Grant, the church [in location] an ever-growing list of those who have gone ahead to which they can look for example and encouragement in faithful finishing of the race (2 Timothy 4:7).', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '“Never pity missionaries; envy them. They are where the real action is — where life and death, sin and grace, Heaven and Hell converge.” - Robert C. Shannon', 'de-prayer-2023' ),
+            __( 'The COVID-19 pandemic has caused many people to turn to the internet for connection, entertainment, and information. This has created a huge mission field online, and we have an opportunity to share the hope of Christ with those who are searching for answers.', 'de-prayer-2023' ),
+
+            __( 'Lord, we praise You for the diverse talents and gifts that You have given to Your people. We ask that You use these gifts to reach people in the digital world who may not have heard the gospel otherwise. We pray that Your Spirit would empower us to work together in unity and love for the sake of the gospel.
+
+            “How delightfully good
+            when brothers live together in harmony!”
+            (Psalm 133:1)', 'de-prayer-2023' ),
+
+            __( 'Father, we ask that You open doors and create opportunities for us to engage with people who are searching for truth and meaning in their lives. May we be sensitive to the leading of the Holy Spirit as we share the good news of Jesus Christ and may many come to know You as their Lord and Savior.
+
+            “Devote yourselves to prayer; stay alert in it with thanksgiving.
+            At the same time, pray also for us that God may open a door to us for the word,
+            to speak the mystery of Christ...”
+            (Colossians 4:2-3)', 'de-prayer-2023' ),
             ],
             [
-                //day 4
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that Jesus\' cross was the one place in the world\'s history in which your Father\'s justice AND mercy were simultaneously fulfilled as He was marred beyond human semblance, despised, rejected, sorrowful, acquainted with grief, smitten, afflicted, pierced, crushed, chastised, and anguished (Isaiah 52-53) so that WE don\'t have to be.', 'de-prayer-2023' ),
-                __( 'Sakib was born in a Muslim family but had many doubts about his religion. He found the truth in the Holy Bible. He said, “Now it is my responsibility to call my family and people in my area to the path of truth, for the [Holy Bible] is an ideal medium.” He is now interested to start learning much more about the Bible. Pray for Sakib and multitudes of others around the Muslim world who are being tranformed through the Living Word of God. ', 'de-prayer-2023' ),
-                __( '“Their idols are like scarecrows in a cucumber field, and they cannot speak; they have to be carried, for they cannot walk. Do not be afraid of them, for they cannot do evil, neither is it in them to do good.” (Jeremiah 10:5 ESV). 
 
-May the idols of culture [in location] be revealed for the unspeaking, unmoving frauds that they are, and may the church have the clarity and wisdom to address idolatry in all of its forms. (Jeremiah 10:5) Lord God, would you grant believers [in location] humility, gentleness, and discernment as they fight idolatry in community.', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '"We must be global Christians with a global vision because our God is a global God." - John Stott', 'de-prayer-2023' ),
+            __( 'In many parts of the world, people are turning to the internet for information, entertainment, and social interaction. Digital platforms have become a crucial way for people to connect with each other, and this presents an opportunity for evangelism, discipleship, and leadership development.', 'de-prayer-2023' ),
+
+            __( 'We praise You, Lord, for Your boundless love and mercy. You have called us to disciple people from all nations, and we are grateful for the opportunity to do so. (Ephesians 2:4-5)
+
+            “But God, who is rich in mercy, because of his great love that he had for us,
+            made us alive with Christ even though we were dead in trespasses.
+            You are saved by grace!”
+            (Ephesians 2:4-5)
+
+            “Go, therefore, and make disciples of all nations,
+            baptizing them in the name of the Father and of the Son and of the Holy Spirit,
+            teaching them to observe everything I have commanded you.
+            And remember, I am with you always, to the end of the age.”
+            (Matthew 28:19-20)', 'de-prayer-2023' ),
+
+            __( 'We pray for those who are searching for meaning and purpose online. We pray for those who are searching to deepen their relationship with Jesus. We ask that You use this digital engagement campaign to reach those individuals and draw them to Yourself.', 'de-prayer-2023' ),
             ],
             [
-                //day 5
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that we receive grace IN Christ! (1 Corinthians 1:4)', 'de-prayer-2023' ),
-                __( 'Jannat had a question for a Christian she was talking to: "I read some parts of the Bible, and there I found that Jesus came only for the Jews, but it also says when He was crucified that He is the savior of mankind. Do you have any proof of this?”
- 
-A long discussion ensued about many passages in the Bible. After a few days, Jannat asked her friend to send Bible references proving that Islam is not true.  After long days of discussions, she started to believe in Jesus but not that He is the Son of God. Eventually, Jannat asked for a New Testament. Jannat asks for prayer for herself because though she is still on the journey to Christ, her family notices changes in her behavior and are causing her problems because of it. 
 
-Pray for Jannat and many seekers all over the Muslim world to have grace and wisdom to discern who in their family would be open to discovering God through the teachings of the Bible so that they can come to faith in Christ with others. ', 'de-prayer-2023' ),
-                __( '“For we who have believed enter that rest, as he has said, “As I swore in my wrath, ‘They shall not enter my rest,’” although his works were finished from the foundation of the world.” (Hebrews 4:3 ESV).
+            __( 'Social media is one of the most popular ways people connect online. With billions of users worldwide, it provides a unique opportunity to engage a vast audience with the truths of Scripture.', 'de-prayer-2023' ),
 
-Creator God, your work of drawing every nation on earth to yourself was finished from the foundation of the world. (Hebrews 4:3) May the glory of your finished work and your eternal wisdom flood the church [in location] with boldness and satisfaction with all that you\'ve done, are doing, and will do among all the tribes and tongues [of location] and the whole earth.', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '"We talk of the second coming; half the world has never heard of the first." - Oswald J. Smith', 'de-prayer-2023' ),
+            __( 'We exalt Your name, Lord, for Your faithfulness and steadfastness. Your promises are sure, and we trust in Your power to save.
+
+            “For your faithful love is as high as the heavens; your faithfulness reaches the clouds.”
+            (Psalm 57:10)', 'de-prayer-2023' ),
+
+            __( 'Father, we pray for the technical team that will be managing the infrastructure of this digital engagement campaign. We ask that You give them wisdom and skill as they navigate the challenges of working with technology. We pray that everything will function smoothly and that there will be no technical glitches that would hinder the message from reaching its intended audience.
+
+            “Whatever you do, do it from the heart,
+            as something done for the Lord and not for people.”
+            (Colossians 3:23)', 'de-prayer-2023' ),
             ],
             [
-                //day 6
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that our redemption is IN Christ! (Romans 3:24)', 'de-prayer-2023' ),
-                __( 'My name is Khalid and I am a follower of Jesus in Morocco. My abusive Father died this year and I am the oldest in my family. It is my job to care for my mother and my siblings. I want to do much more than my cultural duty for my family. As a follower of Jesus, I want to love them well. My mother has been telling me the change she has noticed in me and what a good son I am. I know this is because of Jesus but she does not yet know this. I have been talking to her about living my life fully surrendered to God. I am finding ways to share verses that help us as a family know God’s love and truth together. Pray for me and my family as I bring them on a journey of discovering who God is and how we, as a family, can live our lives in full knowledge of Him and surrender to Him. Pray for believers [in location] who, like Khalid, are trying to lead their family on a journey to Christ.', 'de-prayer-2023' ),
-                __( '“He who testifies to these things says, “Surely I am coming soon.” Amen. Come, Lord Jesus!” (Revelation 22:20 ESV).
 
-Lord Jesus, would you write the maranatha cry on the hearts of the church [in location] such that their lives and their words would raise up a shout in harmony: "Come, Lord Jesus!" (Revelation 22:20) Grant each follower [in location] eternal hope in the glory of your return.', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '"Some wish to live within the sound of a chapel bell; I wish to run a rescue mission within a yard of hell." - C. T. Studd', 'de-prayer-2023' ),
+            __( 'Online streaming services such as YouTube, Twitch, and Facebook Live have revolutionized the way people consume media. They offer a new avenue for sharing the gospel through video content.', 'de-prayer-2023' ),
+
+            __( 'We worship You, Lord, for Your creativity and ingenuity. You have given us the tools and resources we need to reach people with the gospel in the digital world, and we thank You for Your provision.
+
+            “LORD, our Lord, how magnificent is your name throughout the earth!
+            You have covered the heavens with your majesty.”
+            (Psalm 8:1)', 'de-prayer-2023' ),
+
+            __( 'Lord, we pray that Your message of salvation will reach people through every digital platform available. We ask that You guide us in using these platforms well to share Your truth and engage well with others.', 'de-prayer-2023' ),
             ],
             [
-                //day 7
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that we are justified IN Christ! (Galatians 2:17)', 'de-prayer-2023' ),
-                __( 'Malik is a 49 year old man from Gilgit Baltistan area. He had a lot of doubts about Islam that led him to explore Christianity. He shared that he had a very hard time finding evidence of any miracles Mohammad performed. One of the popular miracles Mohammad performed was splitting the moon in half. The more he looked into the history of this event the more disappointment he felt. No one had recorded this event to be true in history. On the other hand, the miracles Jesus performed had countless witnesses and had been acknowledged throughout history. His Christian friend told him about Jesus’ authority to perform these miracles. Malik learned Jesus not only healed people but he also forgave sins. He was eager to learn what more Jesus could do and as he learned about Jesus’ authority it became clear to him he needed to follow Jesus. He prayed for his salvation and became a follower of Jesus Christ. Pray for Malik as there are many others who are exposed to Christianity but need guidance to lead them in the right direction. Pray for him to grow in his faith and lead others who are in search of the truth. ', 'de-prayer-2023' ),
-                __( '“I will cut off the chariot from Ephraim and the war horse from Jerusalem; and the battle bow shall be cut off, and he shall speak peace to the nations; his rule shall be from sea to sea, and from the River to the ends of the earth.” (Zechariah 9:10 ESV).
 
-Lord God, would you break the weapons of spiritual and physical war that harm the church [in location] and would you speak peace to this and to every nation as you build your Kingdom to the ends of the earth. (Zechariah 9:10) May your peacemaking spirit take deep root in the church [in location] and would you grant them to shake the foundations of society with the power of their sacrifice, service, and forgiveness.', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '"Pray as though everything depended on God. Work as though everything depended on you." - Augustine', 'de-prayer-2023' ),
+            __( "As we embark on this digital engagement campaign, please pray for the Holy Spirit's guidance, wisdom, and power to guide us in effectively engaging people through digital means.", 'de-prayer-2023' ),
+
+            __( 'Lord, You are my rock, my fortress, and my Savior; in You, I find safety. You are my shield, the strength of my salvation, and my stronghold. I praise You for Your faithfulness and Your love, which endure forever.
+            “I love you, LORD, my strength.
+            The LORD is my rock, my fortress, and my deliverer,
+            my God, my rock where I seek refuge,
+            my shield and the horn of my salvation, my stronghold.”
+            (Psalm 18:1-2)
+
+            “I will praise you forever for what you have done.
+            In the presence of your faithful people,
+            I will put my hope in your name, for it is good.”
+            (Psalm 52:9)', 'de-prayer-2023' ),
+
+            __( 'As we embark on this digital evangelism campaign, Lord, we pray that Your Spirit would guide us in all our efforts to share the gospel message through social media. May we communicate with clarity, boldness, and grace. May our online presence reflect the love and truth of Jesus.', 'de-prayer-2023' ),
             ],
             [
-                //day 8
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that we have complete forgiveness of all our sins IN Christ! (Ephesians 4:32)', 'de-prayer-2023' ),
-                __( 'Ahran, a new believer in Morocco shared: "I have always admired Christianity and its teachings, and I have always seen that those who believe and follow Christ are people, most of whom are good and of high morals. I watched a video on your Arabic website where a person tells his experience with Christ. I was impressed by what Christ did with him, which made me communicate with you to learn more. Christ is the Lord, and any wise person cannot ignore his life. When I accepted Christ in my life and prayed; I felt great comfort and peace.“  Praise God for Ahren and his new life in Christ.  Pray that he and others like him [in location] will grow in their new faith and find a strong fellowship of believers.', 'de-prayer-2023' ),
-                __( '“Mark the blameless and behold the upright, for there is a future for the man of peace.” (Psalm 37:37 ESV).
 
-Lord, would you raise up bold peacemakers within the church [in location] - men and women who believe wholeheartedly in your promise that there is a future for the man of peace. (Psalm 37:37) Jesus, ground the hopes of your followers [in location] in the future you have sovereignly prepared for them and guide their feet in the way of peace that leads to you and your glory.', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( 'The Spirit of Christ is the Spirit of missions. The nearer we get to Him, the more intensely missionary we become. - Henry Martyn', 'de-prayer-2023' ),
+            __( 'In a world that is increasingly digital, let us pray for opportunities to engage with people in deeper and more meaningful ways as we build relationships and share the love and hope found in Christ. ', 'de-prayer-2023' ),
+
+            __( 'Father, You are the creator of all things, and everything in heaven and on earth was created by You and for You. You are before all things, and in You, all things hold together. I praise You for Your power, wisdom, and goodness.
+
+            “For everything was created by him, in heaven and on earth,
+            the visible and the invisible, whether thrones or dominions or rulers or authorities —
+            all things have been created through him and for him.
+            He is before all things, and by him all things hold together.”
+            (Colossians 1:16-17)', 'de-prayer-2023' ),
+
+            __( 'Father, we lift to You those who are feeling lonely, isolated, or disconnected in the digital world. We pray that they may find true community and belonging in the body of Christ. Help us to be a source of encouragement, support, and friendship to those who need it most.', 'de-prayer-2023' ),
             ],
             [
-                //day 9
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that there is no condemnation at all IN Christ! (Romans 8:1)', 'de-prayer-2023' ),
-                __( 'Mahmoud is a young man from Upper Egypt whose family lives in a small village. When he was eight years old, he was sent to Cairo to work to help the family. On his first vist to Cairo, he met his uncle, for whom he was going to work. His uncle put him to work all day and as the day ended, he thought he would go home with his uncle to his family. Instead, his uncle locked him in a dark room above his suit factory. Mahmoud was afraid and sat in a corner with his legs pulled up against his chest and arms wrapped tightly around them. He sat up crying all night, and all he could see was some light coming through holes in the roof that illuminated the rats crawling around the rafters. He would finally sleep as the sun came up, then his uncle would open the door and let him out to work another twelve hours.
 
-When Mahmoud returned home, he was so traumatized he fell asleep on his mat on the floor of his family’s home. He slept for a week with his mom unable to wake him except for putting small amounts of food in his mouth. At the end of the week his father took him to the imam who told the family he had evil spirits in him. He charged the family a larger amount of money and wrote some Koranic verses on special paper, placed it in water to dissolve and had him drink it. This was the start of a life of traveling and working to help support his family till he finally moved full time to Cairo at age 14 to work. He found no hope for his life and he sought help from Islam, but he was told he just needed to pray 5 times a day.
+            __( 'As we use social media platforms to connect with people, let us pray for discernment and sensitivity to people\'s needs, fears, and doubts, and for the right words to speak into their lives.
 
-Hope came one day when someone shared the Good News with Mahmoud in the café that he was working in. A relationship was formed and at one point a New Testament was given to him. Conversations of Jesus took place often and he told his father about it. On a visit to see his family, the father took the New Testament and began reading it. Mahmoud continued working to help his sisters be able to get married and his younger brother to go to university. His uncles abused him so much he decided to move to another country to find a job and he has been blessed greatly in this move. Conversations continue, hope grows, he is now reading the bible and he is moving to where he can overcome the bondage of Islam and embrace the freedom that comes with Jesus. Pray for Mahmoud to reach the point in his life where he gives his life over to Jesus.
+            “Devote yourselves to prayer; stay alert in it with thanksgiving.
+            At the same time, pray also for us that God may open a door to us for the word,
+            to speak the mystery of Christ...
+            Act wisely toward outsiders, making the most of the time.
+            Let your speech always be gracious, seasoned with salt,
+            so that you may know how you should answer each person.”
+            (Colossians 4:2-6)', 'de-prayer-2023' ),
 
-Pray for the masses, who are held in the grip of cultural traditions and the bondage of Islam, to find the hope and the freedom in Jesus Christ.', 'de-prayer-2023' ),
-                __( '“You have given me the shield of your salvation, and your right hand supported me, and your gentleness made me great.” (Psalm 18:35 ESV).
+            __( 'Lord, You are the Alpha and the Omega, the beginning and the end, the first and the last. You are the one who is, who was, and who is to come, the Almighty. I praise You for Your sovereignty and Your majesty. (Revelation 1:8)', 'de-prayer-2023' ),
 
-Lord, as your gentleness made David a great king after your own heart, may your gentleness shape, form, and inspire the church [in location] to walk in countercultural servanthood that your kingdom alone counts as great. (Psalm 18:35) Teach your followers [in location] the true meaning of greatness.', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( 'This generation of Christians is responsible for this generation of souls on the earth! — Keith Green', 'de-prayer-2023' ),
+            __( 'Lord, we recognize that there are many barriers that prevent people from hearing the gospel message, whether it be cultural, linguistic, or technological. We ask that You break down these barriers and create opportunities for us to engage people who have never heard the good news of salvation.', 'de-prayer-2023' ),
             ],
             [
-                //day 10
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that we are new creations IN Christ! (2 Corinthians 5:17)', 'de-prayer-2023' ),
-                __( 'Mesbah from Bangladesh said that, "Atheism seemed right after one becomes disillusioned with his religion”. But later he realized that this vast and orderly universe and every unique aspect was not created by chance. These masterful creations must be the creation of a Creator. He later attended a church service. The pastor presented an excellent argument for the existence of the Creator. After that, Mesbeh joined a Bible study and was baptized into Christ a few days later. Pray that as "the heavens declare the glory of God, and the sky above proclaims his handiwork..." (Psalm 19:1-4), men and women [in location] hear and turn to the One who spoke them into existence and continues to speak through the Word who became flesh.', 'de-prayer-2023' ),
-                __( '“If others share this rightful claim on you, do not we even more? Nevertheless, we have not made use of this right, but we endure anything rather than put an obstacle in the way of the gospel of Christ.” (1 Corinthians 9:12 ESV).
 
-Jesus, give the church [in location] grace to cherish your name above all else, that they would be equipped to endure in hope any measure of suffering or challenge, rather than see an obstacle placed in the way of your gospel. (1 Corinthians 9:12) The challenges and obstacles to the advance of the gospel [in location] are many, but as the church lays down it\'s rights and claims, you are faithful to bear the fruit of glory from the tree of suffering. May it be so [in location].', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( 'We can reach our world, if we will. The greatest lack today is not people or funds. The greatest need is prayer. — Wesley Duewel, head of OMS International', 'de-prayer-2023' ),
+            __( 'Let us pray for those who will come across our digital content, that their hearts may be open to the gospel message and that they may be drawn to Christ. ', 'de-prayer-2023' ),
+
+            __( 'Father, You are merciful and gracious, slow to anger, and abounding in steadfast love and faithfulness. You forgive our sins and heal our diseases. I praise You for Your compassion and Your goodness.
+            “The LORD is compassionate and gracious,
+            slow to anger and abounding in faithful love.”
+            (Psalm 103:8)
+
+            “He heals the brokenhearted and bandages their wounds.”
+            (Psalm 147:3)', 'de-prayer-2023' ),
+
+            __( 'Heavenly Father, we pray for those who are struggling with addiction, depression, anxiety, or other mental health issues. May they find hope, healing, and freedom in Jesus Christ, and may we be a source of compassion, empathy, and understanding to those who are hurting.', 'de-prayer-2023' ),
             ],
             [
-                //day 11
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that we have eternal life IN Christ! (Romans 6:23)', 'de-prayer-2023' ),
-                __( 'When I was 29 years old I became addicted to drugs after my fiance broke up with me and my job was terrible.
 
-Life was so bad I purchased as many drugs as I could in order to commit suicide. As I lay there waiting to die I prayed, “Are you Allah or are you God? Whoever you are, save me. I didn\'t think that life could be this hard. People are cruel and insensitive. I am addicted to alcohol and drugs. I know these are bad, but I use them to escape. Please help me if you can hear me, help me. If I deserve hell for killing myself, stop me right now. I want to be happy without being dependent on anything. I have lived far from you and offended you, show me where I made a mistake and teach me how to make a fresh start. I\'m about to die God, help me!"
+            __( "As we create digital content, let us pray that it would be impactful, compelling, and relevant, and that it would resonate with people's hearts and minds.", 'de-prayer-2023' ),
 
-Then I fell asleep. I heard a voice in my dream saying, “Ask and it will be given to you; seek and you will find; knock and the door will be opened to you. For everyone who asks receives; the one who seeks finds; and to the one who knocks, the door will be opened."
+            __( 'Lord, You are holy, and Your ways are just and true. You are righteous and faithful, and You keep Your promises to Your people. I praise You for Your holiness and Your righteousness.
 
-I had no idea what this meant, but sometime later I met a Christian who took out a Bible and showed me the same words I heard in my dream. They were from Matthew 7. As I read, I found peace and Jesus gave me hope. I realized that Jesus is Lord and savior. In a very short time, Jesus gave me healing, hope, and blessings. I got rid of all my addictions and bad habits without any medical support. Jesus saved me, and thanks to the Bible, I now know God very well and know that he is a loving father. I used to not like people, now I love them very much. We are no longer under the control of sin. I have become a new person and I am full of hope.', 'de-prayer-2023' ),
-                __( '“Come and hear, all you who fear God, and I will tell what he has done for my soul.” (Psalm 66:16 ESV).
+            “The LORD is righteous in all his ways and faithful in all his acts.
+            The LORD is near all who call out to him, all who call out to him with integrity.”
+            (Psalm 145:17)
 
-Lord God, you have faithfully written the testimony of your passionate love for the people [of location] across history and lives. May you raise up a generation of followers [in location] who cry with the Psalmist, "come and hear and I will tell you what God has done for my soul!" (Psalm 66:16) May they exhort one another to testify and may your Spirit carry faithfully that testimony to ears you\'ve prepared to hear and receive it.', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '“The history of missions is the history of answered prayer.” - Samuel Zwemer', 'de-prayer-2023' ),
+            “...Great and awe-inspiring are your works, Lord God, the Almighty;
+            just and true are your ways, King of the nations.”
+            (Revelation 15:3)', 'de-prayer-2023' ),
+
+            __( 'Lord, we pray for the technology used in this campaign. We ask that it functions properly and that there are no technical glitches that would hinder the message from reaching its intended audience.', 'de-prayer-2023' ),
             ],
             [
-                //day 12
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that you supply all our needs IN Christ! (Philippians 4:19)', 'de-prayer-2023' ),
-                __( 'Jane from Senegal found herself pregnant as a teenager and so somehow gave her self an abortion. A few years later, she was pregnant again. This time she decided to keep the baby, but in order to avoid shaming the family, her parents forced her to abort. She was 5 months along, and the baby was born alive. Her mother showed her the baby, and then buried it alive. And Jane lived in the grief and anger and bitterness that followed this event.
 
-On Thursday night she walked through forgiveness with the team teaching soul care. It was HARD. There were tears, but Jesus brought beautiful freedom to her life.
+            __( 'Let us pray for those who will be responding to our digital content, that they may experience the love, grace, and forgiveness of Christ and that they may be saved.
 
-Pray for spiritual seekers [in location] and all over the Muslim world to find freedom in Jesus as they follow His example in receiving forgiveness for their sins and extending forgiveness to those who have wronged them.', 'de-prayer-2023' ),
-                __( '“Then my enemies will turn back in the day when I call. This I know, that God is for me.” (Psalm 56:9 ESV).
+            “For you are saved by grace through faith,
+            and this is not from yourselves; it is God\'s gift — 
+            not from works, so that no one can boast.”
+            (Ephesians 2:8-9)', 'de-prayer-2023' ),
 
-Father God, would you plant the seed of holy confidence in the hearts of your followers [in location]. May they grow in the humble, eternal assurance of your completed work of grace so that even in the darkest nights of persecution, loneliness, and temptation they might join the saints across generations in saying "This I know, that God is for me." (Psalm 56:9).
-', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( 'In our lifetime, wouldn\'t it be sad if we spent more time washing dishes or swatting flies or mowing the yard or watching television than praying for world missions? — Dave Davidson', 'de-prayer-2023' ),
+            __( 'Father, You are the God of all comfort, who comforts us in all our afflictions so that we may be able to comfort those who are in any affliction with the comfort with which we ourselves are comforted by You. I praise You for Your comfort and Your compassion.
+
+            “Blessed be the God and Father of our Lord Jesus Christ,
+            the Father of mercies and the God of all comfort.
+            He comforts us in all our affliction,
+            so that we may be able to comfort those who are in any kind of affliction,
+            through the comfort we ourselves receive from God.”
+            (2 Corinthians 1:3-4)', 'de-prayer-2023' ),
+
+            __( 'Lord, we pray for those who are resistant to the gospel. We ask that You soften their hearts and open their minds to the truth of Your word.', 'de-prayer-2023' ),
             ],
             [
-                //day 13
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that we have every spiritual blessing of Heaven IN Christ! (Ephesians 1:3)', 'de-prayer-2023' ),
-                __( 'Zarish is a new believer in Pakistan who was miraculously healed from a spinal injury through the power of prayer. She reported feeling the presence of evil spirits in her house and is praying to Jesus that they will go away from her life. A lot of Muslims turn towards shrines and objects with black magic when they experience hardships. These things don’t really help them, instead they end up welcoming evil things in their homes and lives. People do these things because they are desperate and they easily follow others when they are offered a quick solution. Please pray for Zarish as she has found her new identity in Jesus. Pray she would only ask for help from Jesus and that any bad spirits will leave her alone.
-                
-                Pray for our Christian brothers and sisters [in location] and across the Muslim world to boldly show to neighbors and friends their refusal to put hope in anything other than Jesus. 
-', 'de-prayer-2023' ),
-                __( '“and was declared to be the Son of God in power according to the Spirit of holiness by his resurrection from the dead, Jesus Christ our Lord, through whom we have received grace and apostleship to bring about the obedience of faith for the sake of his name among all the nations,” (Romans 1:4-5 ESV).
-                
-Holy Spirit, cultivate and grow in the church [in location] the gifts of grace and apostleship that through this beautiful, unique expression of your body we might see the obedience of faith for the sake of your great name among all the nations of the earth. (Romans 1:4-5) Mold hearts and minds of obedient faith in your followers [in location] that they might teach and disciple their communities into love for Jesus."', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( 'A church that is not a missionary church is contradicting itself and quenching the Spirit. – Lausanne Covenant', 'de-prayer-2023' ),
+
+            __( 'As we engage with people through digital means, let us pray for protection from any spiritual attacks or opposition that may come our way.', 'de-prayer-2023' ),
+
+            __( 'Lord, You are the light of the world, and whoever follows You will not walk in darkness but will have the light of life. You have called us out of darkness into Your marvelous light. I praise You for Your guidance and Your grace.
+
+            “Jesus spoke to them again: “I am the light of the world.
+            Anyone who follows me will never walk in the darkness but will have the light of life.””
+            (John 8:12)
+
+            “But you are a chosen race, a royal priesthood,
+            a holy nation, a people for his possession,
+            so that you may proclaim the praises of the one who called you
+            out of darkness into his marvelous light.”
+            (1 Peter 2:9)', 'de-prayer-2023' ),
+
+            __( 'Lord, we pray for the safety and protection of those involved in this campaign. We ask that You guard their hearts and minds and protect them from harm.
+
+            “The LORD will protect you from all harm; he will protect your life.”
+            (Psalm 121:7)', 'de-prayer-2023' ),
             ],
             [
-                //day 14
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that we will be presented to you perfect IN Christ! (Colossians 1:28)', 'de-prayer-2023' ),
-                __( 'I was never very religious, and I was a Muslim simply because my parents were. I believed that God was distant and angry with me. I suffer from a rare allergy condition. I feared for my life and in order to overcome my fear I tried to pray but felt nothing. Then I tried to memorize the Koran but as I read it, I found many contradictions and the words disturbed me. I felt that God wanted me to ask one of my friends about the Messiah. I didn’t know that she was a Christian, but she prayed with me and quoted Romans 5:8, “But God demonstrates his own love for us in this: While we were still sinners, Christ died for us.” I loved those words, and I began searching for testimonies on the internet. I researched until finally I felt that I was wasting my time by prolonging my decision. I knew the truth, and I surrendered my life to Jesus Christ. Pray that many throughout the Muslim world will know of God’s love and begin to love like Paul wrote about in 1 Corinthians 13.', 'de-prayer-2023' ),
-                __( '“Then Paul answered, “What are you doing, weeping and breaking my heart? For I am ready not only to be imprisoned but even to die in Jerusalem for the name of the Lord Jesus.”” (Acts 21:13 ESV).
 
-Lord Jesus, raise up a generation of followers [in location] so burdened for your glory among the nations and so convinced of your eternal worth that they might say with passion and hope "I am ready not only to be imprisoned, but even to die...for the name of the Lord Jesus." (Acts 21:13).', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( 'If the Great Commission is true, our plans are not too big; they are too small. — Pat Morley', 'de-prayer-2023' ),
+            __( 'Let us pray for those who will be sharing our digital content with others, that they may do so with boldness and conviction, and that the gospel message would spread far and wide. ', 'de-prayer-2023' ),
+
+            __( 'Father, You are the God of peace, who has reconciled us to Yourself through Christ and given us the ministry of reconciliation. You have made peace with us through the blood of His cross. I praise You for Your peace and Your reconciliation.
+
+            “Everything is from God, who has reconciled us to himself through Christ
+            and has given us the ministry of reconciliation.
+            That is, in Christ, God was reconciling the world to himself,
+            not counting their trespasses against them,
+            and he has committed the message of reconciliation to us.”
+            (2 Corinthians 5:18-19)
+
+            “For God was pleased to have all his fullness dwell in him,
+            and through him to reconcile everything to himself,
+            whether things on earth or things in heaven,
+            by making peace through his blood, shed on the cross”
+            (Colossians 1:19-20)', 'de-prayer-2023' ),
+
+            __( 'Lord, we pray for the power of Your Holy Spirit to be evident in every aspect of this campaign. We ask that You anoint our words and our efforts with Your power and Your presence.', 'de-prayer-2023' ),
             ],
             [
-                //day 15
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that we cannot be separated from your love IN Christ! (Romans 8:32)', 'de-prayer-2023' ),
-                __( 'Suneel is a very active MBB (Muslim background believer). He loves to share the Good News with his friends. One of his friends accepted Jesus recently. He is inspired by Suneel and wants to get baptized to proclaim his faith.
-                
-Please pray for Suneel and his efforts to share his faith with others. Pray for this new brother to continue to grow in his faith and be a witness to others just like Suneel.', 'de-prayer-2023' ),
-                __( '“It is enough for the disciple to be like his teacher, and the servant like his master. If they have called the master of the house Beelzebul, how much more will they malign those of his household.” (Matthew 10:25 ESV).
 
-Holy Spirit, would you breathe a spirit of spiritual satisfaction over your followers [in location], that they might resist the temptations and condemnations of the world and, instead, joyfully rest knowing that it is enough for a disciple to be like his teacher and a servant like his master. (Matthew 10:25). Give your church [in location] a profound satisfaction in becoming more and more like you, even as the world scoffs and condemns.', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '"We should not ask, \'What is wrong with the world?\', for that diagnosis has already been given. Rather we should ask, \'What has happened to the salt and light?\'"John Stott', 'de-prayer-2023' ),
+            __( 'As we engage with people from diverse cultures and backgrounds, may we pray for understanding, respect, and empathy. Let us ask for the ability to communicate gospel truths in ways that are relevant and meaningful.', 'de-prayer-2023' ),
+
+            __( 'Lord, we praise You because You are the good shepherd who lays down His life for His sheep. We thank You for being the one who leads us beside still waters and restores our souls. We praise You for Your care and Your provision.
+
+            “I am the good shepherd. The good shepherd lays down his life for the sheep.”
+            (John 10:11)
+
+            “The LORD is my shepherd; I have what I need.
+            He lets me lie down in green pastures;
+            He leads me beside quiet waters.
+            He renews my life;
+            He leads me along the right paths for his name\'s sake.”
+            (Psalm 23:1-3)', 'de-prayer-2023' ),
+
+            __( 'Lord, as we seek to communicate gospel truth through digital platforms, we ask for Your wisdom and discernment. Help us to be mindful of cultural sensitivities, norms, and taboos of different communities. May we communicate the gospel in a way that is respectful, relevant, and meaningful.', 'de-prayer-2023' ),
             ],
             [
-                //day 16
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that we are one body IN Christ! (Romans 12:5)', 'de-prayer-2023' ),
-                __( 'Ruhi is ready to take the next step and be baptized.
 
-\'I was a Sunni Muslim by birth, but now I belong to Jesus Christ and have become a better person. I changed when I discovered Jesus, and I became closer to Him. All thanks to Him, I\'m living in a continuous state of peace and joy. I wish I could serve Him and spread His word. I\'m studying the Bible now and ready for baptism. Kindly pray for me.\'
+            __( 'Let us pray for the digital platforms we use. Please ask that they be safe, secure, and free from any harmful or inappropriate content.', 'de-prayer-2023' ),
 
-Pray for many like Ruhi [in location] that are new to faith and considering being wed to the Lamb of God through baptism.', 'de-prayer-2023' ),
-                __( 'For we are slaves. Yet our God has not forsaken us in our slavery, but has extended to us his steadfast love before the kings of Persia, to grant us some reviving to set up the house of our God, to repair its ruins, and to give us protection in Judea and Jerusalem.” (Ezra 9:9 ESV).
+            __( 'Father, You are the God who hears our prayers and answers them according to Your will. You promise to be with us always and to never leave us nor forsake us. I praise You for Your faithfulness and Your presence.
 
-Lord Jesus, would you affirm in your followers [in location] their identities as slaves - slaves to you, their good Master - no matter how countercultural and provocative this identity may be. May they say with the people of God, "we are slaves, but our God has not forsaken us in our slavery." (Ezra 9:9).', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( 'It is possible for the most obscure person in a church, with a heart right toward God, to exercise as much power for the evangelization of the world, as it is for those who stand in the most prominent positions. — John R. Mott', 'de-prayer-2023' ),
+            “... Be satisfied with what you have, for he himself has said,
+            I will never leave you or abandon you.”
+            (Hebrews 13:5)', 'de-prayer-2023' ),
+
+            __( '
+            Lord, we pray that the desires of our hearts will align with Your heart to save humanity. We ask that You guide us as we use various digital platforms to share gospel truths. Help us to remember You are with us always and will direct us if we seek You. May we seek not our own glory or fame, but that the name of Jesus be glorified in all we do.', 'de-prayer-2023' ),
             ],
             [
-                //day 17
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that Jesus brought the message of the Kingdom of Heaven being at hand! (Matthew 4:17)', 'de-prayer-2023' ),
-                __( 'Shahid became a believer two and a half years ago. He lives in Multan and comes from a family of “Pir Culture”. His father is a Pir and they have his grandfather’s shrine in their house where local people come with their prayer needs. A believer had been discipling him for over two years and arranged for him to meet with a local pastor and get baptized. This is a big step for him because baptism can be a big challenge when your whole family has strong opposing views. He was recently married to a Muslim woman arranged by his family and he shared this with her but she is still a Muslim by faith. He has joined a local church and is actively growing in faith.
-                
-Please pray for Shahid for any future challenges he will face as a growing believer and pray for his wife to also come to know Jesus and not be opposed to Him.', 'de-prayer-2023' ),
-                __( '“O our God, will you not execute judgment on them? For we are powerless against this great horde that is coming against us. We do not know what to do, but our eyes are on you.”” (2 Chronicles 20:12 ESV).
 
-Father God, you see the hopelessness and the brokenness that surrounds and threatens your church [in location]. You see how the enemy steals and destroys. And we ask that in the midst of the incomprehensible and insurmountable brokenness, you would revive and strengthen your followers [in location] that they might say with your Word, "we do not know what to do, but our eyes on you, Lord." (2 Chronicles 20:12).', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( 'If you take missions out of the Bible, you won\'t have anything left but the covers. — Nina Gunter', 'de-prayer-2023' ),
+            __( 'As we create digital content, let us pray for creativity, inspiration, and innovation. Pray for the ability to communicate gospel truths in new and engaging ways.', 'de-prayer-2023' ),
+
+            __( 'Jesus, we praise You for being the way, the truth, and the life. We thank You that You\'ve given a way for us to reach You, Jesus Christ, our mediator. We praise You for sending us the Holy Spirit to guide us into all truth. Thank You for Your truth and Your revelation.
+
+            “Jesus told him, ‘I am the way, the truth, and the life.
+            No one comes to the Father except through me.\'”
+            (John 14:6)
+
+            “When the Spirit of truth comes, he will guide you into all the truth.
+            For he will not speak on his own, but he will speak whatever he hears.
+            He will also declare to you what is to come.”
+            (John 16:13)', 'de-prayer-2023' ),
+
+            __( 'Heavenly Father, as we use digital tools to disciple and train believers, we ask that You anoint our efforts with Your Spirit. May we be faithful and effective in making disciples of all nations, may Your kingdom come, and Your will be done in the digital world as it is in heaven.', 'de-prayer-2023' ),
             ],
             [
-                //day 18
-                __( 'God, we love you! As your Church, help us to do what it takes to let the people [of location] grasp the Good News that Jesus has authority even over all of nature! (Matthew 8:27)', 'de-prayer-2023' ),
-                __( 'Hamid is a Muslim background believer who is facing a lot of difficulties and persecution because of his faith. He was reported and arrested by the police and is going through a court case because he decided to follow Jesus. He has been beaten by the police to threaten him and the law may not help him. This is a fear most of the Muslim people have when they decide to turn away from Islam.
-                
-Please pray for Hamid as he goes through this difficult time. He has more enemies than friends and his family may also not step up to help him. Pray for his protection, strength and comfort from God.', 'de-prayer-2023' ),
-                __( '“Do not fear what you are about to suffer. Behold, the devil is about to throw some of you into prison, that you may be tested, and for ten days you will have tribulation. Be faithful unto death, and I will give you the crown of life.” (Revelation 2:10 ESV).
 
-Lord Jesus, you have gone before us on the Way, showing what it means to be faithful unto death. Would you give your church [in location] the grace to remain faithful in proclamation and holiness unto death, that they might joyfully receive the crown of life that your perfect grace has prepared for them. (Revelation 2:10).', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '“His authority on earth allows us to dare to go to all the nations. His authority in heaven gives us our only hope of success. And His presence with us leaves us no other choice.” -John Stott', 'de-prayer-2023' ),
+            __( "Let us pray for those who will be supporting this digital engagement campaign. Pray that they will be filled with the Holy Spirit's wisdom and strength, and that they may experience the joy of seeing lives transformed by the gospel.", 'de-prayer-2023' ),
+
+            __( 'Oh Lord, I praise You for being my God, deliverer, fortress, and rock of refuge. I take refuge in You, my shield, my stronghold, and my salvation. Thank You, Lord, that in You I have found my place of safety.
+
+            “I love you, LORD, my strength.
+            The LORD is my rock,
+            my fortress, and my deliverer,
+            my God, my rock where I seek refuge,
+            my shield and the horn of my salvation, my stronghold...
+            God — his way is perfect; the word of the LORD is pure.
+            He is a shield to all who take refuge in him...
+            The LORD lives — blessed be my rock!
+            The God of my salvation is exalted.”
+            (Psalm 18:1-2, 30, 46)', 'de-prayer-2023' ),
+
+            __( 'Lord, we pray for the volunteers who will be supporting this digital engagement campaign. We ask that You bless them for their willingness to serve and that they will be filled with joy and a sense of purpose as they contribute to this mission. We pray that their efforts would make a real difference in the lives of those who hear the message.
+
+            “Let us not get tired of doing good,
+            for we will reap at the proper time if we don\'t give up.”
+            (Galatians 6:9)', 'de-prayer-2023' ),
             ],
             [
-                //day 19
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that Jesus was so overwhelmingly superior to demons that they literally begged Him for mercy! (Matthew 8:31)', 'de-prayer-2023' ),
-                __( 'Sayed yearned to meet the Jesus he heard about from a Christian friend. His life was crazy with university, family business responsibilities and being there for all his friends. He was always stressed and overwhelmed with life. He had just broken up with the girl he thought was the one he would wed. Islam was a family tradition more than a faith to him, but he could not think of something as personal as knowing Jesus. That night, his Christian friend prayed and asked for Jesus to reveal Himself to Sayed.
 
-Two nights after that prayer, Sayed fell asleep, and he started to dream. In his dream, he found himself on the street in front of his apartment. He saw his girlfriend down the street, and she turned and smiled at him. He waved to her, and she turned and walked away. He was so upset he sat right in the middle of the road and started to cry. He felt a hand on his shoulder and turned, immediately he knew it was Jesus who was sitting with him. He felt a total peace as Jesus spoke to him and told him that he loved him. Sayed looked at Jesus and told him he had beautiful hair. Jesus gave him a comb and he started to comb his own hair and it grew and looked like the hair Jesus had. Sayed said to Jesus, “You look like me.” Jesus smiled and said, “No, you look like me because you were created in my image.” He woke from the dream and knew the prayer from the other night had been answered.
+            __( "As we engage with people through digital means, let us pray for patience, kindness, and gentleness. We are asking for the ability to listen and respond to people's questions and concerns in a compassionate and loving way.", 'de-prayer-2023' ),
 
-Pray for dreams and visions across the Muslim world, but also pray for those who will go into the world and ask the question, “Have you ever had a dream or vision of a man in white?” Many have had this dream, but they have no one to help them understand what this dream can mean.', 'de-prayer-2023' ),
-                __( '“And we have seen and testify that the Father has sent his Son to be the Savior of the world.” (1 John 4:14 ESV).
+            __( 'We praise You, Lord, because You are great and worthy of praise. You are unfathomable, O God! We thank You for being good to all and that You have compassion towards all that You have created. We praise You because You have given us life and breath!
 
-Lord God, grant your church [in location] the eyes to see and lips to testify to the miracle of the provision of your Son Jesus to be the savior of the world. (1 John 4:14) Your one and only Son, dispatched from his rightful throne in Heaven to live and die for the salvation of the nations. May your followers [in location] be known for their loyalty and devotion to this beautiful message.', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '"I\'ve heard people say, \'I want more of a heart for missions.\' I always respond, \'Jesus tells you exactly how to get it. Put your money in missions - and in your church and the poor - and your heart will follow.\'" - Randy Alcorn', 'de-prayer-2023' ),
+            “I exalt you, my God the King, and bless your name forever and ever.
+            I will bless you every day; I will praise your name forever and ever.
+            The LORD is great and is highly praised; his greatness is unsearchable...
+            The LORD is gracious and compassionate, slow to anger and great in faithful love.
+            The LORD is good to everyone; his compassion rests on all he has made.”
+            (Psalm 145:1-3, 8-9)
+
+            “Let everything that breathes praise the LORD. Hallelujah!”
+            (Psalm 150:6)', 'de-prayer-2023' ),
+
+            __( 'Father, we pray for the people who will be sharing gospel truth through this digital engagement campaign. We ask that You give them boldness and wisdom as they communicate Your truth. We pray that their words would be anointed with Your power and that they would be sensitive to the leading of Your Spirit.', 'de-prayer-2023' ),
             ],
             [
-                //day 20
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that Jesus\' message was that He wanted us to follow Him, the greatest man in the history of the universe! (Matthew 9:9)', 'de-prayer-2023' ),
-                __( 'After reading the gospel of Matthew, Taariq, a new believer, said, \'I feel as if I am in another world. I feel at peace. Inner peace, as if I have left this world entirely for another. I thank you for all the information you have given me. I have read the book of Matthew, and its words entered my heart directly. It is wonderful.\'
 
-We know God is doing incredible work in the lives of Arabs across the Middle East and North Africa.
+            __( 'Let us pray for those who will be partnering with us in this digital evangelism campaign, that they may share our vision and passion for seeing people come to Christ, and that they may be encouraged and strengthened in their own faith.', 'de-prayer-2023' ),
 
-Pray for new believers like Taariq to fall in love with Scripture and to consume it daily.', 'de-prayer-2023' ),
-                __( '“With God we shall do valiantly; it is he who will tread down our foes.” (Psalm 108:13 ESV).
+            __( 'We praise You for being a great God who is above all. We praise You for being worthy of praise, glory, and honor. We thank You for allowing us to enter Your presence. We sing to You and praise You for being our rock and salvation.
 
-Father God, as your followers [in location] look out upon the resources of the enemy arrayed against them, may you grant them fearlessness and confidence in your matchless power. May their hearts learn to answer the attacks of the enemy, saying "with God we shall do valiantly, it is he who will tread down our foes." (Psalm 108:13).', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '“What can we do to win these men to Christ?” – Richard Wurmbrand, The Voice of the Martyrs (referring to the men who were persecuting him)', 'de-prayer-2023' ),
+            “Come, let\'s shout joyfully to the LORD,
+            shout triumphantly to the rock of our salvation!
+            Let\'s enter his presence with thanksgiving;
+            let\'s shout triumphantly to him in song.
+            For the LORD is a great God,
+            a great King above all gods.”
+             (Psalm 95:1-3)', 'de-prayer-2023' ),
+
+            __( 'We pray for the mental and emotional health of those involved in this campaign. We ask that You give them peace and comfort amid the stresses and challenges they face.
+
+            “Don\'t worry about anything, but in everything, through prayer and petition
+            with thanksgiving, present your requests to God.
+            And the peace of God, which surpasses all understanding,
+            will guard your hearts and minds in Christ Jesus.”
+             (Philippians 4:6-7)', 'de-prayer-2023' ),
             ],
             [
-                //day 21
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that Jesus offered us life! (Matthew 10:38)', 'de-prayer-2023' ),
-                __( 'Hamzaa, a taxi driver living in Iraq, first heard about Christianity when tuning in to a Christian radio station while he was working. He became curious and wanted to learn more, so he began searching the internet. He found our Arabic ministry website and sent us the following message. \'I am a Muslim, and I am convinced that Christianity is the true way. I want to become a Christian, but I don’t know how.\'
 
-Mira*, a member of our Arabic response team, picked up his message and replied. She explained the Gospel to him, and after a short while, she led him in prayer, and Hamzaa became a Christian. God had been preparing Hamzaa\'s heart for some time, and once he found our website, he was ready to commit his life to the Lord.
+            __( "As we use digital means to share the gospel message, let us pray for the Holy Spirit's power to convict people of their sin and draw them to repentance and faith in Christ.", 'de-prayer-2023' ),
 
-Soon after, we introduced Hamzaa to local believers in Iraq, and he began meeting with them face to face. We received this encouraging message from the local believers; \'Hamzaa is very hungry to learn and actively engages with us. We are now meeting twice a week and becoming friends as a group. We are going to begin doing activities together to develop that friendship and to grow in the Lord together.\'
+            __( 'We praise You that You search us and know us. I am in awe of Your omniscience—knowing when I sit, when I rise, and all of my thoughts. I can hide nothing from You. I cannot go anywhere where You are not with me. I praise You for knowing me intimately.
 
-God is doing amazing miraculous works across the Arab world.
+            “LORD, you have searched me and known me.
+            You know when I sit down and when I stand up;
+            you understand my thoughts from far away...
+            Before a word is on my tongue, you know all about it, LORD...
+            Where can I go to escape your Spirit?
+            Where can I flee from your presence?
+            If I go up to heaven, you are there;
+            If I make my bed in Sheol, you are there...
+            Search me, God, and know my heart;
+            test me and know my concerns.
+            See if there is any offensive way in me;
+            lead me in the everlasting way.”
+            (Psalm 139:1-2, 4, 7-8, 23-24)', 'de-prayer-2023' ),
 
-Pray that Hamzaa will continue to grow in his faith. Pray for strong friendships to develop and that he will continue to meet with fellow believers.', 'de-prayer-2023' ),
-                __( '“By Silvanus, a faithful brother as I regard him, I have written briefly to you, exhorting and declaring that this is the true grace of God. Stand firm in it.” (1 Peter 5:12 ESV).
-
-Heavenly Father, teach your followers [in location] to cling to the true grace of God and to stand firm in it. (1 Peter 5:12) As fear and doubt swirl around these precious friends, would you be the solid Rock on which they can stand and build this eternally valuable corner of your kingdom.', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '“We who have Christ’s eternal life need to throw away our own lives.” -George Verwer', 'de-prayer-2023' ),
+            __( 'Heavenly Father, we ask that You bless our digital engagement efforts with fruitfulness and impact. May many come to know You as their Lord and Savior through our online ministry, and may Your name be glorified in all that we do.', 'de-prayer-2023' ),
             ],
             [
-                //day 22
-                __( 'God, we love you! As your Church help us do what it takes to let the people [of location] grasp the Good News that Jesus responded with compassion to persistent faith! (Matthew 15:28)', 'de-prayer-2023' ),
-                __( 'Tauqeer is a seeker who has been talking to a believer online about whether Mohammad is the greatest prophet or not? The believer asked him, "Should we follow someone who is dead or someone who is alive?" This confused Tauqeer and made him question his beliefs. He is questioning if Jesus was more than a prophet. Most Muslims believe Jesus is just a prophet who came to teach people good things and performed a lot of miracles.
-                
-Pray Taqueer will come to know Jesus did more than perform miracles and will open his heart to the Truth.', 'de-prayer-2023' ),
-                __( '“he says: “It is too light a thing that you should be my servant to raise up the tribes of Jacob and to bring back the preserved of Israel; I will make you as a light for the nations, that my salvation may reach to the end of the earth.”” (Isaiah 49:6 ESV).
 
-Holy Spirit, come and do the work that only you can do in the church [in location]. Ignite them with passion for the glory and the name of Jesus that burns so brightly that it cannot help but be witnessed and shared in every corner [of location] and to the ends of the earth. (Isaiah 49:6).', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( 'The question is not whether we will die, but whether we will die in a way that bears much fruit. - Adoniram Judson', 'de-prayer-2023' ),
+            __( 'Let us pray for those who are skeptical or resistant to the gospel message. We know the Lord can change even the hardest hearts. We ask that those who have hearts of stone will be softened and that they may come to know the truth and love of Christ.', 'de-prayer-2023' ),
+
+            __( 'We praise You Lord for You are great and feared above all gods. Because of Your greatness, we can exalt You, sing to You, and proclaim Your salvation among the nations.
+
+            “Sing a new song to the LORD; let the whole earth sing to the LORD.
+            Sing to the LORD, bless his name; proclaim his salvation from day to day.
+            Declare his glory among the nations, his wondrous works among all peoples.
+            For the LORD is great and is highly praised; he is feared above all gods.”
+            (Psalm 96:1-4)', 'de-prayer-2023' ),
+
+            __( 'Lord, we pray for those who are skeptical, hostile, or indifferent to the gospel message. May Your Spirit soften their hearts and open their minds to receive the truth of Your word. Give us boldness, courage, and wisdom as we share the message of salvation with those who need it most.', 'de-prayer-2023' ),
             ],
             [
-                //day 23
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that Jesus had authority over all disease and disability! (Matthew 15:31)', 'de-prayer-2023' ),
-                __( 'Farah fled war-torn Syria with her husband and small children when the war broke out. They found refuge in a nearby country and established a new life together as a family. Although life was difficult as a refugee in a new country, Farah discovered an openness she had not experienced in Syria. For the first time, she could explore questions about faith and religion. In April 2021, Farah messaged us through our Arabic ministry website. She wanted to read the Bible but was unsure where to begin. Habib*, one of our online Arabic responders, talked with Farah for several weeks. They chatted online about many aspects of the Christian faith. Farah brought her questions about the Bible to Habib, and they studied God\'s word together. After a short time, Farah was convinced. She accepted Jesus Christ as her savior and gave her heart to the Lord.
 
-Life did not get easier for Farah and her family. She faced persecution, rejection and discrimination because of her new faith. She tried to share the story of Jesus with her husband and children, but they didn\'t want to hear about it. Undeterred, she began attending a local church and was baptized. Farah continued studying the Bible, and her love for Jesus grew.
+            __( 'As we create digital content, let us pray for the ability to communicate the gospel message in a way that is clear, concise, and easy to understand.', 'de-prayer-2023' ),
 
-She began meeting regularly with a group of Syrian women, and eventually, she felt comfortable sharing her faith. They also wanted to know the peace Farah felt, so each woman gave her life to Christ one by one. They now meet in Farah\'s home and study the Bible together!
+            __( 'I praise You because You have given me life! I thank You that we can trust You rather than man. I praise You for being the Maker of all things and are forever faithful. We praise You that You can open the eyes of the blind. Thank You for reigning over all generations.
 
-Farah remains firm in her faith despite challenging circumstances, sickness, pain, persecution and rejection. She is faithful and continues to pray for her husband and children. Her love for Jesus has brought this precious group of Syrian women to know and love the Lord. Praise God for Farah and her brave desire to share her faith and be a witness to those around her.
+            “Hallelujah!
+            My soul, praise the LORD.
+            I will praise the LORD all my life;
+            I will sing to my God as long as I live.
+            Do not trust in nobles, in a son of man, who cannot save...
+            Happy is the one whose help is the God of Jacob,
+            whose hope is in the LORD his God,
+            the Maker of heaven and earth,
+            the sea and everything in them.
+            He remains faithful forever, ...
+            The LORD opens the eyes of the blind.
+            The LORD raises up those who are oppressed.
+            The LORD loves the righteous...
+            The LORD reigns forever;
+            Zion, your God reigns for all generations.
+            Hallelujah”
+            (Psalm 146: 1-3, 5-6, 8, 10)', 'de-prayer-2023' ),
 
-Now, because of Farah\'s* steadfast faith and determination, many others are following Jesus.
-', 'de-prayer-2023' ),
-                __( '“And they have conquered him by the blood of the Lamb and by the word of their testimony, for they loved not their lives even unto death.” (Revelation 12:11 ESV).
+            __( 'Lord, we pray for the creative team behind this digital engagement campaign. We ask that You inspire them with fresh ideas and that they would have the resources they need to create content that is compelling and relevant. We pray that their efforts will be fruitful and that many will come to faith through their work.
 
-Lord Jesus, by your blood your followers [in location] have become conquerors of sin and death and even more than conquerors. May your church [in location] cling to the eternal hope and promises that you have won and may a heavenly host one day sing over them "they loved not their lives even unto death." (Revelation 12:11).', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '“It’s not that God has a mission for His Church in the world, but that God has a Church for His mission in the world.” – Chris Wright', 'de-prayer-2023' ),
+            “Commit your activities to the LORD, and your plans will be established.”
+            (Proverbs 16:3)', 'de-prayer-2023' ),
             ],
             [
-                //day 24
-                __( 'God, we love you! As your Church help us do what it takes to let the people [of location] grasp the Good News that Jesus offered a path to greatness in the Kingdom that anyone could choose to follow! (Matthew 18:4)', 'de-prayer-2023' ),
-                __( 'I am a forty-six years old woman from Tunisia. I saw a vision. The Messiah said, “I am the Truth.” I had already given up on Islam because of the violence. I never really felt God’s presence in my life before, but when I saw the Messiah, everything changed. I felt God’s peace. I started reading the Bible with some Christians.
-                
-Pray that our group of seekers will remain committed to knowing God through His Word and obeying His commands.', 'de-prayer-2023' ),
-                __( '“In days to come Jacob shall take root, Israel shall blossom and put forth shoots and fill the whole world with fruit.” (Isaiah 27:6 ESV).
 
-Lord Jesus, would the hope of your glory and the joy of your salvation take root deeply in your church [in location]. And by your grace and power, would you cause spiritual fruit to blossom in this desert place, beginning a joyful harvest of souls across the nations and the ends of earth, as you have promised. (Isaiah 27:6).', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '“Rediscover the real meaning of the Great Commission. Beginning in our own prayer and devotional lives, we must begin to feel the compassion of the Lord for a lost and dying world. As we have already seen, the Great Commission is not something that was given to a tiny group of specially trained and educated envoys. It was given to all Christians—to the whole Church. It is something that we are all to be engaged in naturally every day.” – K.P. Yohannan, Come, Let’s Reach the World', 'de-prayer-2023' ),
+            __( "Let us pray for those who will be leading and coordinating this digital engagement campaign, that they may be filled with the Holy Spirit's wisdom and discernment, and that they may be effective in their roles. Let us ask that they would rest in God alone rather than their own skills and talents.", 'de-prayer-2023' ),
+
+            __( 'I praise You God for being my rock, stronghold, and salvation. I exalt in You because I know I can rest in You because You are the one who provides me with hope, rest, and peace. Thank You, God, that I can trust in You always and pour out my heart before You. I praise You for being my refuge!
+
+            “Rest in God alone, my soul,
+            for my hope comes from him.
+            He alone is my rock and my salvation,
+            my stronghold; I will not be shaken.
+            My salvation and glory depend on God, my strong rock.
+            My refuge is in God.
+            Trust in him at all times, you people;
+            pour out your hearts before him.
+            God is our refuge.”
+            (Psalm 62:5-8)', 'de-prayer-2023' ),
+
+            __( 'We pray for the leaders and organizers of this digital evangelism campaign. We ask that You grant them wisdom, discernment, and direction as they plan and execute the campaign.
+
+            “Now if any of you lacks wisdom, he should ask God
+            — who gives to all generously and ungrudgingly — 
+            and it will be given to him.”
+            (James 1:5)', 'de-prayer-2023' ),
             ],
             [
-                //day 25
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that Jesus knowingly took one step after another toward Jerusalem knowing He would be condemned to death, mocked, flogged, crucified and then be raised on the third day! (Matthew 20:19)', 'de-prayer-2023' ),
-                __( 'Hamza is a 27 years old man who lives in Punjab. He has always lived his life following Islamic rules closely but never felt satisfied as a follower. He spent a lot of time looking at videos on YouTube and Facebook so he could learn to do better but the more he looked the more he felt restless. One day he was looking at Facebook and came across content about Jesus’ sacrifice. He had never had an encounter with a Christian before and didn’t know much about Christian faith. He decided to send a message and connected with a believer. He told the believer that he tries to follow all the rules in Islam but he always feels restless because he doesn’t have any hope he will go to heaven. The Quran doesn’t tell him anything about having assurance that if he keeps all the rules he will go to heaven. He asked many questions about sacrifice, sacrificing animals and why Christians don’t perform any sacrifices and came to the realization that Jesus is the only sacrifice he needed. Hamza talked to the believer for about a week and decided his only way to heaven is through Jesus. He put his faith in Jesus alone.', 'de-prayer-2023' ),
-                __( '“So also you have sorrow now, but I will see you again, and your hearts will rejoice, and no one will take your joy from you.” (John 16:22 ESV).
 
-Lord Jesus, write the promise of your return and the power of your spirit upon the hearts of your followers [in location] that they would be filled with the joy of salvation and expectation that no one can take away from them. (John 16:22) Even in the darkness of persecution and doubt and fear, may their joy be unshakable.', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '“Jesus promised his disciples three things: they would be completely fearless, absurdly happy, and in constant trouble.” – G.K. Chesterton', 'de-prayer-2023' ),
+            __( 'Social media has become a primary source of news and information for many people. Pray that our online engagement efforts will reach those who are seeking answers and spiritual guidance.', 'de-prayer-2023' ),
+
+            __( 'I thank You, Lord, that I can boast about You! You are holy, just, trustworthy, and steadfast. You do miraculous works that cause people to turn to You. I rejoice and boast in You, for You are worthy of all praise.
+
+            “I will thank the LORD with all my heart;
+            I will declare all your wondrous works.
+            I will rejoice and boast about you;
+            I will sing about your name, Most High.”
+             (Psalm 9:1-2)', 'de-prayer-2023' ),
+
+            __( 'Lord, we pray that as people browse the internet and social media they would find the good news of the gospel and see that it is the answer to their greatest needs.', 'de-prayer-2023' ),
             ],
             [
-                //day 26
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that Jesus taught that for God those who have died are alive! (Matthew 22:32)', 'de-prayer-2023' ),
-                __( 'Since I was child, I respected Islam, prayed, read the Koran and the Hadith, and watched Islamic TV programs. As I prayed, I would cry out and ask God to draw me closer to him. As I grew, I began to have problems with my family. When I shared my opinion, it seemed like they just wanted to argue with me. Finally, I left home to go and live with my sister. One night, as I cried myself to sleep, I had a vision of a man. I could not see his face because it was light. I could not stand and fell to the ground. In the dream, I was young and small and was wearing a crown. He put his hand on me and said, “You are mine. Don’t fear.” I tried to find an explanation for this dream. Someone told me I had seen the Messiah. I didn’t know anything about Christianity but began to search. One day I posted on Facebook,“My only hope is that God will accept me.” A Christian wrote me and told me about God’s love for me and sent me verses from the Bible. Inwardly I struggled between what I had always believed and the new truth I was learning. I finally decided to follow Jesus. I shared with my family and my brother, sister, and niece also accepted Jesus.
-                
-Pray that we will start a church in our home and that we will boldly tell others of God’s love.', 'de-prayer-2023' ),
-                __( '“and that repentance for the forgiveness of sins should be proclaimed in his name to all nations, beginning from Jerusalem.” (Luke 24:47 ESV).
 
-Lord Jesus, impart your passion for your own glory among the nations to your followers [in location] that they would be filled with wonder and expectation at the seeming impossibility of seeing repentance for the forgiveness of sins proclaimed in your name to all nations. (Luke 24:47) Give your followers [in location] a burning passion for the great commission and your global mission, even as they grow in boldness within their own borders.', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '“Put legs to your prayers” – Ray Comfort', 'de-prayer-2023' ),
+            __( 'The internet has made it easier than ever for people to access pornography and other harmful content. Pray that individuals who struggle with addiction to these things will find freedom and healing through the power of Christ.', 'de-prayer-2023' ),
+
+            __( 'God, we praise You for being a God who loves integrity. We thank You for Your loving kindness that leads to repentance. We praise You for Your faithfulness and justice. We praise You for guiding us when we call out to You. May we love integrity and flee transgressions!
+
+            “I will sing of faithful love and justice;
+            I will sing praise to you, LORD.
+            I will pay attention to the way of integrity.
+            When will you come to me?
+            I will live with a heart of integrity in my house.
+            I will not let anything worthless guide me.
+            I hate the practice of transgression;
+            it will not cling to me.
+            A devious heart will be far from me;
+            I will not be involved with evil.”
+            (Psalm 101:1-4)', 'de-prayer-2023' ),
+
+            __( 'Father, we pray for those who struggle with addiction to harmful online content. We ask that You break the chains of addiction and bring healing and restoration to their lives. May they find freedom in Christ and be empowered to overcome the temptations that lead them down destructive paths.', 'de-prayer-2023' ),
             ],
             [
-                //day 27
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that Jesus invited us to make you the center of our love and affection! (Matthew 22:37-40)', 'de-prayer-2023' ),
-                __( 'I am a married woman with two daughters. My daughters decided to follow Jesus, and I fought with them about their decision for a long time. Over time, I developed a liver disease. The doctor wanted to start treatment. My daughters told me they would pray for me in the name of Jesus Christ. They said, “He will heal you but more than that he will save you from your sins.” I thought, “No problem. Let them try, and we will see what happens.” At that time when they were praying, I was resting in my room alone and the weather was very hot. I felt a gentle breeze blow over me. I heard a voice say my name three times. Each time the voice was stronger. I got up and got dressed. I went to my daughters and asked, “Did you call me?” They said, “no.” They continued praying for me. Then I went back to my room and realized that I had heard the voice of the Messiah, and He touched me by healing me. The next day I went to the doctor. He said, “Please forgive us. We were wrong. You are not sick.” I surrendered my life to the Lord and began my journey walking with Him.
-                
-Pray for those who are sick and without hope. That Jesus will appear to them and heal them so that they may know that He is true and is their Savior.', 'de-prayer-2023' ),
-                __( '“Though he slay me, I will hope in him; yet I will argue my ways to his face.” (Job 13:15 ESV).
 
-Father God, grant your followers [in location] a profound trust in your goodness and your sovereign power, that they might proclaim with Job "though he slay me, I will hope in him." (Job 13:15) Teach the church [in location] to stand in awe and humble reverence toward your perfect plans and purposes, even as the waves of tragedy and challenge wash over them.', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '“I believe that in each generation God has called enough men and women to evangelize all the yet unreached tribes of the earth. It is not God who does not call. It is man who will not respond!” – Isobel Kuhn, 1901-1957, missionary to China and Thailand', 'de-prayer-2023' ),
+            __( 'Many people are hesitant to engage with online gospel engagement efforts due to fear of judgment or ridicule. Pray that we would be sensitive to these concerns and that our messages would be received with openness and understanding.', 'de-prayer-2023' ),
+
+            __( 'I will praise You, O Lord, for there is no one like You! I praise You because all the nations of the earth will one day honor You. I am in awe of Your wonders and majesty. I praise You because You teach me and guide me by Your truth. I will praise You because You have delivered me from the grave. I praise You for Your faithful love!
+
+            “Lord, there is no one like you among the gods,
+            and there are no works like yours.
+            All the nations you have made
+            will come and bow down before you, Lord,
+            and will honor your name.
+            For you are great and perform wonders;
+            you alone are God.
+            Teach me your way, LORD,
+            and I will live by your truth.
+            Give me an undivided mind to fear your name.
+            I will praise you with all my heart, Lord my God,
+            and will honor your name forever.
+            For your faithful love for me is great,
+            and you rescue my life from the depths of Sheol.”
+            (Psalm 86:8-13)', 'de-prayer-2023' ),
+
+            __( 'God, we ask for sensitivity and discernment as we engage with unbelievers online. We pray that gospel truths will be received with openness and understanding. We ask that fear of judgment or ridicule would be overcome by Your love. May those who encounter this content be drawn to You and the hope that You offer.', 'de-prayer-2023' ),
             ],
             [
-                //day 28
-                __( 'God, we love you! As your Church help us do what it takes to let the people [of location] grasp the Good News that Jesus is coming back like lightning! (Matthew 24:27)', 'de-prayer-2023' ),
-                __( 'I am a twenty-three year old woman. My family situation is very difficult, especially with my father. I finally ran away. I went through some very hard circumstances. One day a friend introduced me to a Christian family. They welcomed me and told me about the Messiah. They said, “The Messiah is able to help you in your suffering.” Later I got online and was looking for a solution to my problems. Again, I was shocked to find information about the Messiah. I met Christians and they prayed with me a lot. One day I woke up and I had such joy in my heart. I heard a voice say, “Accept the Messiah. Accept the Messiah.” I accepted Christ and was filled with the Holy Spirit. I felt new life come into my body and fill me with strength and renew my soul. Within a week, God began to prompt me to forgive my father. Pray that God will give me faith to trust Him and forgive my father. Pray for others who are bound by the slavery of bitterness and unforgiveness.
-                
-Pray that God will give them strength to forgive.', 'de-prayer-2023' ),
-                __( '“Go your way; behold, I am sending you out as lambs in the midst of wolves.” (Luke 10:3 ESV).
 
-Lord Jesus, you have sent your followers [in location] out as lambs in the midst of wolves. Be their ever-mindful, every-caring shepherd as you grow them in confidence and steadfastness to trust you as the wolves encircle and threaten. Would you give them a supernatural, attractive gentleness that even their suffering might a witness to their enemies who would see them divided and lost. (Luke 10:3).', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '“If you are ever inclined to pray for a missionary, do it at once, where ever you are. Perhaps he may be in great peril at that moment.” – Amy Carmichael, 1867-1951, missionary to India', 'de-prayer-2023' ),
+            __( 'The fast pace of the digital age can leave people feeling overwhelmed and burnt out. Pray that our engagement efforts would offer hope and rest to those who are weary.', 'de-prayer-2023' ),
+
+            __( 'May we, like the Psalmist, always bless the Lord, praising Him continually! You are worthy Lord of all boasting, praise, honor and glory for You are great! May we praise and boast of You because of Your majesty and all that You have done for us.
+
+            “I will bless the LORD at all times; his praise will always be on my lips.
+            I will boast in the LORD; the humble will hear and be glad.
+            Proclaim the LORD\'s greatness with me; let us exalt his name together.
+            I sought the LORD, and he answered me and rescued me from all my fears.”
+            (Psalm 34:1-4)', 'de-prayer-2023' ),
+
+            __( 'Lord, we recognize the weariness and burnout that many people feel in the fast-paced digital age. We pray that our digital engagement efforts would offer them the rest and hope that they need. May they find true rest in You, and may their lives be transformed by the power of Your love and grace.
+
+            “Come to me, all of you who are weary and burdened, and I will give you rest.
+            Take my yoke upon you and learn from me, because I am lowly and humble in heart,
+            and you will find rest for your souls. For my yoke is easy and my burden is light.”
+            (Matthew 11:28-30)', 'de-prayer-2023' ),
             ],
             [
-                //day 29
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that Jesus will bless those who are faithful in this life! (Matthew 24:47)', 'de-prayer-2023' ),
-                __( 'I am Nasser, and I am from Afghanistan. When I was a teenager, my family fled The Taliban and went to Pakistan. I was from a well-to-do family, and my parents had money to send my siblings and I to learn English at a learning center there that some westerners taught at. One of the teachers played the guitar really well, and I hadn\'t heard this instrument before - we have other kinds of instruments in Afghanistan. I asked him if he would come home with me to play the guitar at my house and have dinner with my family. Before beginning dinner, my father thought to honor our guest and his culture by asking him to thank Allah for the food. As the westerner prayed, it was the first time I felt peace in my entire tumultuous life -- I looked at this man as he prayed, and I could see this overwhelming peace and joy, and I wanted it. As he finished praying, I heard him say in Urdu, "in Jesus\' name, Amen." I knew then there must be some connection to Jesus and this guy\'s peace and joy. In the coming weeks, that man led me to Christ, and then I led my family to Christ. We moved back to Afghanistan a couple years later, and by the grace of God we saw many Afghans come to faith in Christ, some even who are still in Afghanistan and remain a light under the current regime.
 
-Please pray for the persecuted church in Afghanistan:
-- to love their enemies
-- to be filled with love and boldness to share the gospel, heal the sick and cast out demons
-- to multiply disciples, churches, and leaders among every people and place in that country', 'de-prayer-2023' ),
-                __( '“in whom we have boldness and access with confidence through our faith in him.” (Ephesians 3:12 ESV).
+            __( 'The online world can be a breeding ground for conspiracy theories and misinformation. Pray that those who are searching for truth would find it in the message of the gospel.', 'de-prayer-2023' ),
 
-Lord God, grant your followers [in location] the boldness and confidence reserved for Sons and Daughters of the King as you reassure them not only of their salvation, but their commissioning as witnesses and ministers in this broken world. (Ephesians 3:12) Remove by your gentle spirit any lie or obstacle that would threaten the confidence with which these precious ones enter the Holy of Holies.', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '“Prayer is not a preparation for the battle; it is the battle!” – Leonard Ravenhill', 'de-prayer-2023' ),
+            __( 'May we use the Psalm below to praise the Lord for the many things He has done that are worthy of praise. We thank You Lord for Your name alone is exalted and Your majesty covers the heavens and the earth!
+
+            “Hallelujah!
+            Praise the LORD from the heavens;
+            praise him in the heights.
+            Praise him, all his angels;
+            praise him, all his heavenly armies.
+            Praise him, sun and moon;
+            praise him, all you shining stars.
+            Praise him, highest heavens,
+            and you waters above the heavens.
+            Let them praise the name of the LORD,
+            for he commanded, and they were created.
+            He set them in position forever and ever;
+            he gave an order that will never pass away...
+            Let them praise the name of the LORD,
+            for his name alone is exalted.
+            His majesty covers heaven and earth.”
+            (Psalm 148:1-6, 13)
+            ', 'de-prayer-2023' ),
+
+            __( 'Father, we lift up those who are searching for truth amidst the sea of misinformation on the internet. We ask that Your light would shine in the darkness and that they would be drawn to the message of the gospel. May they find true hope and purpose in You, and may their lives be transformed by Your grace.
+
+            “That light shines in the darkness,
+            and yet the darkness did not overcome it.”
+            (John 1:5)
+             ', 'de-prayer-2023' ),
             ],
             [
-                //day 30
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that Jesus eagerly awaits the Kingdom to drink wine with us! (Matthew 26:29)', 'de-prayer-2023' ),
-                __( 'I am a thirty-year-old man from Tunisia. I was raised in a strict, practicing Muslim family. The first time I went to a church building, I had a government job to watch the Christians. I was surprised by their simple message and wondered why we were afraid of them. One day the Christians gave me a Bible and explained it to me. They prayed for me. I went home and prayed, “God, you know me. If you are true, speak to me.” I had a dream. There were six people being crucified on a cross. The Messiah was also on a cross. My friend from the police gave me a gun and said to shoot them. The Messiah said, “I will never die,” and then he pointed to the others, “They will not die either.” I woke up and called my friend in the dream. He had had the same dream! I understand that only the Messiah offers eternal life and that is why Christians are not afraid. I gave my life to Christ.
-                
-Pray that Muslims this Ramadan will have dreams of Christ and will not be afraid to share the Good News!', 'de-prayer-2023' ),
-                __( '“But though we had already suffered and been shamefully treated at Philippi, as you know, we had boldness in our God to declare to you the gospel of God in the midst of much conflict.” (1 Thessalonians 2:2 ESV).
 
-Lord Jesus, you see the shameful treatment and suffering of many of your followers [in location]. And we pray that as your sovereign hand guides them through adversity, they would rise up in boldness in their God to continue to declare the gospel in the midst of much conflict. (1 Thessalonians 2:2) May there be no conflict or persecution that quiets the voices of your church [in location].', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '“We never know how God will answer our prayers, but we can expect that He will get us involved in His plan for the answer. If we are true intercessors, we must be ready to take part in God’s work on behalf of the people for whom we pray.” – Corrie Ten Boom', 'de-prayer-2023' ),
-            ],
-            [
-                //day 31
-                __( 'God, we love you! As your Church, help us do what it takes to let the people [of location] grasp the Good News that Jesus will be seated at the right hand of Power and come on the clouds of Heaven! (Matthew 26:64)', 'de-prayer-2023' ),
-                __( 'I am a twenty-two year old woman and study at the university. Before I was born, my mother dedicated me to an Islamic saint and made a covenant. Every year of my life I was made to go back to where the Islamic saint is buried, cut myself, and do a blood sacrifice. I feel that I have been in spiritual bondage and want to break free. I had a vision six times in which someone was holding my hand. The man said, “I love you. Follow me.” I wondered if He could be the Messiah. I searched in many places. Finally, I found someone on the internet who explained God’s love to me. Unfortunately, I have been living in much sin and all of my friends are like me. At first, I was in denial that my actions were actually sin, but the Lord convicted me and I spent one night in a prayer of repentance. I know of many others, like me, living in sin.
-            
-            Please pray that God will convict them of their sins, rescue them, and give them new life. Pray also that I will be completely free in Christ.', 'de-prayer-2023' ),
-                __( '“And he put the wood in order and cut the bull in pieces and laid it on the wood. And he said, “Fill four jars with water and pour it on the burnt offering and on the wood.”” (1 Kings 18:33 ESV).
+            __( 'The anonymity of the internet can lead to a lack of accountability and moral responsibility. Pray that those who engage with our online efforts would be inspired to live lives that reflect the character of Christ, even when no one is watching.', 'de-prayer-2023' ),
 
-Lord God, give your church [in location] the boldness of Elijah who called for more water to soak the burnt offering before the eyes of the watching world. Grant that same spirit to your followers [in location] that they might boldly call upon your power and name to deliver and to witness to your majesty before the watchful eyes [of location] and all the nations of the earth. (1 Kings 18:33).', 'de-prayer-2023' ),
-                __( 'As you look at this image, how does God lead you to pray for these people?', 'de-prayer-2023' ),
-                __( '“The greatest missionary is the Bible in the mother tongue. It needs no furlough and is never considered a foreigner.” – William Cameron Townsend,1896-1982, Missionary to Peru and Mexico', 'de-prayer-2023' ),
-            ],
-        ];
+            __( 'We praise You Lord for bringing us from death to life through Jesus Christ! We thank You for our eternal inheritance. We praise You that You refine us and are able to keep us from stumbling so that Your name receives more honor.
+
+            “Blessed be the God and Father of our Lord Jesus Christ.
+            Because of his great mercy he has given us new birth
+            into a living hope through the resurrection of Jesus Christ from the dead
+            and into an inheritance that is imperishable, undefiled, and unfading, kept in heaven for you.
+            You are being guarded by God\'s power through faith for a salvation
+            that is ready to be revealed in the last time.
+            You rejoice in this, even though now for a short time,
+            if necessary, you suffer grief in various trials so that the proven character of your faith  
+            — more valuable than gold which, though perishable, is refined by fire  —
+            may result in praise, glory, and honor at the revelation of Jesus Christ.”
+            (1 Peter 1:3-7)', 'de-prayer-2023' ),
+
+            __( 'God, we recognize the temptation to hide behind anonymity and avoid accountability in the online world. We pray that those who engage with our online evangelism efforts would be inspired to live lives that reflect Your character and love, even when no one is watching. May they be transformed by Your grace and empowered to make a positive impact in the world around them.', 'de-prayer-2023' ),
+            ]
+            ];
 
 
         function ramadan_format_message( $message, $fields ) {
@@ -485,7 +650,7 @@ Lord God, give your church [in location] the boldness of Elijah who called for m
                 'excerpt' => wp_kses_post( ramadan_format_message( $d[0], $fields ) ),
                 'content' => [
                     '<!-- wp:heading {"level":3} -->',
-                    '<h3><strong>' . __( 'Our Treasure in Jesus', 'de-prayer-2023' ) . '</strong></h3>',
+                    '<h3><strong>' . __( 'Prompt', 'de-prayer-2023' ) . '</strong></h3>',
                     '<!-- /wp:heading -->',
 
                     '<!-- wp:paragraph -->',
@@ -493,7 +658,7 @@ Lord God, give your church [in location] the boldness of Elijah who called for m
                     '<!-- /wp:paragraph -->',
 
                     '<!-- wp:heading {"level":3} -->',
-                    '<h3><strong>' . __( 'Testimonies from Around the World', 'de-prayer-2023' ) . '</strong></h3>',
+                    '<h3><strong>' . __( 'Praise', 'de-prayer-2023' ) . '</strong></h3>',
                     '<!-- /wp:heading -->',
 
                     '<!-- wp:paragraph -->',
@@ -501,32 +666,11 @@ Lord God, give your church [in location] the boldness of Elijah who called for m
                     '<!-- /wp:paragraph -->',
 
                     '<!-- wp:heading {"level":3} -->',
-                    '<h3><strong>' . __( 'Biblical Prayers', 'de-prayer-2023' ) . '</strong></h3>',
+                    '<h3><strong>' . __( 'Prayer', 'de-prayer-2023' ) . '</strong></h3>',
                     '<!-- /wp:heading -->',
 
                     '<!-- wp:paragraph -->',
                     '<p>' . wp_kses_post( ramadan_format_message( $d[2], $fields ) ) . '</p>',
-                    '<!-- /wp:paragraph -->',
-
-                    '<!-- wp:heading {"level":3} -->',
-                    '<h3><strong>' . __( 'Prayer Walk', 'de-prayer-2023' ) . '</strong></h3>',
-                    '<!-- /wp:heading -->',
-
-                    '<!-- wp:paragraph -->',
-                    '<p>' . wp_kses_post( ramadan_format_message( $d[3], $fields ) ) . '</p>',
-                    '<!-- /wp:paragraph -->',
-
-                    '<!-- wp:image -->',
-                    $image,
-                    '<!-- /wp:image -->',
-
-                    '<!-- wp:heading {"level":3} -->',
-                    '<h3><strong>' . __( 'Inspirational Quotes', 'de-prayer-2023' ) . '</strong></h3>',
-                    '<!-- /wp:heading -->',
-
-                    '<!-- wp:paragraph -->',
-                    '<p>' . wp_kses_post( ramadan_format_message( $d[4], $fields ) ) . '</p>',
-                    '<p>' . esc_html( ramadan_format_message( __( 'How could this quote inspire you to pray for [people_group]? For yourself?', 'de-prayer-2023' ), $fields ) ) . '</p>',
                     '<!-- /wp:paragraph -->',
                 ]
             ];
