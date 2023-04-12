@@ -6,11 +6,11 @@ class De_Prayer_2023_Endpoints {
         add_action( 'rest_api_init', [ $this, 'add_api_routes' ] );
     }
     public function add_api_routes() {
-        $namespace = 'ramadan-2023';
+        $namespace = 'de-2023';
         register_rest_route(
             $namespace, '/install', [
                 'methods'  => 'POST',
-                'callback' => [ $this, 'dt_ramadan_install_content' ],
+                'callback' => [ $this, 'de_install_content' ],
                 'permission_callback' => function(){
                     return current_user_can( 'manage_dt' );
                 },
@@ -19,7 +19,7 @@ class De_Prayer_2023_Endpoints {
         register_rest_route(
             $namespace, '/delete', [
                 'methods'  => 'POST',
-                'callback' => [ $this, 'dt_ramadan_delete_content' ],
+                'callback' => [ $this, 'de_delete_content' ],
                 'permission_callback' => function(){
                     return current_user_can( 'manage_dt' );
                 },
@@ -27,7 +27,7 @@ class De_Prayer_2023_Endpoints {
         );
     }
 
-    public function dt_ramadan_install_content( WP_REST_Request $request ){
+    public function de_install_content( WP_REST_Request $request ){
         $params = $request->get_params();
 
         $default_content = $params['default_content'] ? 'en_US' : null;
@@ -45,7 +45,7 @@ class De_Prayer_2023_Endpoints {
         return true;
     }
 
-    public function dt_ramadan_delete_content( WP_REST_Request $request ){
+    public function de_delete_content( WP_REST_Request $request ){
         $params = $request->get_params();
         $campaign = DT_Campaign_Settings::get_campaign();
 

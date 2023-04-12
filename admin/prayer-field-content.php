@@ -40,7 +40,7 @@ class P4_De_Prayer_2023_Content {
                     PORCH_LANDING_META_KEY => $slug,
                     'post_language' => $language,
                     'day' => $i + 1,
-                    'fuel_tag' => 'ramadan_2023',
+                    'fuel_tag' => 'de_2023',
                     'linked_campaign' => $campaign['ID'],
                 ]
             ];

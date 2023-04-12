@@ -54,6 +54,9 @@ function de_prayer_2023() {
         require_once get_template_directory() . '/dt-core/global-functions.php';
     }
 
+    require_once( 'porch/de-porch-settings.php' );
+    require_once( 'porch/de-porch-loader.php' );
+
     return De_Prayer_2023::instance();
 
 }
@@ -101,6 +104,16 @@ class De_Prayer_2023 {
 
         require_once( 'admin/prayer-field-content.php' );
         $this->i18n();
+
+        function add_de_campaign_type( $wizard_types ){
+            $wizard_types['de-porch'] = [
+                'campaign_type' => '24hour',
+                'porch' => 'de-porch',
+                'label' => '24/7 Digital Engagement Template',
+            ];
+            return $wizard_types;
+        }
+        add_filter( 'dt_campaigns_wizard_types', 'add_de_campaign_type' );
 
         if ( is_admin() ) { // adds links to the plugin description area in the plugin admin list.
             add_filter( 'plugin_row_meta', [ $this, 'plugin_description_links' ], 10, 4 );
