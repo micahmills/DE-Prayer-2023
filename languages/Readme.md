@@ -2,4 +2,4 @@
 {translation-domain}-{localisation}.po
 
 ex:
-ramadan-2023-fr_FR.po
+de-prayer-2023-fr_FR.po

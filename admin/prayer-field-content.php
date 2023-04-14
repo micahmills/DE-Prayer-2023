@@ -62,7 +62,7 @@ class P4_De_Prayer_2023_Content {
             return $locale;
         }, 1001, 1 );
         if ( $from_translation !== 'en_US' ){
-            load_plugin_textdomain( 'ramadan-2023', false, trailingslashit( dirname( plugin_basename( __FILE__ ), 2 ) ) . 'languages' );
+            load_plugin_textdomain( 'de-prayer-2023', false, trailingslashit( dirname( plugin_basename( __FILE__ ), 2 ) ) . 'languages' );
         }
 
         $data = [

@@ -1,14 +1,14 @@
-![Build Status](https://github.com/Pray4Movement/ramadan-2023/actions/workflows/ci.yml/badge.svg?branch=master)
+![Build Status](https://github.com/micahmills/DE-Prayer-2023/actions/workflows/ci.yml/badge.svg?branch=master)
 ## Dev notes, delete me:
 This is a starter plugin to jumpstart your work with Disciple.Tools.
 Click the "Use this template" button above.
-See instructions for refactoring and getting started in the [wiki](https://github.com/Pray4Movement/ramadan-2023/wiki)
-See instructions for creating releases and publishing your plugin: [wiki](https://github.com/Pray4Movement/ramadan-2023/wiki)
+See instructions for refactoring and getting started in the [wiki](https://github.com/micahmills/DE-Prayer-2023/wiki)
+See instructions for creating releases and publishing your plugin: [wiki](https://github.com/micahmills/DE-Prayer-2023/wiki)
 In order to display the banner correctly on the Disciple.Tools Community Plugins Site, don't change the 'Plugin Banner' text on line 12; only the URL.
 
 ## readme format:
 
-![Plugin Banner](https://raw.githubusercontent.com/Pray4Movement/ramadan-2023/b30402d97895e3f911efcb47fb8f29ccd1eb92e5/documentation/banner.png)
+![Plugin Banner](https://raw.githubusercontent.com/micahmills/DE-Prayer-2023/b30402d97895e3f911efcb47fb8f29ccd1eb92e5/documentation/banner.png)
 
 # Disciple.Tools - Ramadan 2023
 
@@ -48,11 +48,11 @@ Purpose purpose purpose purpose purpose purpose purpose purpose purpose purpose 
 ## Contribution
 
 Contributions welcome. You can report issues and bugs in the
-[Issues](https://github.com/Pray4Movement/ramadan-2023/issues) section of the repo. You can present ideas
-in the [Discussions](https://github.com/Pray4Movement/ramadan-2023/discussions) section of the repo. And
-code contributions are welcome using the [Pull Request](https://github.com/Pray4Movement/ramadan-2023/pulls)
+[Issues](https://github.com/micahmills/DE-Prayer-2023/issues) section of the repo. You can present ideas
+in the [Discussions](https://github.com/micahmills/DE-Prayer-2023/discussions) section of the repo. And
+code contributions are welcome using the [Pull Request](https://github.com/micahmills/DE-Prayer-2023/pulls)
 system for git. For a more details on contribution see the
-[contribution guidelines](https://github.com/Pray4Movement/ramadan-2023/blob/master/CONTRIBUTING.md).
+[contribution guidelines](https://github.com/micahmills/DE-Prayer-2023/blob/master/CONTRIBUTING.md).
 
 
 ## Screenshots
