@@ -20,10 +20,18 @@ class DE_Porch_Settings {
     }
 
     public function de_porch_themes( $theme_options ) {
-        $theme_options['mauve'] = [
-            'color' => '#9c617b',
+        $theme_options['purple'] = [
+            'color' => '#5b8bff',
         ];
-
+        $theme_options['green'] = [
+            'color' => '#375e49',
+        ];
+        $theme_options['orange'] = [
+            'color' => '#fdaf1a',
+        ];
+        $theme_options['teal'] = [
+            'color' => '#1ab7d8',
+        ];
         return $theme_options;
     }
 
@@ -201,6 +209,12 @@ class DE_Porch_Settings {
                 'type' => 'text',
                 'translations' => [],
                 'tab' => 'translations',
+            ],
+            'header_background_url' => [
+                'label' => 'Header Background URL',
+                'value' => plugin_dir_url( __FILE__ )  . 'site/img/priscilla-du-preez-BjhUu6BpUZA-unsplash.jpg',
+                'type' => 'text',
+                'tab' => 'settings',
             ],
         ];
     }
