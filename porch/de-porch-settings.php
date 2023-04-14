@@ -212,7 +212,7 @@ class DE_Porch_Settings {
             ],
             'header_background_url' => [
                 'label' => 'Header Background URL',
-                'value' => plugin_dir_url( __FILE__ )  . 'site/img/priscilla-du-preez-BjhUu6BpUZA-unsplash.jpg',
+                'value' => plugin_dir_url( __FILE__ )  . 'images/priscilla-du-preez-BjhUu6BpUZA-unsplash.jpg',
                 'type' => 'text',
                 'tab' => 'settings',
             ],
