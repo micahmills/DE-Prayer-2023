@@ -56,6 +56,8 @@ function de_prayer_2023() {
 
     require_once( 'porch/de-porch-settings.php' );
     require_once( 'porch/de-porch-loader.php' );
+    require_once( 'porch/ongoing/de-ongoing-porch-settings.php' );
+    require_once( 'porch/ongoing/de-porch-ongoing-loader.php' );
 
     return De_Prayer_2023::instance();
 
@@ -106,12 +108,17 @@ class De_Prayer_2023 {
         $this->i18n();
 
         function add_de_campaign_type( $wizard_types ){
-            $wizard_types['de-porch'] = [
-                'campaign_type' => '24hour',
-                'porch' => 'de-porch',
-                'label' => '24/7 Digital Engagement Template',
-            ];
-            return $wizard_types;
+            // $wizard_types['de-porch'] = [
+            //     'campaign_type' => '24hour',
+            //     'porch' => 'de-porch',
+            //     'label' => '24/7 Digital Engagement Template',
+            // ];
+            // $wizard_types['de-porch-ongoing'] = [
+            //     'campaign_type' => 'ongoing',
+            //     'porch' => 'ongoing-porch',
+            //     'label' => 'Ongoing Digital Engagement Template',
+            // ];
+            // return $wizard_types;
         }
         add_filter( 'dt_campaigns_wizard_types', 'add_de_campaign_type' );
 

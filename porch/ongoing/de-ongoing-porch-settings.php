@@ -3,7 +3,7 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
 /**
  * Adds the porch specific settings to the porch settings array
  */
-class DE_Porch_Settings {
+class DE_OnGoing_Porch_Settings {
 
     private $defaults = [];
 
@@ -222,10 +222,10 @@ class DE_Porch_Settings {
 /**
  * Replacement for proper enum types in pre PHP8
  */
-class DE_Porch_Translation_Sections {
-    const HERO = 'Hero';
-    const VISION = 'Vision';
-    const THREE = 'Three Sections';
-    const WHAT = 'What';
-    const FUEL = 'Prayer Prompt';
-}
+// class DE_Porch_Translation_Sections {
+//     const HERO = 'Hero';
+//     const VISION = 'Vision';
+//     const THREE = 'Three Sections';
+//     const WHAT = 'What';
+//     const FUEL = 'Prayer Prompt';
+// }
