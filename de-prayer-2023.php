@@ -118,7 +118,7 @@ class De_Prayer_2023 {
             //     'porch' => 'ongoing-porch',
             //     'label' => 'Ongoing Digital Engagement Template',
             // ];
-            // return $wizard_types;
+            return $wizard_types;
         }
         add_filter( 'dt_campaigns_wizard_types', 'add_de_campaign_type' );
 
