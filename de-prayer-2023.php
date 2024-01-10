@@ -5,7 +5,7 @@
  * Description: DE Prayer Campaign 2023 prayer request content starter.
  * Text Domain: de-prayer-2023
  * Domain Path: /languages
- * Version:  1.5
+ * Version:  1.5.1
  * Author URI: https://github.com/Pray4Movement
  * GitHub Plugin URI: https://github.com/micahmills/DE-Prayer-2023
  * Requires at least: 4.7.0
