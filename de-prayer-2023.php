@@ -56,8 +56,8 @@ function de_prayer_2023() {
 
     require_once( 'porch/de-porch-settings.php' );
     require_once( 'porch/de-porch-loader.php' );
-    require_once( 'porch/ongoing/de-ongoing-porch-settings.php' );
-    require_once( 'porch/ongoing/de-porch-ongoing-loader.php' );
+    // require_once( 'porch/ongoing/de-ongoing-porch-settings.php' );
+    // require_once( 'porch/ongoing/de-porch-ongoing-loader.php' );
 
     return De_Prayer_2023::instance();
 

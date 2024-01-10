@@ -13,7 +13,6 @@ class DE_Porch_Loader extends DT_Generic_Porch_Loader {
 
     public function wizard_types( $wizard_types ) {
         $wizard_types[$this->id] = [
-            'campaign_type' => '24hour',
             'porch' => $this->id,
             'label' => 'Digital Engagement Template',
         ];
