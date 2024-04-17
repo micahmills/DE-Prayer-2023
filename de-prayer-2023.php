@@ -54,14 +54,14 @@ function de_prayer_2023() {
         require_once get_template_directory() . '/dt-core/global-functions.php';
     }
 
-    require_once( 'porch/de-porch-settings.php' );
-    require_once( 'porch/de-porch-loader.php' );
-    // require_once( 'porch/ongoing/de-ongoing-porch-settings.php' );
-    // require_once( 'porch/ongoing/de-porch-ongoing-loader.php' );
+    require_once 'porch/de-porch-settings.php' ;
+    require_once 'porch/de-porch-loader.php' ;
+    // require_once 'porch/ongoing/de-ongoing-porch-settings.php';
+    // require_once 'porch/ongoing/de-porch-ongoing-loader.php';
 
     return De_Prayer_2023::instance();
-
 }
+
 add_action( 'after_setup_theme', 'de_prayer_2023', 20 );
 
 //register the D.T Plugin
@@ -99,12 +99,12 @@ class De_Prayer_2023 {
         self::$plugin_dir = trailingslashit( plugin_dir_path( __FILE__ ) );
 
         if ( is_admin() ) {
-            require_once( 'admin/admin-menu-and-tabs.php' ); // adds starter admin page and section for plugin
+            require_once 'admin/admin-menu-and-tabs.php'; // adds starter admin page and section for plugin
         }
 
-        require_once( 'admin/endpoints.php' );
+        require_once 'admin/endpoints.php';
 
-        require_once( 'admin/prayer-field-content.php' );
+        require_once 'admin/prayer-field-content.php';
         $this->i18n();
 
         function add_de_campaign_type( $wizard_types ){

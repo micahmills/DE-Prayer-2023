@@ -24,7 +24,7 @@ class DE_Porch_Ongoing_Loader extends DT_Generic_Porch_Loader {
     public function load_porch_settings() {
         parent::load_porch_settings();
         
-        require_once( __DIR__ . '/de-ongoing-porch-settings.php' );
+        require_once __DIR__ . '/de-ongoing-porch-settings.php';
         new DE_Ongoing_Porch_Settings();
     }
 }

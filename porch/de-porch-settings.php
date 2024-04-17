@@ -9,9 +9,10 @@ class DE_Porch_Settings {
 
     public function __construct() {
         $this->load_defaults();
-        add_filter( 'dt_campaign_porch_settings', [ $this, 'dt_prayer_campaigns_porch_settings' ], 10, 1 );
+        // add_filter( 'dt_campaign_porch_settings', [ $this, 'dt_prayer_campaigns_porch_settings' ], 10, 1 );
         add_filter( 'dt_campaign_porch_theme_options', [ $this, 'de_porch_themes' ], 10, 1 );
         add_filter( 'dt_campaign_porch_default_settings', [ $this, 'dt_campaign_porch_default_settings' ], 10, 1 );
+        add_filter( 'dt_custom_fields_settings', [ $this, 'dt_campaign_porch_default_settings' ], 11, 2 );
     }
 
     public function dt_prayer_campaigns_porch_settings( $settings ) {
@@ -36,30 +37,24 @@ class DE_Porch_Settings {
     }
 
     public function dt_campaign_porch_default_settings( $defaults ) {
-        $this->load_defaults();
-        return array_merge( $defaults, $this->defaults );
+        $de_defaults = $this->load_defaults();
+        $merged = array_merge( $defaults, $de_defaults );
+        return $merged;
     }
 
     private function load_defaults() {
-        $current_campaign = DT_Campaign_Settings::get_campaign();
-        $campaign_name = isset( $current_campaign['name'] ) ? $current_campaign['name'] : '';
+        // $current_campaign = DT_Campaign_Landing_Settings::get_campaign();
+        // $campaign_name = isset( $current_campaign['name'] ) ? $current_campaign['name'] : '';
 
-        $this->defaults = [
-            'campaign_name' => [
-                'label' => 'Campaign Name',
-                'value' => $campaign_name,
-                'type' => 'text',
-                'translations' => [],
-                'tab' => 'translations',
-            ],
-            'title' => [
-                'label' => 'Campaign/Site Title',
-                'value' => get_bloginfo( 'name' ),
-                'type' => 'text',
-                'translations' => [],
-                'tab' => 'translations',
-                'section' => DE_Porch_Translation_Sections::HERO,
-            ],
+        return [
+            // 'title' => [
+            //     'label' => 'Campaign/Site Title',
+            //     'value' => get_bloginfo( 'name' ),
+            //     'type' => 'text',
+            //     'translations' => [],
+            //     'tab' => 'translations',
+            //     'section' => DE_Porch_Translation_Sections::HERO,
+            // ],
             'subtitle' => [
                 'label' => 'Subtitle',
                 'default' => __( 'Praying that people around the globe would hear the Gospel', 'disciple-tools-prayer-campaigns' ),
@@ -195,27 +190,42 @@ class DE_Porch_Settings {
                 'tab' => 'translations',
                 'section' => DE_Porch_Translation_Sections::FUEL,
             ],
-            'country_name' => [
-                'label' => 'Location Name',
-                'value' => '',
-                'type' => 'text',
-                'translations' => [],
-                'tab' => 'translations',
-            ],
-            'people_name' => [
-                'label' => 'People Name',
-                'value' => '',
-                'type' => 'text',
-                'translations' => [],
-                'tab' => 'translations',
-            ],
             'header_background_url' => [
-                'label' => 'Header Background URL',
+                'name' => __( 'Header Background URL', 'disciple-tools-prayer-campaigns' ),
                 'value' => plugin_dir_url( __FILE__ )  . 'images/priscilla-du-preez-BjhUu6BpUZA-unsplash.jpg',
                 'type' => 'text',
+                'tile' => 'campaign_landing',
                 'tab' => 'settings',
+                'description' => __( 'The URL that will be used as the background image for the header on the campaign landing page.', 'disciple-tools-prayer-campaigns' ),
             ],
         ];
+    }
+
+    public function dt_custom_fields_settings( $fields ){
+        $string_fields = $this->load_defaults();
+        $valid_types = [
+            'text',
+            'textarea',
+            'icon'
+        ];
+        foreach ( $string_fields as $key => $field ){
+            $fields[$key] = [
+                'name' => $field['label'],
+                'tile' => $field['tile'] ?? 'campaign_landing',
+                'type' => isset( $field['type'] ) && in_array( $field['type'], $valid_types ) ? $field['type'] : 'text',
+                'default' => isset( $field['default'] ) ? $field['default'] : '',
+                'description' => $field['placeholder'] ?? '',
+                'campaign_tab' => isset( $field['tab'] ) ? $field['tab'] : 'translations',
+                'campaign_section' => isset( $field['section'] ) ? $field['section'] : '',
+                'hidden' => !empty( $field['hidden'] ),
+                'value' => $field['value'],
+            ];
+            if ( $field['type'] === 'text' || $field['type'] === 'textarea' ){
+                $fields[$key]['translations'] = [];
+            }
+        }
+
+        return $fields;
     }
 }
 

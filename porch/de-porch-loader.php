@@ -22,7 +22,7 @@ class DE_Porch_Loader extends DT_Generic_Porch_Loader {
 
     public function load_porch_settings() {
         parent::load_porch_settings();
-        require_once( __DIR__ . '/de-porch-settings.php' );
+        require_once __DIR__ . '/de-porch-settings.php';
         new DE_Porch_Settings();
     }
 }
